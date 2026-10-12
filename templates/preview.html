@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>A redesign concept for {{BUSINESS}} | Tall Order Works</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#1B1A17; --paper:#F4EFE6; --terra:#E0592A; --btn:#BF451A; --btn-hover:#963412; --line:#DDD4C6; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.6 Inter, system-ui, sans-serif; }
+  a { color:inherit; }
+  .wrap { max-width:1120px; margin:0 auto; padding:0 20px; }
+  header { padding:22px 0; border-bottom:1px solid var(--line); }
+  .logo { font-family:"Big Shoulders Display", Impact, sans-serif; font-weight:800; line-height:.9; text-decoration:none; display:inline-block; font-size:22px; letter-spacing:.5px; }
+  .logo span { display:block; color:var(--terra); }
+  .intro { padding:48px 0 28px; max-width:760px; }
+  .label { text-transform:uppercase; letter-spacing:.12em; font-size:13px; font-weight:600; color:var(--btn); margin:0 0 8px; }
+  h1 { font-size:clamp(32px,5vw,52px); line-height:1.1; margin:0 0 16px; }
+  .intro p { margin:0; font-size:18px; }
+  .frame { background:#fff; border:1px solid var(--line); border-radius:12px; overflow:hidden; box-shadow:0 10px 30px rgba(27,26,23,.08); }
+  .frame img { display:block; width:100%; height:auto; }
+  .open { display:inline-block; margin:14px 0 0; font-weight:600; }
+  .changes { display:grid; grid-template-columns:1fr 300px; gap:40px; padding:56px 0; align-items:start; }
+  .changes h2 { font-size:28px; margin:0 0 16px; }
+  .changes ol { padding-left:22px; margin:0 0 28px; }
+  .changes li { margin:0 0 14px; }
+  .phone { border:10px solid var(--ink); border-radius:32px; overflow:hidden; max-height:620px; background:#fff; }
+  .phone img { display:block; width:100%; height:auto; }
+  .btn { display:inline-block; background:var(--btn); color:#fff; text-decoration:none; font-weight:600; padding:14px 22px; border-radius:8px; }
+  .btn:hover { background:var(--btn-hover); }
+  .or { margin:12px 0 0; }
+  footer { border-top:1px solid var(--line); padding:28px 0 48px; font-size:14px; color:#4a463f; }
+  @media (max-width: 820px) {
+    .changes { grid-template-columns:1fr; }
+    .phone { max-width:300px; }
+  }
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="logo" href="https://tallorderworks.com" target="_blank" rel="noopener">TALL<span>ORDER WORKS</span></a>
+</div></header>
+<main class="wrap">
+  <section class="intro">
+    <p class="label">A redesign concept for</p>
+    <h1>{{BUSINESS}}</h1>
+    <p>Tall Order Works is a Houston web design studio that helps established businesses get a website that matches their reputation. We put this homepage concept together for {{BUSINESS}} using details and photos from your current site. Scroll to see the full page.</p>
+  </section>
+  <div class="frame"><img src="desktop.jpg" alt="Homepage concept for {{BUSINESS}}, desktop view"></div>
+  <a class="open" href="concept/" target="_blank" rel="noopener">Open the full concept in a new tab</a>
+  <section class="changes">
+    <div>
+      <h2>What we changed</h2>
+      <ol>{{CHANGES}}</ol>
+      <a class="btn" href="{{CALENDLY}}" target="_blank" rel="noopener">Book a 15 minute walkthrough</a>
+      <p class="or">Or just reply to our email.</p>
+    </div>
+    <div class="phone"><img src="phone.jpg" alt="Homepage concept for {{BUSINESS}}, phone view"></div>
+  </section>
+</main>
+<footer><div class="wrap">
+  This is a redesign concept created by Tall Order Works to show what is possible, using photos and details from {{SOURCES_PHRASE}}. It is not live and is not affiliated with or endorsed by {{BUSINESS}}. Some details come from your current site and may not be fully accurate or up to date. Everything on this page, from the wording to the photos and colors, can be changed to your liking.
+</div></footer>
+</body>
+</html>

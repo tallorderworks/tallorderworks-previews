@@ -1,0 +1,17 @@
+{
+  "business": "Example Air Conditioning & Heating",
+  "type": "mockup",
+  "published": false,
+  "site_url": "https://example.com",
+  "domain": "example.com",
+  "sources_phrase": "example.com",
+  "images": {
+    "team.jpg": "https://example.com/images/team.jpg",
+    "truck.jpg": "https://example.com/images/truck.jpg"
+  },
+  "changes": [
+    { "title": "Call and book from any phone.", "text": "The current homepage shrinks to fit a phone screen. The concept puts a tap to call button and a service request at the top of every screen." },
+    { "title": "Your reviews up front.", "text": "Customers praise your technicians by name on your testimonials page. The concept brings three of those quotes onto the homepage." },
+    { "title": "A secure, current site.", "text": "Browsers mark the current site Not Secure and its banner no longer loads. The concept is built to load fast and work in every browser." }
+  ]
+}
