@@ -31,6 +31,7 @@ Slugs are short, lowercase, letters, digits and dashes (for example `premier-ac`
 | published | `true` to publish the preview page (mockups only) |
 | site_url | Their current homepage URL |
 | domain | Their domain, for example `example.com` |
+| intro | Optional. Overrides the default intro paragraph on the preview page ({{BUSINESS}} is filled in). Leave it out for new prospects |
 | sources_phrase | Used in the footer disclaimer: "using photos and details from ..." (usually the domain) |
 | images | `{ "file-name.jpg": "full image URL on THEIR site" }`. The mockup references them as `img/<file-name>` |
 | changes | Exactly three `{ "title": "...", "text": "..." }` items shown under "What we changed" |

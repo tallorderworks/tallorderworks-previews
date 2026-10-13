@@ -31,6 +31,10 @@ ROOT = Path(__file__).resolve().parent.parent
 PROSPECTS = ROOT / "prospects"
 SITE = ROOT / "site"
 TEMPLATE = ROOT / "templates" / "preview.html"
+# Intro paragraph on every preview page. A prospect can pin its own with "intro" in prospect.json.
+DEFAULT_INTRO = ("Tall Order Works is a Houston web design studio. We build websites designed to bring in "
+                 "more calls and customers, and we put this homepage concept together for {{BUSINESS}} using "
+                 "details and photos from your current site. Scroll to see the full page.")
 PREVIEW_BASE = "https://preview.tallorderworks.com"
 CALENDLY = "https://calendly.com/tallorderworks/mockup-walkthrough?a1="
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -232,6 +236,8 @@ def render_preview_page(p: dict, slug: str) -> str:
         "CALENDLY": html.escape(CALENDLY + urllib.parse.quote(biz)),
         "SLUG": slug,
     }
+    intro = p.get("intro") or DEFAULT_INTRO
+    values["INTRO"] = html.escape(intro.replace("{{BUSINESS}}", biz))
     for k, v in values.items():
         tpl = tpl.replace("{{" + k + "}}", v)
     return tpl
