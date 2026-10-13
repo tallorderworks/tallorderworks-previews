@@ -1,0 +1,27 @@
+{
+  "business": "The Door Guys",
+  "type": "mockup",
+  "published": true,
+  "site_url": "https://www.thedoorguys.org",
+  "domain": "thedoorguys.org",
+  "sources_phrase": "thedoorguys.org",
+  "images": {
+    "hero.jpg": "https://www.thedoorguys.org/uploads/3/4/3/7/34375008/2111805_orig.jpg",
+    "iron-double.jpg": "https://www.thedoorguys.org/uploads/3/4/3/7/34375008/3920757_orig.jpg",
+    "arched-rustic.jpg": "https://www.thedoorguys.org/uploads/3/4/3/7/34375008/img-20180401-074736-695_orig.jpg",
+    "glass-double.jpg": "https://www.thedoorguys.org/uploads/3/4/3/7/34375008/img-20180716-193235-918_orig.jpg",
+    "craftsman.jpg": "https://www.thedoorguys.org/uploads/3/4/3/7/34375008/8538211_orig.jpg",
+    "stained-sidelite.jpg": "https://www.thedoorguys.org/uploads/3/4/3/7/34375008/5255656_orig.jpg",
+    "french-interior.jpg": "https://www.thedoorguys.org/uploads/3/4/3/7/34375008/738548_orig.jpg",
+    "arched-install.jpg": "https://www.thedoorguys.org/uploads/3/4/3/7/34375008/double-arch-new-profile-pic_1_orig.jpg",
+    "before-after-french.jpg": "https://www.thedoorguys.org/uploads/3/4/3/7/34375008/8373604_orig.jpg",
+    "before-after-patio.jpg": "https://www.thedoorguys.org/uploads/3/4/3/7/34375008/9418277_orig.jpg",
+    "before-after-transom.jpg": "https://www.thedoorguys.org/uploads/3/4/3/7/34375008/970683_orig.jpg",
+    "patio-french.jpg": "https://www.thedoorguys.org/uploads/3/4/3/7/34375008/473957_orig.jpg"
+  },
+  "changes": [
+    { "title": "Call or request a quote from any phone.", "text": "The current site shrinks to a tiny desktop page on a phone, and the number can't be tapped. The concept puts a tap to call button and a short quote request at the top of every screen." },
+    { "title": "Quotes without the email back and forth.", "text": "Today a homeowner has to email photos and measurements to an AOL address. The concept turns that same checklist into a simple form that sends the photos with it." },
+    { "title": "Your best work and reviews up front.", "text": "Your strongest door photos and homeowner reviews sit on separate pages. The concept leads with them, along with your 12,000 doors installed and your 4.9 rating from 233 reviews on Angi." }
+  ]
+}
