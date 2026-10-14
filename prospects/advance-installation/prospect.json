@@ -13,11 +13,20 @@
     "walk-curve.jpg": "http://www.advanceinstallation.com/files/QuickSiteImages/000802_c893_0078_csls_op_554x367.jpg",
     "ramp.jpg": "http://www.advanceinstallation.com/Handicap_Ramp_with_walk.jpg",
     "pad-pour.jpg": "http://www.advanceinstallation.com/victory_lakes_088.jpg",
-    "curb.jpg": "http://www.advanceinstallation.com/victory_lakes_034.jpg"
+    "about.jpg": "http://www.advanceinstallation.com/victory_lakes_034.jpg"
   },
   "changes": [
-    { "title": "Call or request an estimate from any phone.", "text": "The current homepage is a fixed desktop layout, so on a phone visitors pinch and zoom to find your number. The concept puts tap to call and a short estimate request at the top of every screen." },
-    { "title": "Your work and reviews on the homepage.", "text": "Your driveway photos and customer testimonials sit on inner pages, and the homepage video block only shows an error message. The concept leads with real jobs and three of your own testimonials." },
-    { "title": "A secure site with your real story.", "text": "The site only loads over plain http, so browsers flag it, and the pages give 35 and 38 years of experience. The concept is secure and tells one consistent story: an owner on every job since 1980." }
+    {
+      "title": "Call or request an estimate from any phone.",
+      "text": "The current homepage is a fixed desktop layout, so on a phone visitors pinch and zoom to find your number. The concept puts tap to call and a short estimate request at the top of every screen."
+    },
+    {
+      "title": "Your work and reviews on the homepage.",
+      "text": "Your driveway photos and customer testimonials sit on inner pages, and the homepage gives most of its space to a video player. The concept leads with real jobs and three of your own testimonials."
+    },
+    {
+      "title": "A secure site with your real story.",
+      "text": "The site only loads over plain http, so browsers flag it, and the pages give 35 and 38 years of experience. The concept is secure and tells one consistent story: an owner on every job since 1980."
+    }
   ]
 }
