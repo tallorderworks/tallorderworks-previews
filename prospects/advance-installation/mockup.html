@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Advance Installation, Inc. | Concrete Driveways, Walks and Patios in Houston</title>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin:0; overflow-x:hidden; }
+  body { font:17px/1.6 Inter, system-ui, sans-serif; color:#22262a; background:#f6f5f2; }
+  img { max-width:100%; height:auto; display:block; }
+  a { color:inherit; }
+  .wrap { max-width:1160px; margin:0 auto; padding:0 20px; }
+  h1, h2, h3 { font-family:Archivo, Inter, sans-serif; line-height:1.08; margin:0; }
+  .btn { display:inline-block; font-weight:700; padding:14px 22px; border-radius:6px; text-decoration:none; text-align:center; }
+  .btn-or { background:#e8731c; color:#fff; }
+  .btn-or:hover { background:#c95f10; }
+  .btn-line { border:2px solid #fff; color:#fff; }
+  .eyebrow { text-transform:uppercase; letter-spacing:2px; font-size:13px; font-weight:700; color:#c95f10; margin:0 0 10px; }
+
+  .topbar { background:#1c2126; color:#e9ecef; font-size:14px; }
+  .topbar .wrap { display:flex; justify-content:space-between; gap:12px; padding-top:8px; padding-bottom:8px; flex-wrap:wrap; }
+  .topbar a { text-decoration:none; font-weight:700; }
+  header.nav { background:#fff; border-bottom:1px solid #e3e1dc; position:sticky; top:0; z-index:5; }
+  header.nav .wrap { display:flex; align-items:center; justify-content:space-between; gap:16px; padding-top:14px; padding-bottom:14px; }
+  .logo { text-decoration:none; line-height:1; }
+  .logo b { font-family:Archivo, sans-serif; font-weight:800; font-size:26px; letter-spacing:.5px; display:block; color:#1c2126; }
+  .logo small { font-size:12px; letter-spacing:2px; text-transform:uppercase; color:#c95f10; font-weight:700; }
+  .links { display:flex; gap:26px; font-weight:500; font-size:15px; }
+  .links a { text-decoration:none; }
+  .nav .btn { padding:10px 16px; font-size:15px; }
+
+  .hero { background:#1c2126; color:#fff; }
+  .hero-grid { display:grid; grid-template-columns:1fr 1fr; min-height:560px; }
+  .hero-copy { padding:72px 48px 72px max(20px, calc((100vw - 1160px) / 2 + 20px)); display:flex; flex-direction:column; justify-content:center; }
+  .hero h1 { font-size:clamp(40px,5.2vw,66px); font-weight:800; margin-bottom:18px; }
+  .hero h1 em { font-style:normal; color:#f29a4a; }
+  .hero p.lead { font-size:19px; max-width:520px; color:#d5dade; margin:0 0 28px; }
+  .hero .ctas { display:flex; gap:14px; flex-wrap:wrap; }
+  .hero-img { background:url(img/hero.jpg) center/cover no-repeat; min-height:320px; }
+  .stats { background:#e8731c; color:#fff; }
+  .stats .wrap { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; padding-top:22px; padding-bottom:22px; text-align:center; }
+  .stats b { display:block; font-family:Archivo, sans-serif; font-size:30px; line-height:1.15; }
+  .stats span { font-size:14px; color:#fff3e8; }
+
+  section.block { padding:80px 0; }
+  .head { max-width:720px; margin-bottom:40px; }
+  .head h2 { font-size:clamp(32px,4vw,46px); margin-bottom:12px; }
+
+  .services { display:grid; grid-template-columns:repeat(4,1fr); gap:18px; }
+  .svc { background:#fff; border:1px solid #e3e1dc; border-radius:10px; padding:22px; border-top:4px solid #e8731c; }
+  .svc h3 { font-size:21px; margin-bottom:6px; }
+  .svc p { margin:0; font-size:15px; color:#555c63; }
+  .note { margin-top:22px; font-size:15px; color:#555c63; }
+
+  .gallery { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; }
+  .gallery figure { margin:0; border-radius:8px; overflow:hidden; background:#ddd; position:relative; aspect-ratio:4/3; }
+  .gallery img { width:100%; height:100%; object-fit:cover; }
+  .gallery figcaption { position:absolute; left:0; right:0; bottom:0; padding:10px 14px; font-size:14px; font-weight:700; color:#fff; background:linear-gradient(transparent, rgba(0,0,0,.65)); }
+
+  .promise { background:#1c2126; color:#fff; }
+  .promise .head p { color:#cfd5da; }
+  .pgrid { display:grid; grid-template-columns:repeat(4,1fr); gap:18px; }
+  .pcard { background:#272d33; border-radius:10px; padding:24px; }
+  .pcard h3 { font-size:20px; margin-bottom:8px; color:#f29a4a; }
+  .pcard p { margin:0; font-size:15px; color:#d5dade; }
+
+  .reviews { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+  .rev { background:#fff; border-radius:10px; padding:26px; border:1px solid #e3e1dc; }
+  .rev p { margin:0 0 14px; font-size:17px; }
+  .rev p:before { content:"\201C"; font-family:Archivo, sans-serif; font-size:44px; line-height:0; vertical-align:-18px; color:#e8731c; margin-right:4px; }
+  .rev cite { font-style:normal; font-weight:700; font-size:14px; color:#555c63; }
+
+  .about { display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:center; }
+  .about img { border-radius:12px; }
+  .owners { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:22px; }
+  .owner { background:#fff; border:1px solid #e3e1dc; border-radius:10px; padding:16px; }
+  .owner b { display:block; font-family:Archivo, sans-serif; font-size:19px; }
+  .owner a { text-decoration:none; color:#c95f10; font-weight:700; font-size:15px; }
+
+  .area { background:#ebe8e2; }
+  .towns { display:flex; flex-wrap:wrap; gap:10px; }
+  .towns span { background:#fff; border-radius:999px; padding:8px 16px; font-size:15px; border:1px solid #d9d4ca; }
+
+  .quote { display:grid; grid-template-columns:1fr 1.1fr; gap:48px; }
+  .steps { counter-reset:s; list-style:none; padding:0; margin:20px 0 0; display:grid; gap:14px; }
+  .steps li { counter-increment:s; padding-left:46px; position:relative; }
+  .steps li:before { content:counter(s); position:absolute; left:0; top:0; width:32px; height:32px; border-radius:50%; background:#e8731c; color:#fff; font-weight:700; display:grid; place-items:center; font-size:15px; }
+  form { background:#fff; border-radius:12px; padding:28px; border:1px solid #e3e1dc; display:grid; gap:14px; }
+  .row { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+  label { font-size:14px; font-weight:700; display:grid; gap:6px; }
+  input, select, textarea { font:inherit; font-size:16px; padding:12px; border:1px solid #cdc8bf; border-radius:6px; background:#fbfaf8; width:100%; }
+  textarea { min-height:96px; }
+  .upload { border:2px dashed #cdc8bf; border-radius:8px; padding:18px; text-align:center; font-size:15px; color:#555c63; }
+  form .btn { border:0; cursor:pointer; font-size:17px; }
+
+  footer { background:#1c2126; color:#cfd5da; padding:48px 0 28px; font-size:15px; }
+  footer .cols { display:grid; grid-template-columns:1.4fr 1fr 1fr; gap:32px; }
+  footer h3 { color:#fff; font-size:20px; margin-bottom:10px; }
+  footer a { text-decoration:none; }
+  footer .small { border-top:1px solid #343b42; margin-top:32px; padding-top:18px; font-size:13px; }
+
+  @media (max-width:900px) {
+    .links { display:none; }
+    .hero-grid { grid-template-columns:1fr; }
+    .hero-copy { padding:44px 20px 36px; }
+    .hero-img { min-height:260px; order:-1; }
+    .stats .wrap { grid-template-columns:repeat(2,1fr); }
+    .services, .pgrid { grid-template-columns:repeat(2,1fr); }
+    .gallery { grid-template-columns:repeat(2,1fr); }
+    .reviews { grid-template-columns:1fr; }
+    .about, .quote { grid-template-columns:1fr; gap:28px; }
+    footer .cols { grid-template-columns:1fr; }
+    section.block { padding:56px 0; }
+  }
+  @media (max-width:520px) {
+    .topbar .hide-sm { display:none; }
+    .nav .btn { display:none; }
+    .row, .owners { grid-template-columns:1fr; }
+    .hero .ctas .btn { flex:1 1 100%; }
+    .services, .pgrid { grid-template-columns:1fr; }
+    .stats b { font-size:24px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar"><div class="wrap">
+  <span>Concrete work and repairs <span class="hide-sm">&middot; Residential and commercial</span></span>
+  <a href="tel:7137289030">Office 713-728-9030</a>
+</div></div>
+
+<header class="nav"><div class="wrap">
+  <a class="logo" href="#"><b>ADVANCE INSTALLATION</b><small>Concrete since 1980</small></a>
+  <nav class="links">
+    <a href="#services">Services</a>
+    <a href="#work">Our work</a>
+    <a href="#reviews">Testimonials</a>
+    <a href="#area">Service area</a>
+    <a href="#estimate">Free estimate</a>
+  </nav>
+  <a class="btn btn-or" href="#estimate">Request an estimate</a>
+</div></header>
+
+<section class="hero">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow" style="color:#f29a4a">Driveways &middot; Sidewalks &middot; Patios</p>
+      <h1>Concrete work done right <em>the first time.</em></h1>
+      <p class="lead">Driveway replacements, sidewalks, patios and curbs across Southwest Houston. One job at a time, with an owner on your job from start to finish.</p>
+      <div class="ctas">
+        <a class="btn btn-or" href="#estimate">Request a free estimate</a>
+        <a class="btn btn-line" href="tel:7137289030">Call 713-728-9030</a>
+      </div>
+    </div>
+    <div class="hero-img" role="img" aria-label="New concrete driveway poured by Advance Installation"></div>
+  </div>
+</section>
+
+<div class="stats"><div class="wrap">
+  <div><b>Since 1980</b><span>serving Houston</span></div>
+  <div><b>One job</b><span>at a time, finished before the next</span></div>
+  <div><b>Fully insured</b><span>liability, workers' comp and auto</span></div>
+  <div><b>Permits</b><span>pulled when your job needs them</span></div>
+</div></div>
+
+<section class="block" id="services"><div class="wrap">
+  <div class="head">
+    <p class="eyebrow">What we do</p>
+    <h2>Concrete for homes and businesses</h2>
+    <p>From one failed sidewalk section to a full driveway replacement, we quote it in detail and build it with quality materials.</p>
+  </div>
+  <div class="services">
+    <div class="svc"><h3>Driveway replacement</h3><p>Specific sections or a total replacement.</p></div>
+    <div class="svc"><h3>Sidewalks</h3><p>Failed sections or a total replacement.</p></div>
+    <div class="svc"><h3>Patios</h3><p>New installations, additions and replacements.</p></div>
+    <div class="svc"><h3>Curbs</h3><p>Curb repairs and replacements.</p></div>
+    <div class="svc"><h3>Expansion joints</h3><p>Old wood joints replaced with self leveling material.</p></div>
+    <div class="svc"><h3>Sawing and breaking</h3><p>Concrete cut, broken and hauled off your property.</p></div>
+    <div class="svc"><h3>Bollards and car stops</h3><p>Steel bumper posts filled with concrete; car stops drilled in.</p></div>
+    <div class="svc"><h3>Accessible ramps</h3><p>Handicap ramps with parking signs and painted lot logo.</p></div>
+  </div>
+  <p class="note">We focus on standard finishes and do not do stained, colored, stamped or pea pebble work.</p>
+</div></section>
+
+<section class="block" id="work" style="padding-top:0"><div class="wrap">
+  <div class="head">
+    <p class="eyebrow">Recent jobs</p>
+    <h2>Work you can see from the street</h2>
+  </div>
+  <div class="gallery">
+    <figure><img src="img/driveway-heights.jpg" alt="New driveway at a Houston bungalow"><figcaption>Driveway replacement</figcaption></figure>
+    <figure><img src="img/driveway-town.jpg" alt="New driveway at a townhome"><figcaption>Driveway replacement</figcaption></figure>
+    <figure><img src="img/walk-curve.jpg" alt="Curved concrete sidewalk"><figcaption>Curved front walk</figcaption></figure>
+    <figure><img src="img/walk-fence.jpg" alt="New sidewalk and step along an iron fence"><figcaption>Sidewalk and step</figcaption></figure>
+    <figure><img src="img/ramp.jpg" alt="Accessible ramp with walkway at a parking lot"><figcaption>Accessible ramp</figcaption></figure>
+    <figure><img src="img/pad-pour.jpg" alt="Fresh concrete pad with safety cones"><figcaption>Fresh pour, coned off to cure</figcaption></figure>
+  </div>
+</div></section>
+
+<section class="block promise"><div class="wrap">
+  <div class="head">
+    <p class="eyebrow" style="color:#f29a4a">How we work</p>
+    <h2>You will never have to search for us</h2>
+    <p>Concrete is permanent, so the way the job is run matters as much as the pour.</p>
+  </div>
+  <div class="pgrid">
+    <div class="pcard"><h3>An owner on site</h3><p>Charles or Don is on your job from start to finish, so questions and changes get answered on the spot.</p></div>
+    <div class="pcard"><h3>One job at a time</h3><p>We finish your job before we begin the next one.</p></div>
+    <div class="pcard"><h3>Fully insured</h3><p>General liability, workers' compensation and auto coverage protect everyone involved.</p></div>
+    <div class="pcard"><h3>Permits handled</h3><p>When your work needs a permit, we provide it.</p></div>
+  </div>
+</div></section>
+
+<section class="block" id="reviews"><div class="wrap">
+  <div class="head">
+    <p class="eyebrow">Testimonials</p>
+    <h2>What our customers say</h2>
+  </div>
+  <div class="reviews">
+    <div class="rev"><p>Don &amp; Charles with the crew were very professional and did a magnificent job on our driveway. This is without a doubt the best contractor we have ever had to do work.</p><cite>Homeowner, Missouri City</cite></div>
+    <div class="rev"><p>Answered quickly, made professional estimate, discussed proposed work and made several cost saving suggestions. Work was done expertly, on time and on schedule.</p><cite>Charles B., Houston</cite></div>
+    <div class="rev"><p>Very professional and efficient. Our driveway looks great. We had a wonderful experience with Advance Installation, Inc.</p><cite>Donna C., Sugar Land</cite></div>
+  </div>
+</div></section>
+
+<section class="block" style="padding-top:0"><div class="wrap about">
+  <img src="img/hero.jpg" alt="Driveway and walk at a brick home">
+  <div>
+    <p class="eyebrow">About us</p>
+    <h2 style="font-size:clamp(32px,4vw,44px);margin-bottom:14px">Owner run since 1980</h2>
+    <p>Advance Installation, Inc. was established in 1980 and is owned by Charles Masini and Don Ruggers. Decades of hands on concrete experience means more value and better ideas for every dollar you spend, on residential and commercial jobs alike.</p>
+    <div class="owners">
+      <div class="owner"><b>Charles Masini</b><a href="tel:7139226100">Cell 713-922-6100</a></div>
+      <div class="owner"><b>Don Ruggers</b><a href="tel:7139226200">Cell 713-922-6200</a></div>
+    </div>
+  </div>
+</div></section>
+
+<section class="block area" id="area"><div class="wrap">
+  <div class="head">
+    <p class="eyebrow">Service area</p>
+    <h2>Southwest Houston and Fort Bend</h2>
+  </div>
+  <div class="towns">
+    <span>Houston</span><span>Sugar Land</span><span>Missouri City</span><span>Bellaire</span><span>Meyerland</span><span>Richmond</span><span>Rosenberg</span>
+  </div>
+</div></section>
+
+<section class="block" id="estimate"><div class="wrap quote">
+  <div>
+    <p class="eyebrow">Free estimate</p>
+    <h2 style="font-size:clamp(32px,4vw,46px);margin-bottom:14px">Get a detailed estimate</h2>
+    <p>Tell us about the job and we will set a time to look at it in person.</p>
+    <ol class="steps">
+      <li>Send a few photos of the driveway, walk or patio</li>
+      <li>We visit, measure and talk through the work with you</li>
+      <li>You get a detailed written estimate</li>
+    </ol>
+    <p style="margin-top:22px">Prefer to talk? Call the office at <a href="tel:7137289030"><b>713-728-9030</b></a>.</p>
+  </div>
+  <form onsubmit="return false">
+    <div class="row">
+      <label>Name<input type="text" placeholder="Your name"></label>
+      <label>Phone<input type="tel" placeholder="Best number"></label>
+    </div>
+    <div class="row">
+      <label>Email<input type="email" placeholder="you@email.com"></label>
+      <label>Job address or ZIP<input type="text" placeholder="Where is the job?"></label>
+    </div>
+    <label>Type of work
+      <select><option>Driveway replacement</option><option>Sidewalk</option><option>Patio</option><option>Curb</option><option>Commercial or parking lot</option><option>Something else</option></select>
+    </label>
+    <div class="upload">&#128247; Add photos of the area</div>
+    <label>Anything else?<textarea placeholder="Tell us about the job"></textarea></label>
+    <button class="btn btn-or" type="submit">Request my free estimate</button>
+  </form>
+</div></section>
+
+<footer><div class="wrap">
+  <div class="cols">
+    <div>
+      <h3>Advance Installation, Inc.</h3>
+      <p>Concrete work and repairs for homes and businesses since 1980.<br>5315 Lotus, Houston, Texas 77045</p>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p>Office <a href="tel:7137289030">713-728-9030</a><br><a href="mailto:advanceinstallation@msn.com">advanceinstallation@msn.com</a></p>
+    </div>
+    <div>
+      <h3>Explore</h3>
+      <p><a href="#services">Services</a><br><a href="#work">Our work</a><br><a href="#reviews">Testimonials</a><br><a href="#estimate">Free estimate</a></p>
+    </div>
+  </div>
+  <div class="small">&copy; Advance Installation, Inc. All rights reserved.</div>
+</div></footer>
+
+</body>
+</html>
