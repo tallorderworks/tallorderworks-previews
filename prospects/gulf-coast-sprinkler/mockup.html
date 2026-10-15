@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Gulf Coast Sprinkler Service | Sprinkler Repair and Installation in League City</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing:border-box; }
+  html, body { margin:0; overflow-x:hidden; }
+  body { font:17px/1.6 Inter, system-ui, sans-serif; color:#1d2a33; background:#f4f8f7; }
+  img { max-width:100%; height:auto; display:block; }
+  a { color:inherit; }
+  .wrap { max-width:1160px; margin:0 auto; padding:0 20px; }
+  h1, h2, h3 { font-family:Outfit, Inter, sans-serif; line-height:1.08; margin:0; }
+  .btn { display:inline-block; font-weight:700; padding:14px 22px; border-radius:8px; text-decoration:none; text-align:center; }
+  .btn-main { background:#1f8a5b; color:#fff; }
+  .btn-main:hover { background:#17704a; }
+  .btn-line { border:2px solid #fff; color:#fff; }
+  .eyebrow { text-transform:uppercase; letter-spacing:2px; font-size:13px; font-weight:700; color:#1f8a5b; margin:0 0 10px; }
+
+  .topbar { background:#0d2f45; color:#d9e7ef; font-size:14px; }
+  .topbar .wrap { display:flex; justify-content:space-between; gap:12px; padding-top:8px; padding-bottom:8px; flex-wrap:wrap; }
+  .topbar a { text-decoration:none; font-weight:700; color:#fff; }
+  header.nav { background:#fff; border-bottom:1px solid #dde7e4; position:sticky; top:0; z-index:5; }
+  header.nav .wrap { display:flex; align-items:center; justify-content:space-between; gap:16px; padding-top:14px; padding-bottom:14px; }
+  .logo { text-decoration:none; line-height:1.05; }
+  .logo b { font-family:Outfit, sans-serif; font-weight:800; font-size:24px; color:#0d2f45; display:block; }
+  .logo small { font-size:12px; letter-spacing:2px; text-transform:uppercase; color:#1f8a5b; font-weight:700; }
+  .links { display:flex; gap:26px; font-weight:500; font-size:15px; }
+  .links a { text-decoration:none; }
+  .nav .btn { padding:10px 16px; font-size:15px; }
+
+  .hero { background:#0d2f45; color:#fff; }
+  .hero-grid { display:grid; grid-template-columns:1.05fr 1fr; min-height:540px; }
+  .hero-copy { padding:72px 48px 72px max(20px, calc((100vw - 1160px) / 2 + 20px)); display:flex; flex-direction:column; justify-content:center; }
+  .hero h1 { font-size:clamp(40px,5.2vw,64px); font-weight:800; margin-bottom:18px; }
+  .hero h1 em { font-style:normal; color:#6fd3a0; }
+  .hero p.lead { font-size:19px; max-width:520px; color:#cfe0ea; margin:0 0 28px; }
+  .hero .ctas { display:flex; gap:14px; flex-wrap:wrap; }
+  .hero-img { background:url(img/hero.jpg) center/cover no-repeat; min-height:320px; }
+  .stats { background:#1f8a5b; color:#fff; }
+  .stats .wrap { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; padding-top:22px; padding-bottom:22px; text-align:center; }
+  .stats b { display:block; font-family:Outfit, sans-serif; font-size:28px; line-height:1.15; }
+  .stats span { font-size:14px; color:#e3f6ec; }
+
+  section.block { padding:80px 0; }
+  .head { max-width:720px; margin-bottom:40px; }
+  .head h2 { font-size:clamp(32px,4vw,46px); margin-bottom:12px; }
+  .services { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+  .svc { background:#fff; border:1px solid #dde7e4; border-radius:12px; padding:24px; border-top:4px solid #1f8a5b; }
+  .svc h3 { font-size:21px; margin-bottom:6px; color:#0d2f45; }
+  .svc p { margin:0; font-size:15px; color:#4f5f68; }
+
+  .promise { background:#0d2f45; color:#fff; }
+  .promise .head p { color:#cfe0ea; }
+  .pgrid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+  .pcard { background:#163f5a; border-radius:12px; padding:24px; }
+  .pcard h3 { font-size:20px; margin-bottom:8px; color:#6fd3a0; }
+  .pcard p { margin:0; font-size:15px; color:#d6e5ee; }
+
+  .about { display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:center; }
+  .about img.photo { border-radius:14px; width:100%; }
+  .team { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:22px; }
+  .person { background:#fff; border:1px solid #dde7e4; border-radius:12px; padding:16px; }
+  .person b { display:block; font-family:Outfit, sans-serif; font-size:19px; color:#0d2f45; }
+  .person span { display:block; font-size:14px; color:#4f5f68; }
+  .badges { display:flex; align-items:center; gap:18px; margin-top:22px; flex-wrap:wrap; font-size:14px; color:#4f5f68; }
+  .badges img { height:56px; width:auto; }
+
+  .checklist { background:#e6f1ed; }
+  .qgrid { display:grid; grid-template-columns:repeat(2,1fr); gap:14px 32px; list-style:none; padding:0; margin:0; }
+  .qgrid li { background:#fff; border-radius:10px; padding:16px 18px 16px 52px; position:relative; border:1px solid #d3e4dd; }
+  .qgrid li:before { content:"?"; position:absolute; left:16px; top:15px; width:26px; height:26px; border-radius:50%; background:#0d2f45; color:#fff; font-weight:700; display:grid; place-items:center; font-size:14px; }
+
+  .area .towns { display:flex; flex-wrap:wrap; gap:10px; }
+  .towns span { background:#fff; border-radius:999px; padding:8px 16px; font-size:15px; border:1px solid #cfdcd7; }
+
+  .quote { display:grid; grid-template-columns:1fr 1.1fr; gap:48px; }
+  .steps { counter-reset:s; list-style:none; padding:0; margin:20px 0 0; display:grid; gap:14px; }
+  .steps li { counter-increment:s; padding-left:46px; position:relative; }
+  .steps li:before { content:counter(s); position:absolute; left:0; top:0; width:32px; height:32px; border-radius:50%; background:#1f8a5b; color:#fff; font-weight:700; display:grid; place-items:center; font-size:15px; }
+  form { background:#fff; border-radius:14px; padding:28px; border:1px solid #dde7e4; display:grid; gap:14px; }
+  .row { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+  label { font-size:14px; font-weight:700; display:grid; gap:6px; }
+  input, select, textarea { font:inherit; font-size:16px; padding:12px; border:1px solid #c6d4cf; border-radius:8px; background:#f8fbfa; width:100%; }
+  textarea { min-height:96px; }
+  form .btn { border:0; cursor:pointer; font-size:17px; }
+
+  footer { background:#0d2f45; color:#cfe0ea; padding:48px 0 28px; font-size:15px; }
+  footer .cols { display:grid; grid-template-columns:1.4fr 1fr 1fr; gap:32px; }
+  footer h3 { color:#fff; font-size:20px; margin-bottom:10px; }
+  footer a { text-decoration:none; }
+  footer .small { border-top:1px solid #1d4864; margin-top:32px; padding-top:18px; font-size:13px; }
+
+  @media (max-width:900px) {
+    .links { display:none; }
+    .hero-grid { grid-template-columns:1fr; }
+    .hero-copy { padding:44px 20px 36px; }
+    .hero-img { min-height:250px; order:-1; }
+    .stats .wrap { grid-template-columns:repeat(2,1fr); }
+    .services, .pgrid { grid-template-columns:repeat(2,1fr); }
+    .about, .quote { grid-template-columns:1fr; gap:28px; }
+    .qgrid { grid-template-columns:1fr; }
+    footer .cols { grid-template-columns:1fr; }
+    section.block { padding:56px 0; }
+  }
+  @media (max-width:520px) {
+    .topbar .hide-sm { display:none; }
+    .nav .btn { display:none; }
+    .row, .team { grid-template-columns:1fr; }
+    .hero .ctas .btn { flex:1 1 100%; }
+    .services, .pgrid { grid-template-columns:1fr; }
+    .stats b { font-size:22px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar"><div class="wrap">
+  <span>Sprinkler repair and installation <span class="hide-sm">&middot; League City and Clear Lake since 1994</span></span>
+  <a href="tel:2813342953">Office 281-334-2953</a>
+</div></div>
+
+<header class="nav"><div class="wrap">
+  <a class="logo" href="#"><b>Gulf Coast Sprinkler</b><small>Service since 1994</small></a>
+  <nav class="links">
+    <a href="#services">Services</a>
+    <a href="#promise">Our guarantee</a>
+    <a href="#about">About us</a>
+    <a href="#area">Service area</a>
+    <a href="#estimate">Free estimate</a>
+  </nav>
+  <a class="btn btn-main" href="#estimate">Request a repair</a>
+</div></header>
+
+<section class="hero">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow" style="color:#6fd3a0">Repairs &middot; New systems &middot; Backflow testing</p>
+      <h1>Sprinklers installed right, <em>with the owner on site.</em></h1>
+      <p class="lead">Licensed repair and installation for every brand of sprinkler system in League City and the Clear Lake area. No job is too small.</p>
+      <div class="ctas">
+        <a class="btn btn-main" href="#estimate">Get a free estimate</a>
+        <a class="btn btn-line" href="tel:2813342953">Call 281-334-2953</a>
+      </div>
+    </div>
+    <div class="hero-img" role="img" aria-label="Sprinkler head watering a green lawn"></div>
+  </div>
+</section>
+
+<div class="stats"><div class="wrap">
+  <div><b>Since 1994</b><span>serving the Clear Lake area</span></div>
+  <div><b>3 years</b><span>warranty on parts</span></div>
+  <div><b>1 year</b><span>warranty on labor</span></div>
+  <div><b>$0 down</b><span>no down payment required</span></div>
+</div></div>
+
+<section class="block" id="services"><div class="wrap">
+  <div class="head">
+    <p class="eyebrow">What we do</p>
+    <h2>Everything your yard needs to stay green</h2>
+    <p>We repair and install all brands of sprinkler systems, fully automated to save you time and money.</p>
+  </div>
+  <div class="services">
+    <div class="svc"><h3>Sprinkler repair</h3><p>Licensed technicians trained to diagnose and repair any problem with your system.</p></div>
+    <div class="svc"><h3>New installations</h3><p>A system designed for your landscape and installed to state and local code.</p></div>
+    <div class="svc"><h3>Backflow testing</h3><p>Testing by a licensed backflow prevention assembly tester.</p></div>
+    <div class="svc"><h3>Drainage systems</h3><p>Drainage systems installed alongside your irrigation.</p></div>
+    <div class="svc"><h3>Landscape lighting</h3><p>Lighting that shows off your landscape after dark.</p></div>
+    <div class="svc"><h3>Smart controllers</h3><p>WiFi controllers and water saving sprinkler heads.</p></div>
+  </div>
+</div></section>
+
+<section class="block promise" id="promise"><div class="wrap">
+  <div class="head">
+    <p class="eyebrow" style="color:#6fd3a0">Our guarantee</p>
+    <h2>Not all irrigation systems are installed equally</h2>
+    <p>A properly installed system should last years with no maintenance. Here is how we make sure yours does.</p>
+  </div>
+  <div class="pgrid">
+    <div class="pcard"><h3>Owner on every install</h3><p>Every installation is supervised by the owner, start to finish.</p></div>
+    <div class="pcard"><h3>Permits pulled</h3><p>We pull permits from the city and water district wherever they are required.</p></div>
+    <div class="pcard"><h3>Photos of every trench</h3><p>You get digital photos of your installation showing every trench in your yard.</p></div>
+    <div class="pcard"><h3>Freeze resistant</h3><p>We install freeze resistant vacuum breakers on every system.</p></div>
+    <div class="pcard"><h3>Strong warranty</h3><p>3 years on parts and 1 year on labor, with no down payment required.</p></div>
+    <div class="pcard"><h3>Satisfaction guarantee</h3><p>Licensed and insured, and we stand behind every job.</p></div>
+  </div>
+</div></section>
+
+<section class="block" id="about"><div class="wrap about">
+  <img class="photo" src="img/bed.jpg" alt="Flower bed with a sprinkler system installed by Gulf Coast Sprinkler Service">
+  <div>
+    <p class="eyebrow">About us</p>
+    <h2 style="font-size:clamp(32px,4vw,44px);margin-bottom:14px">Started to fix bad installs</h2>
+    <p>Gulf Coast Sprinkler Service started in 1994 after doing numerous repairs on substandard installations. It is not just the components but the quality of the installation that matters, and that work ethic has earned us a stellar reputation with our customers.</p>
+    <div class="team">
+      <div class="person"><b>Albert J. Peltz</b><span>Owner &middot; Licensed irrigator #5186</span></div>
+      <div class="person"><b>John Alff</b><span>Repair technician &middot; Licensed backflow tester</span></div>
+    </div>
+    <div class="badges">
+      <img src="img/hunter-preferred.gif" alt="Hunter preferred logo">
+      <span>Angie's List Super Service Award<br>2011, 2012, 2013, 2014, 2015 and 2016</span>
+    </div>
+  </div>
+</div></section>
+
+<section class="block checklist"><div class="wrap">
+  <div class="head">
+    <p class="eyebrow">Before you hire anyone</p>
+    <h2>Questions to ask any sprinkler contractor</h2>
+  </div>
+  <ul class="qgrid">
+    <li>Are you licensed with the State of Texas?</li>
+    <li>Will permits be pulled? If not, why?</li>
+    <li>How deep will the pipes be in my yard?</li>
+    <li>How do you solvent weld pipes and fittings?</li>
+    <li>How and why are the stations configured?</li>
+    <li>How do you wire the control valves?</li>
+  </ul>
+</div></section>
+
+<section class="block area" id="area"><div class="wrap">
+  <div class="head">
+    <p class="eyebrow">Service area</p>
+    <h2>League City and the Clear Lake area</h2>
+  </div>
+  <div class="towns">
+    <span>League City</span><span>Clear Lake</span><span>Surrounding communities</span>
+  </div>
+</div></section>
+
+<section class="block" id="estimate" style="padding-top:0"><div class="wrap quote">
+  <div>
+    <p class="eyebrow">Free estimate</p>
+    <h2 style="font-size:clamp(32px,4vw,46px);margin-bottom:14px">Get your yard watered right</h2>
+    <p>Tell us what is going on and we will get you on the schedule.</p>
+    <ol class="steps">
+      <li>Tell us about the repair or the new system you want</li>
+      <li>We survey your property and design a system for your landscape</li>
+      <li>You get a free written estimate</li>
+    </ol>
+    <p style="margin-top:22px">Prefer to talk? Call the office at <a href="tel:2813342953"><b>281-334-2953</b></a>.</p>
+  </div>
+  <form onsubmit="return false">
+    <div class="row">
+      <label>Name<input type="text" placeholder="Your name"></label>
+      <label>Phone<input type="tel" placeholder="Best number"></label>
+    </div>
+    <div class="row">
+      <label>Email<input type="email" placeholder="you@email.com"></label>
+      <label>Address or ZIP<input type="text" placeholder="Where is the yard?"></label>
+    </div>
+    <label>What do you need?
+      <select><option>Sprinkler repair</option><option>New sprinkler system</option><option>Backflow testing</option><option>Drainage</option><option>Landscape lighting</option><option>Something else</option></select>
+    </label>
+    <label>Anything else?<textarea placeholder="Which zones, what you are seeing, best time to reach you"></textarea></label>
+    <button class="btn btn-main" type="submit">Request my free estimate</button>
+  </form>
+</div></section>
+
+<footer><div class="wrap">
+  <div class="cols">
+    <div>
+      <h3>Gulf Coast Sprinkler Service</h3>
+      <p>Sprinkler repair and installation since 1994.<br>310 Sorrelwood, League City, Texas 77573<br>TCEQ License #5186</p>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p>Office <a href="tel:2813342953">281-334-2953</a><br><a href="mailto:gulfcoastsprinkler@verizon.net">gulfcoastsprinkler@verizon.net</a></p>
+    </div>
+    <div>
+      <h3>Explore</h3>
+      <p><a href="#services">Services</a><br><a href="#promise">Our guarantee</a><br><a href="#about">About us</a><br><a href="#estimate">Free estimate</a></p>
+    </div>
+  </div>
+  <div class="small">&copy; Gulf Coast Sprinkler Service. All rights reserved.</div>
+</div></footer>
+
+</body>
+</html>

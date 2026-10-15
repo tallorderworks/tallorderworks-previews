@@ -1,0 +1,18 @@
+{
+  "business": "Gulf Coast Sprinkler Service",
+  "type": "mockup",
+  "published": true,
+  "site_url": "https://gulfcoastsprinkler.com",
+  "domain": "gulfcoastsprinkler.com",
+  "sources_phrase": "gulfcoastsprinkler.com",
+  "images": {
+    "hero.jpg": "https://gulfcoastsprinkler.com/assets/images/16_mp_rotator.140114732_std.jpg",
+    "bed.jpg": "https://gulfcoastsprinkler.com/assets/images/008.140150208_std.JPG",
+    "hunter-preferred.gif": "https://gulfcoastsprinkler.com/assets/images/hunter-preferred-logo.14090530_std.gif"
+  },
+  "changes": [
+    { "title": "Call or request a repair from any phone.", "text": "The current homepage is a fixed desktop layout and your email shows up as broken, spaced out text. The concept puts tap to call and a short repair request at the top of every screen." },
+    { "title": "Your guarantees up front.", "text": "Your 3 year parts warranty, no down payment and photos of every trench sit deep on the Services page. The concept leads with them, next to the owner on every install." },
+    { "title": "A site that looks as current as your work.", "text": "The footer still reads Copyright 2012 and most of the homepage is award badges. The concept tells your story since 1994 and shows real lawns you have watered." }
+  ]
+}
