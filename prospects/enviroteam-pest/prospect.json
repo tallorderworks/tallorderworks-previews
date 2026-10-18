@@ -1,0 +1,22 @@
+{
+  "business": "EnviroTeam Pest Control",
+  "type": "mockup",
+  "published": true,
+  "site_url": "http://etpest.com",
+  "domain": "etpest.com",
+  "sources_phrase": "etpest.com",
+  "images": {
+    "team.jpg": "http://etpest.com/PhotoOfTeam.jpg",
+    "ants.jpg": "http://etpest.com/EnviroTeamResidential1.jpg",
+    "termites.jpg": "http://etpest.com/termitesWood.jpg",
+    "wildlife.jpg": "http://etpest.com/t139.jpg",
+    "roof.jpg": "http://etpest.com/EnviroTeamUrbanWildlife2.jpg",
+    "misting.jpg": "http://etpest.com/EnviroTeamMistingSystems3.jpg",
+    "commercial.jpg": "http://etpest.com/3-27-12-3.jpg"
+  },
+  "changes": [
+    { "title": "Request a free evaluation from any phone.", "text": "The current site is a fixed desktop layout, and the Free Evaluation page has no form, only phone numbers. The concept puts tap to call and a short evaluation request at the top of every screen." },
+    { "title": "One number and every service in plain view.", "text": "Your pages list three different phone numbers, and the homepage services hide inside pop up boxes. The concept shows every service on the page with one main number." },
+    { "title": "Your team and your promises up front.", "text": "The family team photo sits on a separate page, and no contract lock in and an entomologist on staff are buried in the text. The concept leads with them." }
+  ]
+}
