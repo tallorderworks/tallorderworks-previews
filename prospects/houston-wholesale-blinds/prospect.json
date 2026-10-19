@@ -1,0 +1,23 @@
+{
+  "business": "Houston Wholesale Blinds & Shutters",
+  "type": "mockup",
+  "published": true,
+  "site_url": "https://houstonwholesaleblinds.com",
+  "domain": "houstonwholesaleblinds.com",
+  "sources_phrase": "houstonwholesaleblinds.com",
+  "images": {
+    "shutters.jpg": "https://houstonwholesaleblinds.com/sitebuilder/images/Shutters-538x380-576x406.jpg",
+    "white-shutter.jpg": "https://houstonwholesaleblinds.com/images/NormanWoodlorePic-233x366.jpg",
+    "wood-blinds.jpg": "https://houstonwholesaleblinds.com/sitebuilder/images/Wood3-260x246-277x262.jpg",
+    "faux-wood.jpg": "https://houstonwholesaleblinds.com/sitebuilder/images/2halfwoodblinds-263x367-287x400.jpg",
+    "woven-wood.jpg": "https://houstonwholesaleblinds.com/sitebuilder/images/WovenWoodShade_Large-259x198-314x241.jpg",
+    "cellular.jpg": "https://houstonwholesaleblinds.com/sitebuilder/images/CellularBook3-225x311-248x340.jpg",
+    "roller.jpg": "https://houstonwholesaleblinds.com/sitebuilder/images/Shades-237x231-248x240.jpg",
+    "service-area.jpg": "https://houstonwholesaleblinds.com/sitebuilder/images/Service_Area-407x415.jpg"
+  },
+  "changes": [
+    { "title": "Book a free measure from any phone.", "text": "The current homepage is a fixed desktop layout that shrinks on a phone, and the estimate form sits on a separate page. The concept puts tap to call and a short free measure request at the top of every screen." },
+    { "title": "Your reviews up front.", "text": "Customers on your testimonials page praise John and Gana and Casey by name. The concept brings three of those quotes onto the homepage, next to your Angie's List awards." },
+    { "title": "A site as polished as your shutters.", "text": "The header still reads 2013 and much of the homepage is small badges and long product lists. The concept leads with your shutters, your free measure and install offer, and the showroom you bring to the customer." }
+  ]
+}
