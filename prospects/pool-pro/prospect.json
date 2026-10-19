@@ -1,10 +1,17 @@
 {
   "business": "Pool Pro",
-  "type": "audit",
+  "type": "mockup",
   "published": false,
   "site_url": "http://www.yourpoolpro.com",
   "domain": "yourpoolpro.com",
   "sources_phrase": "yourpoolpro.com",
-  "images": {},
-  "changes": []
+  "images": {
+    "logo.jpg": "http://www.yourpoolpro.com/pool_pro_400PX.jpg",
+    "store.png": "http://www.yourpoolpro.com/publishImages/index~~element87.png"
+  },
+  "changes": [
+    { "title": "Call from any phone.", "text": "The current homepage shrinks on a phone and the number cannot be tapped. The sketch puts a tap to call button at the top." },
+    { "title": "Your offers up front.", "text": "The free weekly cleaning estimate and the filter cleaning special lead the page." },
+    { "title": "Your store and your story.", "text": "Your Missouri City store and your history since 1985 come first." }
+  ]
 }
