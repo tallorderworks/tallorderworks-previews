@@ -1,11 +1,12 @@
 {
   "slug": "rosettes-ac",
-  "type": "audit",
-  "rendered_at": "2026-10-14T23:03:27Z",
-  "source_commit": "475cdd92e9802064e02fc34eb171d1f68a4ed700",
+  "type": "mockup",
+  "rendered_at": "2026-10-20T21:53:48Z",
+  "source_commit": "1b6198aaad97f5feda5eeb47e609a6857bff8ac4",
   "image_errors": [],
   "broken_images_in_mockup": [],
   "phone_horizontal_scroll": false,
   "copy_warnings": [],
-  "errors": []
+  "errors": [],
+  "preview_url": "https://preview.tallorderworks.com/rosettes-ac/"
 }
