@@ -1,10 +1,17 @@
 {
   "business": "Rosette's Heating & Air Conditioning",
-  "type": "audit",
+  "type": "mockup",
   "published": false,
   "site_url": "http://www.rosetteair.com",
   "domain": "rosetteair.com",
   "sources_phrase": "rosetteair.com",
-  "images": {},
-  "changes": []
+  "images": {
+    "logo.png": "https://nebula.wsimg.com/1acfa6b6a5806953e4f679828b742128?AccessKeyId=531592D248B589D87A56&disposition=0&alloworigin=1",
+    "hero.jpg": "https://nebula.wsimg.com/11608da445e675a6de22c1d52370a76e?AccessKeyId=531592D248B589D87A56&disposition=0&alloworigin=1"
+  },
+  "changes": [
+    { "title": "Call from any phone.", "text": "Your number is not on the current homepage. The sketch puts a tap to call button at the top." },
+    { "title": "Request service in one tap.", "text": "A service request button sits right under the headline." },
+    { "title": "Your story first.", "text": "Over 37 years of homes, churches and light commercial work lead the page." }
+  ]
 }
