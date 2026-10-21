@@ -1,0 +1,11 @@
+{
+  "slug": "star-tv-appliance",
+  "type": "audit",
+  "rendered_at": "2026-10-21T21:56:10Z",
+  "source_commit": "db411ebf00c6005a5d17ea128e0c2987700e756b",
+  "image_errors": [],
+  "broken_images_in_mockup": [],
+  "phone_horizontal_scroll": false,
+  "copy_warnings": [],
+  "errors": []
+}
