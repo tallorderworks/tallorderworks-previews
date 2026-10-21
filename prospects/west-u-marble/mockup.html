@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>West U Marble Company | Cultured Marble Showers, Tubs and Vanity Tops in Houston</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing:border-box; }
+  html, body { margin:0; overflow-x:hidden; }
+  body { font:17px/1.6 Inter, system-ui, sans-serif; color:#2a2622; background:#faf7f2; }
+  img { max-width:100%; height:auto; display:block; }
+  a { color:inherit; text-decoration:none; }
+  .wrap { max-width:1160px; margin:0 auto; padding:0 20px; }
+  h1, h2, h3 { font-family:Fraunces, Georgia, serif; line-height:1.1; margin:0; color:#2a2622; }
+  .eyebrow { text-transform:uppercase; letter-spacing:2px; font-size:13px; font-weight:700; color:#8a6a45; margin:0 0 10px; }
+  .btn { display:inline-block; font-weight:700; padding:14px 22px; border-radius:8px; text-align:center; }
+  .btn-main { background:#2f5d62; color:#fff; }
+  .btn-light { background:#fff; color:#2a2622; }
+  .btn-line { border:2px solid #fff; color:#fff; }
+
+  header { background:#fff; border-bottom:1px solid #eadfd1; position:sticky; top:0; z-index:5; }
+  header .wrap { display:flex; align-items:center; justify-content:space-between; gap:12px; padding-top:12px; padding-bottom:12px; }
+  .brand { font-family:Fraunces, Georgia, serif; font-weight:700; font-size:22px; line-height:1.05; }
+  .brand small { display:block; font-family:Inter, sans-serif; font-weight:500; font-size:12px; color:#8a6a45; letter-spacing:1px; text-transform:uppercase; }
+  nav { display:flex; gap:22px; font-weight:500; font-size:15px; }
+  .call { background:#2f5d62; color:#fff; font-weight:700; padding:10px 16px; border-radius:999px; white-space:nowrap; font-size:15px; }
+
+  .hero { position:relative; background:#3b3128 url(img/showroom.jpg) center/cover no-repeat; color:#fff; }
+  .hero:before { content:""; position:absolute; inset:0; background:linear-gradient(90deg, rgba(34,27,21,.88) 0%, rgba(34,27,21,.65) 55%, rgba(34,27,21,.25) 100%); }
+  .hero .wrap { position:relative; padding-top:96px; padding-bottom:96px; }
+  .hero .eyebrow { color:#e9cfa8; }
+  .hero h1 { color:#fff; font-size:clamp(36px,5.4vw,62px); max-width:720px; margin-bottom:16px; }
+  .hero p { font-size:19px; color:#efe6da; max-width:560px; margin:0 0 26px; }
+  .hero .ctas { display:flex; flex-wrap:wrap; gap:12px; }
+
+  .strip { background:#2f5d62; color:#fff; }
+  .strip .wrap { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; padding-top:22px; padding-bottom:22px; text-align:center; }
+  .strip b { display:block; font-family:Fraunces, Georgia, serif; font-size:20px; }
+  .strip span { font-size:14px; color:#d6e6e7; }
+
+  section { padding:72px 0; }
+  .head { max-width:680px; margin-bottom:34px; }
+  .head h2 { font-size:clamp(30px,3.6vw,42px); margin-bottom:10px; }
+  .head p { margin:0; color:#5b534b; }
+
+  .services { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+  .svc { background:#fff; border:1px solid #eadfd1; border-radius:14px; overflow:hidden; }
+  .svc img { width:100%; height:240px; object-fit:cover; }
+  .svc div { padding:18px 20px 22px; }
+  .svc h3 { font-size:22px; margin-bottom:6px; }
+  .svc p { margin:0; color:#5b534b; font-size:16px; }
+
+  .steps { background:#f1e9df; }
+  .steps .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+  .step { background:#fff; border-radius:14px; padding:24px; }
+  .step .n { width:40px; height:40px; border-radius:50%; background:#2f5d62; color:#fff; display:flex; align-items:center; justify-content:center; font-weight:700; margin-bottom:14px; }
+  .step h3 { font-size:21px; margin-bottom:6px; }
+  .step p { margin:0; color:#5b534b; font-size:16px; }
+
+  .why { display:grid; grid-template-columns:1.1fr 1fr; gap:40px; align-items:center; }
+  .why img { border-radius:14px; width:100%; max-height:520px; object-fit:cover; }
+  .why ul { list-style:none; padding:0; margin:20px 0 0; }
+  .why li { padding:12px 0 12px 34px; border-bottom:1px solid #eadfd1; position:relative; }
+  .why li:before { content:"\2713"; position:absolute; left:0; top:11px; color:#2f5d62; font-weight:700; }
+
+  .visit { background:#2a2622; color:#efe6da; }
+  .visit h2, .visit h3 { color:#fff; }
+  .visit .grid { display:grid; grid-template-columns:1fr 1fr; gap:40px; }
+  .info p { margin:0 0 14px; }
+  .info a { color:#fff; font-weight:700; }
+  form { background:#fff; color:#2a2622; border-radius:14px; padding:26px; display:grid; gap:12px; }
+  form h3 { color:#2a2622; font-size:24px; }
+  label { font-size:14px; font-weight:700; display:grid; gap:6px; }
+  input, select, textarea { font:inherit; padding:11px 12px; border:1px solid #d8cbbb; border-radius:8px; width:100%; background:#fff; }
+  .row { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+  form .btn { border:0; cursor:pointer; font-size:17px; }
+
+  footer { background:#1e1a17; color:#bfb4a7; font-size:14px; }
+  footer .wrap { display:flex; flex-wrap:wrap; justify-content:space-between; gap:12px; padding-top:22px; padding-bottom:22px; }
+
+  @media (max-width:900px) {
+    nav { display:none; }
+    .services, .steps .grid { grid-template-columns:1fr; }
+    .why, .visit .grid { grid-template-columns:1fr; }
+    .strip .wrap { grid-template-columns:1fr 1fr; }
+    .hero .wrap { padding-top:64px; padding-bottom:64px; }
+    .hero:before { background:linear-gradient(180deg, rgba(34,27,21,.7), rgba(34,27,21,.9)); }
+    .hero .btn { flex:1 1 100%; }
+    .row { grid-template-columns:1fr; }
+    section { padding:52px 0; }
+  }
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="brand">West U Marble<small>Company, LLC</small></div>
+  <nav><a href="#products">Products</a><a href="#custom">Custom showers</a><a href="#why">Why marble</a><a href="#quote">Showroom</a></nav>
+  <a class="call" href="tel:7134332240">713-433-2240</a>
+</div></header>
+
+<section class="hero" style="padding:0"><div class="wrap">
+  <p class="eyebrow">Factory direct showroom in South Houston</p>
+  <h1>Beautiful marble bathrooms, made in our own factory.</h1>
+  <p>Cultured marble and composite granite showers, tub surrounds and vanity tops, manufactured and installed by our own master craftsmen.</p>
+  <div class="ctas">
+    <a class="btn btn-light" href="#quote">Request a free quote</a>
+    <a class="btn btn-line" href="tel:7134332240">Call 713-433-2240</a>
+  </div>
+</div></section>
+
+<div class="strip"><div class="wrap">
+  <div><b>Factory direct</b><span>Made and installed by us</span></div>
+  <div><b>Custom sizes</b><span>Measured at your home</span></div>
+  <div><b>No grout</b><span>Easy to keep clean</span></div>
+  <div><b>Matching colors</b><span>Tub, walls and vanity</span></div>
+</div></div>
+
+<section id="products"><div class="wrap">
+  <div class="head">
+    <p class="eyebrow">What we make</p>
+    <h2>Everything for a bathroom remodel</h2>
+    <p>Cultured marble, composite stone and AggrAllure composite granite, cast in our factory and finished by hand.</p>
+  </div>
+  <div class="services">
+    <div class="svc"><img src="img/shower.jpg" alt="Custom cultured marble shower"><div><h3>Shower walls and pans</h3><p>Custom size shower stalls and molded or custom shower pans, with matching soap and shampoo holders.</p></div></div>
+    <div class="svc"><img src="img/tub-surround.jpg" alt="Marble tub surround with trim"><div><h3>Tub surrounds and tubs</h3><p>Marble tub walls with no grout lines, plus marble tubs with or without a whirlpool system.</p></div></div>
+    <div class="svc"><img src="img/vanity.jpg" alt="Marble vanity top with integral bowls"><div><h3>Vanity tops</h3><p>Vanity tops with integral lavatories, cut to fit most any size, in your choice of bowl, edge and color.</p></div></div>
+  </div>
+</div></section>
+
+<section class="steps" id="custom"><div class="wrap">
+  <div class="head">
+    <p class="eyebrow">Custom showers</p>
+    <h2>Built to fit your bathroom</h2>
+    <p>We specialize in custom size shower stalls, from the first measurement to the final fit.</p>
+  </div>
+  <div class="grid">
+    <div class="step"><div class="n">1</div><h3>We measure</h3><p>We come to your home, measure your shower walls, base and trim, and check that everything is set up correctly.</p></div>
+    <div class="step"><div class="n">2</div><h3>We make it</h3><p>Every part is manufactured in our Houston factory to your measurements and your color.</p></div>
+    <div class="step"><div class="n">3</div><h3>We fit it</h3><p>We come back and custom fit every piece, with great attention to detail.</p></div>
+  </div>
+</div></section>
+
+<section id="why"><div class="wrap why">
+  <img src="img/tub-walls.jpg" alt="Cultured marble tub walls with corner shelves">
+  <div>
+    <p class="eyebrow">Why cultured marble</p>
+    <h2 style="font-size:clamp(30px,3.6vw,42px)">A bathroom that stays looking new</h2>
+    <ul>
+      <li>No grout to replace or clean</li>
+      <li>Tub, walls, shower floor and vanity in the same color</li>
+      <li>Every piece coated with UV stabilized gel coat, with colors that won't fade</li>
+      <li>A full range of colors, bowl styles and edge styles</li>
+      <li>Whirlpool tubs with a 3 year warranty on the pump</li>
+    </ul>
+  </div>
+</div></section>
+
+<section class="visit" id="quote"><div class="wrap grid">
+  <div class="info">
+    <p class="eyebrow" style="color:#e9cfa8">Visit the showroom</p>
+    <h2 style="font-size:clamp(30px,3.6vw,42px);margin-bottom:18px">See the colors in person</h2>
+    <p>Our factory direct showroom is full of ideas for your bathroom. Stop by or call us for a quote.</p>
+    <p><b>Address</b><br>14715 Park Almeda Dr.<br>Houston, Texas 77047</p>
+    <p><b>Hours</b><br>Monday through Friday, 8:00 am to 4:00 pm<br>Closed Saturday</p>
+    <p><b>Phone</b><br><a href="tel:7134332240">713-433-2240</a> &nbsp;&middot;&nbsp; Fax 713-433-5569</p>
+    <p><b>Email</b><br><a href="mailto:billm@westumarble.com">billm@westumarble.com</a></p>
+  </div>
+  <form onsubmit="return false">
+    <h3>Request a free quote</h3>
+    <div class="row">
+      <label>Name<input type="text"></label>
+      <label>Phone<input type="tel"></label>
+    </div>
+    <label>Email<input type="email"></label>
+    <label>What are you planning?
+      <select><option>Shower walls or pan</option><option>Tub surround</option><option>Marble tub</option><option>Vanity top</option><option>Something else</option></select>
+    </label>
+    <label>Rough size or details<textarea rows="3"></textarea></label>
+    <button class="btn btn-main" type="submit">Send my request</button>
+  </form>
+</div></section>
+
+<footer><div class="wrap">
+  <span>West U Marble Company, LLC &middot; 14715 Park Almeda Dr., Houston, TX 77047</span>
+  <span><a href="tel:7134332240">713-433-2240</a></span>
+</div></footer>
+</body>
+</html>
