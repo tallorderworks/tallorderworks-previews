@@ -1,46 +1,10 @@
 {
   "slug": "west-u-marble",
   "type": "mockup",
-  "rendered_at": "2026-10-21T21:55:23Z",
-  "source_commit": "e2b0b54e6af53cb70cc7df04164fb95c24907316",
-  "image_errors": [
-    {
-      "name": "showroom.jpg",
-      "url": "https://westumarble.com/Showroom_1.jpg",
-      "error": "HTTPSConnectionPool(host='westumarble.com', port=443): Max retries exceeded with url: /Showroom_1.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate veri"
-    },
-    {
-      "name": "tub-surround.jpg",
-      "url": "https://westumarble.com/HPIM0806.JPG",
-      "error": "HTTPSConnectionPool(host='westumarble.com', port=443): Max retries exceeded with url: /HPIM0806.JPG (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify"
-    },
-    {
-      "name": "shower.jpg",
-      "url": "https://westumarble.com/custom_shower_2.JPG",
-      "error": "HTTPSConnectionPool(host='westumarble.com', port=443): Max retries exceeded with url: /custom_shower_2.JPG (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate"
-    },
-    {
-      "name": "shower-stall.jpg",
-      "url": "https://westumarble.com/42x36_shower_1.JPG",
-      "error": "HTTPSConnectionPool(host='westumarble.com', port=443): Max retries exceeded with url: /42x36_shower_1.JPG (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate "
-    },
-    {
-      "name": "vanity.jpg",
-      "url": "https://westumarble.com/vanity.jpg",
-      "error": "HTTPSConnectionPool(host='westumarble.com', port=443): Max retries exceeded with url: /vanity.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify f"
-    },
-    {
-      "name": "tub-walls.jpg",
-      "url": "https://westumarble.com/HPIM0475.JPG",
-      "error": "HTTPSConnectionPool(host='westumarble.com', port=443): Max retries exceeded with url: /HPIM0475.JPG (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify"
-    }
-  ],
-  "broken_images_in_mockup": [
-    "img/shower.jpg",
-    "img/tub-surround.jpg",
-    "img/vanity.jpg",
-    "img/tub-walls.jpg"
-  ],
+  "rendered_at": "2026-10-21T21:57:12Z",
+  "source_commit": "4a63d984686a74c77fa7f35b680b4c23293d87d1",
+  "image_errors": [],
+  "broken_images_in_mockup": [],
   "phone_horizontal_scroll": false,
   "copy_warnings": [],
   "errors": [],
