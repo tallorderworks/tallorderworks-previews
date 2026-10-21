@@ -9,7 +9,7 @@
   "changes": [
     {
       "title": "Made for the phone in their hand.",
-      "text": "The current site is a FrontPage layout with no mobile view and a background song that plays on load. The concept opens cleanly on any phone with a tap to call button at the top."
+      "text": "The current site is a FrontPage layout with no mobile view, and its secure address shows a certificate warning. The concept opens cleanly on any phone with a tap to call button at the top."
     },
     {
       "title": "Finished bathrooms first.",
