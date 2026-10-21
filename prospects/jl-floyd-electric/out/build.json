@@ -1,11 +1,12 @@
 {
   "slug": "jl-floyd-electric",
-  "type": "audit",
-  "rendered_at": "2026-10-15T22:31:28Z",
-  "source_commit": "82ff8c18f9df7fbd94bb12c49f9a9b175353827a",
+  "type": "mockup",
+  "rendered_at": "2026-10-21T21:52:37Z",
+  "source_commit": "8262d741cff0b07fbc2d3b6cb3ff8e3b301265dd",
   "image_errors": [],
   "broken_images_in_mockup": [],
   "phone_horizontal_scroll": false,
   "copy_warnings": [],
-  "errors": []
+  "errors": [],
+  "preview_url": "https://preview.tallorderworks.com/jl-floyd-electric/"
 }
