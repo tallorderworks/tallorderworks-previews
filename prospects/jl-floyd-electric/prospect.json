@@ -1,11 +1,17 @@
 {
   "business": "JL Floyd Electrical Services",
-  "type": "audit",
+  "type": "mockup",
   "published": false,
   "site_url": "https://jlfloyd.com",
   "domain": "jlfloyd.com",
   "sources_phrase": "jlfloyd.com",
-  "images": {},
-  "changes": []
+  "images": {
+    "hero.jpg": "https://jlfloyd.com/20231019_155959.jpg",
+    "warehouse.jpg": "https://jlfloyd.com/20260620_125335.jpg"
+  },
+  "changes": [
+    { "title": "Call from any phone.", "text": "Your main line becomes a tap to call button at the top of the page." },
+    { "title": "Request service up front.", "text": "The service request sits right under the headline instead of below the photos." },
+    { "title": "Your work, front and center.", "text": "A real job photo and your core services lead the page." }
+  ]
 }
-
