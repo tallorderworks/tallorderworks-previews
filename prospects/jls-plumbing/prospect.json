@@ -1,10 +1,17 @@
 {
   "business": "JLS Plumbing",
-  "type": "audit",
+  "type": "mockup",
   "published": false,
   "site_url": "http://www.jlsplumbing.com",
   "domain": "jlsplumbing.com",
   "sources_phrase": "jlsplumbing.com",
-  "images": {},
-  "changes": []
+  "images": {
+    "logo.jpg": "https://raw.githubusercontent.com/tallorderworks/tallorderworks-previews/main/prospects/jls-plumbing/src/logo.jpg",
+    "framing.jpg": "https://raw.githubusercontent.com/tallorderworks/tallorderworks-previews/main/prospects/jls-plumbing/src/framing.jpg"
+  },
+  "changes": [
+    { "title": "Call from any phone.", "text": "The current homepage shrinks on a phone and the number cannot be tapped. The sketch puts a tap to call button at the top." },
+    { "title": "A way to request service.", "text": "The Contact page form no longer loads. The sketch adds a Request service button right under the headline." },
+    { "title": "Your services up front.", "text": "Residential repairs, water heaters, remodels and commercial work lead the page." }
+  ]
 }
