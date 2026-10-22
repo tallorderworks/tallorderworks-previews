@@ -1,0 +1,32 @@
+{
+  "business": "O'Day Drilling Company",
+  "type": "mockup",
+  "published": true,
+  "site_url": "http://odaydrilling.com",
+  "domain": "odaydrilling.com",
+  "sources_phrase": "odaydrilling.com",
+  "images": {
+    "logo.gif": "https://odaydrilling.com/graphic/logo.gif",
+    "rig-sunset.jpg": "https://odaydrilling.com/upload/photo/cms/rig%202.jpg",
+    "rig-night.jpg": "https://odaydrilling.com/upload/photo/cms/rig%201.jpg",
+    "trucks.jpg": "https://odaydrilling.com/upload/photo/gallery/large/truck%20line%20up0.jpg",
+    "team.jpg": "https://odaydrilling.com/upload/photo/gallery/large/website%2050.jpg",
+    "family.jpg": "http://www.odaydrilling.com/upload/photo/cms/Family(1).jpg",
+    "early-rig.jpg": "https://odaydrilling.com/upload/photo/gallery/large/OLD%2010.jpg",
+    "hoe.jpg": "https://odaydrilling.com/upload/photo/gallery/large/Truck%20and%20Track%20Hoe0.jpg"
+  },
+  "changes": [
+    {
+      "title": "Call or ask for a quote from any phone.",
+      "text": "The current homepage is a fixed desktop layout that shrinks on a phone, and the numbers can't be tapped. The concept puts tap to call and a short quote request at the top of every screen."
+    },
+    {
+      "title": "More than a century of family history up front.",
+      "text": "Your 1912 founding, the Baylor Top Texas Family Business honor and your family team are tucked into small news blurbs today. The concept leads with them."
+    },
+    {
+      "title": "Every service, easy to find.",
+      "text": "The homepage lists more than thirty services in a long side menu. The concept groups them into drilling, pump service, irrigation and public water supply."
+    }
+  ]
+}
