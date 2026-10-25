@@ -1,10 +1,23 @@
 {
   "business": "Lo Aira's Services",
-  "type": "audit",
+  "type": "mockup",
   "published": false,
   "site_url": "http://www.lo-airas.com",
   "domain": "lo-airas.com",
   "sources_phrase": "lo-airas.com",
   "images": {},
-  "changes": []
+  "changes": [
+    {
+      "title": "Call or text from any phone.",
+      "text": "The current homepage shrinks on a phone and the number cannot be tapped. The sketch puts a tap to call or text button at the top."
+    },
+    {
+      "title": "A free estimate request up front.",
+      "text": "Free estimates are listed on the Services page. The sketch adds a Request a free estimate button right under the headline."
+    },
+    {
+      "title": "Your services at a glance.",
+      "text": "Air conditioning, heating, mini splits and after hours service lead the page."
+    }
+  ]
 }
