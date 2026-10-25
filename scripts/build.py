@@ -235,6 +235,7 @@ def render_preview_page(p: dict, slug: str) -> str:
         "CHANGES": changes,
         "CALENDLY": html.escape(CALENDLY + urllib.parse.quote(biz)),
         "SLUG": slug,
+        "BUSINESS_Q": urllib.parse.quote(biz),
     }
     intro = p.get("intro") or DEFAULT_INTRO
     values["INTRO"] = html.escape(intro.replace("{{BUSINESS}}", biz))
