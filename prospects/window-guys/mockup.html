@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>The Window Guys | Impact and Replacement Windows, Dickinson, Texas</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing:border-box; }
+  html, body { margin:0; overflow-x:hidden; }
+  body { font:17px/1.6 "Source Sans 3", system-ui, sans-serif; color:#15283b; background:#f6f4ef; }
+  img { max-width:100%; display:block; }
+  a { color:inherit; text-decoration:none; }
+  .wrap { max-width:1180px; margin:0 auto; padding:0 20px; }
+  h1, h2, h3 { font-family:"Barlow Condensed", Impact, sans-serif; margin:0; line-height:1.05; letter-spacing:.3px; }
+  .top { background:#0f2236; color:#cfe0ef; font-size:14px; }
+  .top .wrap { display:flex; flex-wrap:wrap; gap:4px 18px; justify-content:space-between; padding-top:8px; padding-bottom:8px; }
+  header { background:#fff; border-bottom:1px solid #e4e0d6; position:sticky; top:0; z-index:5; }
+  header .wrap { display:flex; align-items:center; justify-content:space-between; gap:14px; padding-top:12px; padding-bottom:12px; }
+  .logo { font-family:"Barlow Condensed", sans-serif; font-weight:700; font-size:28px; color:#0f2236; line-height:1; }
+  .logo span { display:block; font-family:"Source Sans 3", sans-serif; font-weight:600; font-size:12px; letter-spacing:1.6px; text-transform:uppercase; color:#2f7fb5; margin-top:4px; }
+  nav { display:flex; gap:22px; font-weight:600; font-size:15px; }
+  .call { background:#e2702b; color:#fff; font-weight:700; padding:11px 18px; border-radius:999px; white-space:nowrap; font-size:15px; }
+  .hero { position:relative; color:#fff; background:#0f2236; }
+  .hero .bg { position:absolute; inset:0; background:url(img/house-front.jpg) center/cover no-repeat; opacity:.45; }
+  .hero .wrap { position:relative; padding-top:84px; padding-bottom:84px; }
+  .badge { display:inline-flex; gap:8px; align-items:center; background:#fff; color:#0f2236; font-weight:700; font-size:13px; letter-spacing:1.2px; text-transform:uppercase; padding:6px 12px; border-radius:6px; margin-bottom:18px; }
+  .hero h1 { font-size:clamp(40px,6.4vw,76px); max-width:760px; margin-bottom:16px; }
+  .hero p { font-size:19px; max-width:600px; color:#e4eef7; margin:0 0 26px; }
+  .ctas { display:flex; flex-wrap:wrap; gap:12px; }
+  .btn { display:inline-block; font-weight:700; padding:15px 24px; border-radius:10px; font-size:17px; text-align:center; }
+  .btn-main { background:#e2702b; color:#fff; }
+  .btn-ghost { border:2px solid #fff; color:#fff; }
+  .proof { background:#fff; border-bottom:1px solid #e4e0d6; }
+  .proof .wrap { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; padding-top:22px; padding-bottom:22px; text-align:center; }
+  .proof b { display:block; font-family:"Barlow Condensed", sans-serif; font-size:30px; color:#0f2236; line-height:1.1; }
+  .proof span { font-size:14px; color:#556574; }
+  section.block { padding:72px 0; }
+  .eyebrow { color:#2f7fb5; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; font-size:13px; margin:0 0 8px; }
+  .block h2 { font-size:clamp(32px,4.4vw,48px); margin-bottom:14px; }
+  .lead { max-width:680px; color:#3d4e5e; margin:0 0 34px; }
+  .why { display:grid; grid-template-columns:1.1fr 1fr; gap:44px; align-items:center; }
+  .why img { border-radius:14px; box-shadow:0 18px 40px rgba(15,34,54,.18); }
+  .checks { list-style:none; padding:0; margin:0; display:grid; gap:14px; }
+  .checks li { background:#fff; border:1px solid #e4e0d6; border-radius:12px; padding:14px 16px 14px 48px; position:relative; }
+  .checks li:before { content:""; position:absolute; left:16px; top:18px; width:18px; height:18px; border-radius:50%; background:#2f7fb5; box-shadow:inset 0 0 0 5px #d9eaf6; }
+  .checks b { display:block; }
+  .gallery { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; }
+  .gallery figure { margin:0; background:#fff; border-radius:12px; overflow:hidden; border:1px solid #e4e0d6; }
+  .gallery img { width:100%; aspect-ratio:4/3; object-fit:cover; }
+  .gallery figcaption { padding:10px 14px; font-size:15px; font-weight:600; }
+  .steps { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; counter-reset:s; }
+  .step { background:#fff; border-radius:12px; padding:20px; border-top:4px solid #e2702b; }
+  .step:before { counter-increment:s; content:counter(s); font-family:"Barlow Condensed", sans-serif; font-size:34px; color:#e2702b; font-weight:700; }
+  .step h3 { font-size:24px; margin:4px 0 6px; }
+  .step p { margin:0; font-size:15px; color:#3d4e5e; }
+  .reviews { background:#0f2236; color:#fff; }
+  .reviews .lead { color:#c8d8e6; }
+  .rating { font-family:"Barlow Condensed", sans-serif; font-size:24px; color:#f1b04a; margin-bottom:20px; }
+  .quotes { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+  .quote { background:#173450; border-radius:12px; padding:22px; }
+  .quote p { margin:0 0 12px; }
+  .quote small { color:#9fbad1; }
+  .area { display:grid; grid-template-columns:1fr 1fr; gap:40px; align-items:start; }
+  .towns { display:flex; flex-wrap:wrap; gap:8px; }
+  .towns span { background:#fff; border:1px solid #e4e0d6; border-radius:999px; padding:6px 14px; font-size:15px; }
+  .quoteform { background:#fff; border-radius:14px; padding:26px; border:1px solid #e4e0d6; box-shadow:0 12px 30px rgba(15,34,54,.08); }
+  .quoteform h3 { font-size:30px; margin-bottom:6px; }
+  .quoteform label { display:block; font-weight:600; font-size:15px; margin:12px 0 4px; }
+  .quoteform .field { border:1px solid #cfd6dc; border-radius:8px; height:44px; background:#fafbfc; }
+  .quoteform .field.tall { height:90px; }
+  .quoteform .btn { width:100%; margin-top:16px; background:#e2702b; color:#fff; }
+  footer { background:#0b1a29; color:#b9c9d7; font-size:15px; }
+  footer .wrap { display:grid; grid-template-columns:1.3fr 1fr 1fr; gap:30px; padding-top:44px; padding-bottom:44px; }
+  footer h3 { color:#fff; font-size:22px; margin-bottom:8px; }
+  footer img { background:#fff; padding:6px; border-radius:6px; width:150px; margin-top:12px; }
+  @media (max-width:900px) {
+    nav { display:none; }
+    .why, .area { grid-template-columns:1fr; }
+    .gallery { grid-template-columns:1fr 1fr; }
+    .steps, .quotes { grid-template-columns:1fr; }
+    .proof .wrap { grid-template-columns:1fr 1fr; }
+    footer .wrap { grid-template-columns:1fr; }
+  }
+  @media (max-width:520px) {
+    .logo { font-size:23px; }
+    .call { padding:10px 13px; font-size:14px; }
+    .hero .wrap { padding-top:56px; padding-bottom:56px; }
+    .btn { width:100%; }
+    .gallery { grid-template-columns:1fr; }
+    .top .wrap { justify-content:center; text-align:center; }
+  }
+</style>
+</head>
+<body>
+<div class="top"><div class="wrap"><span>Veteran owned &nbsp;·&nbsp; Showroom on FM 517 in Dickinson</span><span>Visits by appointment</span></div></div>
+<header><div class="wrap">
+  <div class="logo">The Window Guys<span>Impact and replacement windows</span></div>
+  <nav><a href="#windows">Windows</a><a href="#work">Our work</a><a href="#reviews">Reviews</a><a href="#quote">Free quote</a></nav>
+  <a class="call" href="tel:2813381909">Call 281.338.1909</a>
+</div></header>
+
+<section class="hero">
+  <div class="bg"></div>
+  <div class="wrap">
+    <span class="badge">Rated 4.7 on Google &nbsp;·&nbsp; 133 reviews</span>
+    <h1>Hurricane code windows, installed right the first time.</h1>
+    <p>Impact glass replacement windows and patio doors for homes from South Houston to Galveston Island. An honest quote, no pressure sales, and a lifetime warranty.</p>
+    <div class="ctas">
+      <a class="btn btn-main" href="#quote">Get a free quote</a>
+      <a class="btn btn-ghost" href="tel:2813381909">Tap to call 281.338.1909</a>
+    </div>
+  </div>
+</section>
+
+<div class="proof"><div class="wrap">
+  <div><b>4.7 ★</b><span>133 Google reviews</span></div>
+  <div><b>Impact glass</b><span>Built for windstorm code</span></div>
+  <div><b>Lifetime</b><span>Window warranty</span></div>
+  <div><b>Made in USA</b><span>Gentek Signature Elite</span></div>
+</div></div>
+
+<section class="block" id="windows"><div class="wrap why">
+  <div>
+    <p class="eyebrow">Why homeowners call us</p>
+    <h2>Windows that stand up to the Gulf Coast.</h2>
+    <p class="lead">We specialize in hurricane code windows. Visit our showroom to see the windows before you choose, and our installers take exact measurements for every custom window.</p>
+    <ul class="checks">
+      <li><b>Impact glass to withstand storms</b>Laminated windows that meet Texas windstorm requirements.</li>
+      <li><b>Added security</b>Tougher glass that helps prevent break ins.</li>
+      <li><b>Lower electricity costs</b>Energy saving windows that keep summer heat out.</li>
+      <li><b>Sound control</b>A quieter home, whatever is happening outside.</li>
+    </ul>
+  </div>
+  <img src="img/impact-test.jpg" alt="An impact window after a strike test, glass cracked but still in the frame">
+</div></section>
+
+<section class="block" id="work" style="padding-top:0"><div class="wrap">
+  <p class="eyebrow">Recent installs</p>
+  <h2>Our work, custom fit to every home</h2>
+  <p class="lead">Replacement windows, bay and picture windows, arched tops and entry glass, all custom measured for each home.</p>
+  <div class="gallery">
+    <figure><img src="img/arched-entry.jpg" alt="Brick home with a tall arched entry window"><figcaption>Arched entry window</figcaption></figure>
+    <figure><img src="img/bay-window.jpg" alt="New bay window in a brick home"><figcaption>Bay window replacement</figcaption></figure>
+    <figure><img src="img/picture-window.jpg" alt="New white replacement windows in brick"><figcaption>Replacement windows</figcaption></figure>
+    <figure><img src="img/arched-window.jpg" alt="Arched top grid window"><figcaption>Arched top with grids</figcaption></figure>
+    <figure><img src="img/dormers.jpg" alt="Three dormer windows on a coastal home"><figcaption>Dormer windows</figcaption></figure>
+    <figure><img src="img/showroom.jpg" alt="The Window Guys showroom with window displays"><figcaption>Our FM 517 showroom</figcaption></figure>
+  </div>
+</div></section>
+
+<section class="block" style="padding-top:0"><div class="wrap">
+  <p class="eyebrow">How it works</p>
+  <h2>A simple process, start to finish</h2>
+  <p class="lead">Some customers simply email their measurements and have a quote the next day.</p>
+  <div class="steps">
+    <div class="step"><h3>Get a quote</h3><p>Call, email or send the short form below. No big sales pitch.</p></div>
+    <div class="step"><h3>We measure</h3><p>We take exact measurements for custom sized windows.</p></div>
+    <div class="step"><h3>We order</h3><p>Your windows are built to fit and we call you when they arrive.</p></div>
+    <div class="step"><h3>We install</h3><p>Furniture covered, cleanup every day, and a lifetime warranty.</p></div>
+  </div>
+</div></section>
+
+<section class="block reviews" id="reviews"><div class="wrap">
+  <p class="eyebrow" style="color:#7fb6dd">What customers say</p>
+  <h2>Neighbors who would hire us again</h2>
+  <div class="rating">★★★★★ &nbsp;4.7 on Google from 133 reviews</div>
+  <div class="quotes">
+    <div class="quote"><p>"No big sales pitch, just an honest quote and the best prices."</p><small>Homeowner review</small></div>
+    <div class="quote"><p>"Sam and crew were very punctual and very neat and organized. They took great care in my home to minimize the mess."</p><small>Homeowner review</small></div>
+    <div class="quote"><p>"These guys are specialists in hurricane windows. The install was outstanding."</p><small>Homeowner review, 26 impact windows</small></div>
+  </div>
+</div></section>
+
+<section class="block" id="quote"><div class="wrap area">
+  <div>
+    <p class="eyebrow">Service area</p>
+    <h2>South Houston to Galveston Island</h2>
+    <p class="lead">From Galveston Bay to Freeport, across Harris and Galveston counties.</p>
+    <div class="towns"><span>League City</span><span>Dickinson</span><span>Friendswood</span><span>Pearland</span><span>Clear Lake</span><span>Webster</span><span>Seabrook</span><span>Kemah</span><span>El Lago</span><span>Texas City</span><span>Alvin</span><span>Galveston</span><span>Pasadena</span><span>Houston</span></div>
+  </div>
+  <div class="quoteform">
+    <h3>Get a free quote</h3>
+    <p style="margin:0;color:#3d4e5e">Tell us about your windows and we will get back to you.</p>
+    <label>Name</label><div class="field"></div>
+    <label>Phone or email</label><div class="field"></div>
+    <label>How many windows, and any sizes you have</label><div class="field tall"></div>
+    <a class="btn" href="mailto:brad@thewindowguys.org">Send my request</a>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <div><h3>The Window Guys</h3>Veteran owned. Impact and replacement windows and patio doors.<br><img src="img/gentek.png" alt="Gentek Building Products"></div>
+  <div><h3>Showroom</h3>5908 FM 517 Rd E<br>Dickinson, TX 77539<br>Visits by appointment</div>
+  <div><h3>Contact</h3><a href="tel:2813381909">281.338.1909</a><br><a href="mailto:brad@thewindowguys.org">brad@thewindowguys.org</a></div>
+</div></footer>
+</body>
+</html>

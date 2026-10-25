@@ -1,0 +1,34 @@
+{
+  "business": "The Window Guys",
+  "type": "mockup",
+  "published": true,
+  "site_url": "https://www.windowguys.org",
+  "domain": "windowguys.org",
+  "sources_phrase": "windowguys.org",
+  "images": {
+    "house-front.jpg": "https://www.windowguys.org/IMG_0266.JPG",
+    "arched-entry.jpg": "https://www.windowguys.org/publishImages/Photo-Gallery~~element78.jpg",
+    "picture-window.jpg": "https://www.windowguys.org/IMG_0420.JPG",
+    "bay-window.jpg": "https://www.windowguys.org/publishImages/Photo-Gallery~~element70.JPG",
+    "arched-window.jpg": "https://www.windowguys.org/publishImages/Photo-Gallery~~element73.JPG",
+    "front-door.jpg": "https://www.windowguys.org/publishImages/Photo-Gallery~~element68.jpg",
+    "dormers.jpg": "https://www.windowguys.org/aaa123.JPG",
+    "impact-test.jpg": "https://www.windowguys.org/IMPACT_TEST.jpg",
+    "showroom.jpg": "https://www.windowguys.org/publishImages/index~~element48.jpg",
+    "gentek.png": "https://www.windowguys.org/gentek_LOGO.png"
+  },
+  "changes": [
+    {
+      "title": "One site that works on every phone.",
+      "text": "Phones are sent to a separate mobile site that Chrome marks Not Secure, and its Find Us button maps to a League City address instead of your FM 517 showroom. The concept is one secure site with tap to call and the right address everywhere."
+    },
+    {
+      "title": "Your reputation up front.",
+      "text": "You have 133 Google reviews averaging 4.7, and homeowners praise Brad, Sam and Damian by name, but the rating appears nowhere on your site. The concept puts it and three customer quotes on the homepage."
+    },
+    {
+      "title": "Your own work, not placeholders.",
+      "text": "The Products page still shows \"Double click here to add text\" and \"Patio doors coming soon.\" The concept leads with photos of your installs, your impact test and your showroom, plus a short quote request."
+    }
+  ]
+}
