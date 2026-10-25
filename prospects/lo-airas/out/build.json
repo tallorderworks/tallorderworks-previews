@@ -1,11 +1,12 @@
 {
   "slug": "lo-airas",
-  "type": "audit",
-  "rendered_at": "2026-10-19T21:59:52Z",
-  "source_commit": "fa6867c01f84a6f0ca8e677b6eb65dac9d0d0ffa",
+  "type": "mockup",
+  "rendered_at": "2026-10-25T21:54:48Z",
+  "source_commit": "91d632226eb6f18d0cedbff722f1fd33d798e011",
   "image_errors": [],
   "broken_images_in_mockup": [],
   "phone_horizontal_scroll": false,
   "copy_warnings": [],
-  "errors": []
+  "errors": [],
+  "preview_url": "https://preview.tallorderworks.com/lo-airas/"
 }
