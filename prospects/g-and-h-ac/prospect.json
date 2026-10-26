@@ -1,10 +1,26 @@
 {
   "business": "G&H Air Conditioning & Heating",
-  "type": "audit",
+  "type": "mockup",
   "published": false,
   "site_url": "https://www.gandhac.com",
   "domain": "gandhac.com",
   "sources_phrase": "gandhac.com",
-  "images": {},
-  "changes": []
+  "images": {
+    "banner.jpg": "https://www.gandhac.com/images/topimage.jpg",
+    "crew.jpg": "https://www.gandhac.com/images/2018/homepage2018-2.jpg"
+  },
+  "changes": [
+    {
+      "title": "Book your Heat Check from a phone.",
+      "text": "The current homepage asks people to call to schedule. The sketch puts a Schedule your Heat Check button right under the headline."
+    },
+    {
+      "title": "Tap to call at the top.",
+      "text": "Your number sits in the header and in a large button, so a homeowner in Katy can reach you in one tap."
+    },
+    {
+      "title": "Your maintenance agreement up front.",
+      "text": "The Preferred Customer Maintenance Agreement and its repair discounts get their own card instead of a line at the bottom of the page."
+    }
+  ]
 }
