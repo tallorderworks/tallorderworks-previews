@@ -1,11 +1,12 @@
 {
   "slug": "g-and-h-ac",
-  "type": "audit",
-  "rendered_at": "2026-10-20T21:56:50Z",
-  "source_commit": "ad595f969da3053c5a6b5ad464b63b73b9d333a7",
+  "type": "mockup",
+  "rendered_at": "2026-10-26T21:53:54Z",
+  "source_commit": "b67dcd77df0c3fd1d7f3c5a530b4e3722217ab0b",
   "image_errors": [],
   "broken_images_in_mockup": [],
   "phone_horizontal_scroll": false,
   "copy_warnings": [],
-  "errors": []
+  "errors": [],
+  "preview_url": "https://preview.tallorderworks.com/g-and-h-ac/"
 }
