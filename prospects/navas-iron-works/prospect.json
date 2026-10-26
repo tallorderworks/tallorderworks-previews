@@ -1,0 +1,33 @@
+{
+  "business": "Nava's Ornamental Iron Works",
+  "type": "mockup",
+  "published": true,
+  "site_url": "http://www.navasironworks.com",
+  "domain": "navasironworks.com",
+  "sources_phrase": "navasironworks.com",
+  "images": {
+    "logo.png": "http://www.navasironworks.com/wp-content/uploads/2015/05/navasironworks_logo.png",
+    "gate-arched.jpg": "http://www.navasironworks.com/wp-content/uploads/2016/12/14225410_1264607673590072_8005023660749159322_n.jpg",
+    "balcony.jpg": "http://www.navasironworks.com/wp-content/uploads/2015/06/balconie7.jpg",
+    "wine-door.jpg": "http://www.navasironworks.com/wp-content/uploads/2020/04/IMG_9081.jpeg",
+    "wine-room.jpg": "http://www.navasironworks.com/wp-content/uploads/2020/04/IMG_7530-1.jpg",
+    "spiral-stair.jpg": "http://www.navasironworks.com/wp-content/uploads/2020/04/spiral-stair-001.jpg",
+    "wood-gate.jpg": "http://www.navasironworks.com/wp-content/uploads/2016/12/007.jpg",
+    "stair-rail.jpg": "http://www.navasironworks.com/wp-content/uploads/2017/03/Picture1BANNER-PROOF-3.png",
+    "patio-rail.jpg": "http://www.navasironworks.com/wp-content/uploads/2016/12/54.jpg"
+  },
+  "changes": [
+    {
+      "title": "Your work on the first screen.",
+      "text": "Your best gates, stairs and wine doors are spread across 13 gallery pages. The concept opens with your own photos and a short gallery of six standout projects."
+    },
+    {
+      "title": "A quote request one tap away.",
+      "text": "The current site loads without a secure connection, so Chrome marks it Not Secure, and the phone number can't be tapped. The concept is secure, with tap to call and a Request a free quote button at the top."
+    },
+    {
+      "title": "Since 1964, said up front.",
+      "text": "Your About page tells the story of hand forged work since 1964, and customers praise your craftsmanship. The concept puts that history and three of their quotes on the homepage."
+    }
+  ]
+}
