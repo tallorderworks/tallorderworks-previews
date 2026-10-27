@@ -33,8 +33,8 @@ SITE = ROOT / "site"
 TEMPLATE = ROOT / "templates" / "preview.html"
 # Intro paragraph on every preview page. A prospect can pin its own with "intro" in prospect.json.
 DEFAULT_INTRO = ("Most customers check a business's website on their phone before they call. Tall Order Works "
-                 "is a Houston studio that builds websites designed to turn those visits into calls and quote "
-                 "requests, then keeps everything running so you never have to think about your website again. "
+                 "builds the website and the systems behind it that turn those visits into calls and quote "
+                 "requests, then keeps everything running so you never have to think about it again. "
                  "We put this homepage concept together for {{BUSINESS}} using details and photos from your "
                  "current site. Scroll to see the full page.")
 PREVIEW_BASE = "https://preview.tallorderworks.com"
