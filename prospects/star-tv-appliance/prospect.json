@@ -1,10 +1,26 @@
 {
   "business": "Star TV & Appliance Service",
-  "type": "audit",
+  "type": "mockup",
   "published": false,
   "site_url": "http://startvappliance.com",
   "domain": "startvappliance.com",
   "sources_phrase": "startvappliance.com",
-  "images": {},
-  "changes": []
+  "images": {
+    "logo.png": "http://startvappliance.com/images/logo.png",
+    "repair.png": "http://startvappliance.com/images/appliance-repair1.png"
+  },
+  "changes": [
+    {
+      "title": "Book a repair visit from a phone.",
+      "text": "The current homepage has no request form. The sketch puts a Request a repair visit button right under the headline."
+    },
+    {
+      "title": "Tap to call at the top.",
+      "text": "Your number is in the header and in a large button, so someone with a broken fridge can reach you in one tap."
+    },
+    {
+      "title": "Your $10 coupon up front.",
+      "text": "The online coupon for $10 off a service repair call gets its own card instead of sitting low on the page."
+    }
+  ]
 }
