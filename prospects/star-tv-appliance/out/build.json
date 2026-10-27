@@ -1,11 +1,12 @@
 {
   "slug": "star-tv-appliance",
-  "type": "audit",
-  "rendered_at": "2026-10-21T21:56:10Z",
-  "source_commit": "db411ebf00c6005a5d17ea128e0c2987700e756b",
+  "type": "mockup",
+  "rendered_at": "2026-10-27T21:51:07Z",
+  "source_commit": "1b27188a2180062afb2cb7916a7c5c0a5efd6fc1",
   "image_errors": [],
   "broken_images_in_mockup": [],
   "phone_horizontal_scroll": false,
   "copy_warnings": [],
-  "errors": []
+  "errors": [],
+  "preview_url": "https://preview.tallorderworks.com/star-tv-appliance/"
 }
