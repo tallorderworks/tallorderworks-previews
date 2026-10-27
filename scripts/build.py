@@ -32,9 +32,11 @@ PROSPECTS = ROOT / "prospects"
 SITE = ROOT / "site"
 TEMPLATE = ROOT / "templates" / "preview.html"
 # Intro paragraph on every preview page. A prospect can pin its own with "intro" in prospect.json.
-DEFAULT_INTRO = ("Tall Order Works is a Houston web design studio. We build websites designed to bring in "
-                 "more calls and customers, and we put this homepage concept together for {{BUSINESS}} using "
-                 "details and photos from your current site. Scroll to see the full page.")
+DEFAULT_INTRO = ("Most customers check a business's website on their phone before they call. Tall Order Works "
+                 "is a Houston studio that builds websites designed to turn those visits into calls and quote "
+                 "requests, then keeps everything running so you never have to think about your website again. "
+                 "We put this homepage concept together for {{BUSINESS}} using details and photos from your "
+                 "current site. Scroll to see the full page.")
 PREVIEW_BASE = "https://preview.tallorderworks.com"
 CALENDLY = "https://calendly.com/tallorderworks/mockup-walkthrough?a1="
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
