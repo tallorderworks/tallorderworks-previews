@@ -1,10 +1,14 @@
 {
   "business": "Goolsby Water Well Service, LLC",
-  "type": "audit",
+  "type": "mockup",
   "published": false,
   "site_url": "https://www.goolsbywaterwell.com",
   "domain": "goolsbywaterwell.com",
   "sources_phrase": "goolsbywaterwell.com",
   "images": {},
-  "changes": []
+  "changes": [
+    { "title": "Call from any phone.", "text": "Your office line becomes a tap to call button at the top of the page." },
+    { "title": "Emergencies up front.", "text": "Your Saturday on call emergency service is shown right under the headline." },
+    { "title": "Request service online.", "text": "A Request service button gives customers a way to reach you besides calling." }
+  ]
 }
