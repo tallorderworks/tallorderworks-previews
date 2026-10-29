@@ -1,10 +1,16 @@
 {
   "business": "Chucks Water Well Service",
-  "type": "audit",
+  "type": "mockup",
   "published": false,
   "site_url": "https://chuckswaterwell.com",
   "domain": "chuckswaterwell.com",
   "sources_phrase": "chuckswaterwell.com",
-  "images": {},
-  "changes": []
+  "images": {
+    "truck.jpg": "https://chuckswaterwell.com/assets/images/ckingtruckpic.35674955_std.jpg"
+  },
+  "changes": [
+    { "title": "Call from any phone.", "text": "Your number becomes a tap to call button at the top of the page." },
+    { "title": "Every kind of well up front.", "text": "Residential, commercial, agricultural, windmill and hand pump service are shown right under the headline." },
+    { "title": "Request service online.", "text": "A Request service button gives customers a way to reach you besides calling." }
+  ]
 }
