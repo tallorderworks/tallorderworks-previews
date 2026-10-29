@@ -1,0 +1,23 @@
+{
+  "business": "Renovation Masters",
+  "type": "mockup",
+  "published": true,
+  "site_url": "https://www.renovationmasters.biz",
+  "domain": "renovationmasters.biz",
+  "sources_phrase": "renovationmasters.biz",
+  "images": {
+    "logo.jpg": "https://www.renovationmasters.biz/RenovationMasD36aR00aP01ZL_copy.jpg",
+    "rocker-before.jpg": "https://www.renovationmasters.biz/FURNITURE_PICS/BEFORES_AFTER/DSC03974.JPG",
+    "rocker-after.jpg": "https://www.renovationmasters.biz/FURNITURE_PICS/BEFORES_AFTER/DSC04239.JPG",
+    "table-before.jpg": "https://www.renovationmasters.biz/FURNITURE_PICS/BEFORES_AFTER/DSC06625.JPG",
+    "table-after.jpg": "https://www.renovationmasters.biz/FURNITURE_PICS/BEFORES_AFTER/DSC06631.JPG",
+    "seat-before.jpg": "https://www.renovationmasters.biz/cars/IMG_2824.JPG",
+    "seat-after.jpg": "https://www.renovationmasters.biz/cars/IMG_2826.JPG",
+    "chairs.jpg": "https://www.renovationmasters.biz/FURNITURE_PICS/BEFORES_AFTER/162709_179934835363193_100000400342017_479424_3579253_n.jpg"
+  },
+  "changes": [
+    { "title": "Call or send a photo from any phone.", "text": "The current Homestead site has no mobile layout, so phones show a shrunken desktop page, and the phone number can't be tapped. The concept puts tap to call and a send us a photo quote request on every screen." },
+    { "title": "Your before and after work up front.", "text": "Your best restorations sit on inner pages as small thumbnails. The concept opens with the rocker, the table edge and the truck seat, side by side before and after." },
+    { "title": "Today's message, not a 2020 notice.", "text": "The homepage still leads with a note from Scott dated March 2020. The concept shows your current hours, your insurance claim help and the customer comments from your About page instead." }
+  ]
+}
