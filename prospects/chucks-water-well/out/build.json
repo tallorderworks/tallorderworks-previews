@@ -1,11 +1,12 @@
 {
   "slug": "chucks-water-well",
-  "type": "audit",
-  "rendered_at": "2026-10-25T22:04:24Z",
-  "source_commit": "2a48ecb9e1fb5cd70a4a40011f7695ebe89b0f5b",
+  "type": "mockup",
+  "rendered_at": "2026-10-29T23:57:37Z",
+  "source_commit": "b160f2f0ac35e8373348a6d04d91049687c9b17a",
   "image_errors": [],
   "broken_images_in_mockup": [],
   "phone_horizontal_scroll": false,
   "copy_warnings": [],
-  "errors": []
+  "errors": [],
+  "preview_url": "https://preview.tallorderworks.com/chucks-water-well/"
 }
