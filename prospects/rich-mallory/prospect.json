@@ -1,0 +1,24 @@
+{
+  "business": "Rich Mallory Training",
+  "type": "mockup",
+  "published": true,
+  "site_url": "https://www.instagram.com/rich_mallory713/",
+  "domain": "instagram.com/rich_mallory713",
+  "intro": "Most people check a trainer online before they ever reach out. Tall Order Works builds websites that turn that interest into booked sessions. We put this website concept together for {{BUSINESS}} using photos from your Instagram. Scroll to see the full page.",
+  "sources_phrase": "@rich_mallory713 on Instagram",
+  "images": {},
+  "changes": [
+    {
+      "title": "A home beyond Instagram.",
+      "text": "Your training gets its own site that people can find, share, and come back to."
+    },
+    {
+      "title": "Booking built in.",
+      "text": "Private training and group boot camp each get a clear button, and a short form collects name, phone, and goals."
+    },
+    {
+      "title": "Made for phones.",
+      "text": "A Book now bar stays at the bottom of every screen so a visitor can reach you in one tap."
+    }
+  ]
+}
