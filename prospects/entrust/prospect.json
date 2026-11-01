@@ -1,0 +1,17 @@
+{
+  "business": "Entrust Professional Inspectors",
+  "type": "mockup",
+  "published": true,
+  "site_url": "https://entrustinspectors.com",
+  "domain": "entrustinspectors.com",
+  "sources_phrase": "entrustinspectors.com and your Spectora profile",
+  "images": {
+    "logo.png": "https://entrustinspectors.com/images/main-logo.png",
+    "ken.jpg": "https://cdn.spectora.com/users/images/010/648/626/medium_square/img_0586.jpeg?1783567254"
+  },
+  "changes": [
+    { "title": "A live site instead of a coming soon page.", "text": "Right now entrustinspectors.com only says a new website is on the way. The concept gives buyers, builders and agents your services, service area and contact details the moment they land." },
+    { "title": "Booking that actually works.", "text": "The current page says Schedule an Appointment but has no button or phone number. The concept links every Schedule button to your existing Spectora booking page and adds tap to call on phones." },
+    { "title": "Ken front and center.", "text": "People choose an inspector they trust. The concept introduces Ken by name and photo, with your Sugar Land office address and direct line." }
+  ]
+}
