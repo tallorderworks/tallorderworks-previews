@@ -254,7 +254,16 @@ def assemble_site():
     if SITE.exists():
         shutil.rmtree(SITE)
     SITE.mkdir()
-    (SITE / "robots.txt").write_text("User-agent: *\nDisallow: /\n")
+    # A prospect can open its concept page to crawlers with "crawlable": true
+    # (for example so a site builder can import it). Everything else stays blocked.
+    allow = []
+    for folder in sorted(PROSPECTS.iterdir()):
+        try:
+            if folder.is_dir() and not folder.name.startswith("_") and json.loads((folder / "prospect.json").read_text()).get("crawlable"):
+                allow.append(f"Allow: /{folder.name}/concept/\n")
+        except Exception:
+            pass
+    (SITE / "robots.txt").write_text("User-agent: *\n" + "".join(allow) + "Disallow: /\n")
     (SITE / "index.html").write_text(
         '<!doctype html><meta charset="utf-8"><meta name="robots" content="noindex">'
         '<meta http-equiv="refresh" content="0; url=https://tallorderworks.com">'

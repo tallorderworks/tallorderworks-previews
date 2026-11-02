@@ -37,5 +37,6 @@
       "title": "One consistent look.",
       "text": "The current homepage mixes in colors that are not yours, like the bright blue Let's Explore headline. The concept uses only the red, yellow, black and white from your logo."
     }
-  ]
+  ],
+  "crawlable": true
 }
