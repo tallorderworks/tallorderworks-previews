@@ -241,8 +241,12 @@ def render_preview_page(p: dict, slug: str) -> str:
     }
     intro = p.get("intro") or DEFAULT_INTRO
     values["INTRO"] = html.escape(intro.replace("{{BUSINESS}}", biz))
+    values["LABEL"] = html.escape(p.get("label") or "A redesign concept for")
     for k, v in values.items():
         tpl = tpl.replace("{{" + k + "}}", v)
+    if p.get("friend"):
+        # Friend pages: no walkthrough button, no Start smaller pricing band.
+        tpl = re.sub(r"\s*<!--pitch-->.*?<!--/pitch-->", "", tpl, flags=re.S)
     return tpl
 
 

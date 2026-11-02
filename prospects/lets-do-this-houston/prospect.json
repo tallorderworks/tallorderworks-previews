@@ -1,0 +1,33 @@
+{
+  "business": "Let's Do This Houston",
+  "type": "mockup",
+  "published": true,
+  "friend": true,
+  "label": "A homepage concept for",
+  "site_url": "https://www.letsdothishouston.com",
+  "domain": "letsdothishouston.com",
+  "sources_phrase": "letsdothishouston.com",
+  "intro": "Alan, here is a homepage concept for Let's Do This Houston. It gives public ride tickets and private tours their own clear paths so people stop sending calendar requests, makes every line easy to read, and keeps your red and yellow consistent. It all stays in Wix, and anything here can change. Scroll to see the full page.",
+  "images": {
+    "logo.png": "https://static.wixstatic.com/media/b131b0_6a6238f78d6a4d11bdd1caa94f9f5d0e~mv2.png/v1/fit/w_400,h_400,q_90/b131b0_6a6238f78d6a4d11bdd1caa94f9f5d0e~mv2.png",
+    "hero-led-night.jpg": "https://static.wixstatic.com/media/b131b0_4a5c9a7a4f734257818dc5a632ceff03~mv2.jpg/v1/fit/w_1600,h_1600,q_85/b131b0_4a5c9a7a4f734257818dc5a632ceff03~mv2.jpg",
+    "bike-tours.jpg": "https://static.wixstatic.com/media/b131b0_5301c062ebd84eb28644dadb794300bd~mv2.jpg/v1/fit/w_1600,h_1600,q_85/b131b0_5301c062ebd84eb28644dadb794300bd~mv2.jpg",
+    "bus-tours.jpg": "https://static.wixstatic.com/media/b131b0_882bcb21fdb74a4caeb76082b7faa464~mv2.png/v1/fit/w_1600,h_1600,q_85/b131b0_882bcb21fdb74a4caeb76082b7faa464~mv2.png",
+    "mobile-hoops.jpg": "https://static.wixstatic.com/media/b131b0_48d2bdb1285347d299d5829790204368~mv2.jpeg/v1/fit/w_1600,h_1600,q_85/b131b0_48d2bdb1285347d299d5829790204368~mv2.jpeg",
+    "third-ward-bikes.jpg": "https://static.wixstatic.com/media/b131b0_a2dd8810a3894025bce92a7b87d821c4~mv2.jpg/v1/fit/w_1600,h_1600,q_85/b131b0_a2dd8810a3894025bce92a7b87d821c4~mv2.jpg"
+  },
+  "changes": [
+    {
+      "title": "Tickets and private tours, clearly separated.",
+      "text": "Your group tours share names with your public rides, so people click Book Now and land on the private calendar. The concept gives each its own path and labels every private tour as private."
+    },
+    {
+      "title": "Text you can read everywhere.",
+      "text": "Some text on the current site blends into its background. The concept pairs every color with a background it stands out against."
+    },
+    {
+      "title": "One consistent look.",
+      "text": "The current homepage mixes in colors that are not yours, like the bright blue Let's Explore headline. The concept uses only the red, yellow, black and white from your logo."
+    }
+  ]
+}

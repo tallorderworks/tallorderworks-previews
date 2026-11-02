@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Let's Do This Houston | Guided Bike Tours in 3rd Ward</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&display=swap">
+<style>
+:root{--bg:#0B0B0B;--card:#171717;--line:#2E2E2E;--text:#FFFFFF;--muted:#C8C8C8;--red:#E53411;--btn:#C92D0E;--btn-hover:#A92408;--sun:#FFD230}
+*{box-sizing:border-box}
+html,body{margin:0;overflow-x:hidden}
+body{background:var(--bg);color:var(--text);font:17px/1.6 'Bricolage Grotesque',system-ui,sans-serif}
+img{max-width:100%;display:block}
+a{color:var(--sun)}
+.wrap{max-width:1312px;margin:0 auto;padding:0 64px}
+.display{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;line-height:.95;margin:0}
+.eyebrow{font-size:14px;font-weight:800;letter-spacing:2px;color:var(--sun);text-transform:uppercase}
+.red{color:var(--red)}
+.btn{display:inline-block;background:var(--btn);color:#fff;text-decoration:none;font-weight:800;padding:16px 28px;border-radius:999px;text-align:center}
+.btn:hover{background:var(--btn-hover)}
+.btn.dark{background:var(--bg)}
+.btn.ghost{background:transparent;border:1.5px solid #5A5A5A;color:#fff}
+.btn.outline{background:transparent;border:1.5px solid #fff;color:#fff}
+.util{background:var(--btn);color:#fff;text-align:center;font-size:14px;font-weight:700;padding:10px 20px}
+.util a{color:#fff}
+header{border-bottom:1px solid #262626}
+.nav{display:flex;align-items:center;justify-content:space-between;min-height:88px;gap:24px}
+.brand{display:flex;align-items:center;gap:14px;color:#fff;text-decoration:none;font-family:Anton,Impact,sans-serif;font-size:26px;line-height:1}
+.brand img{width:60px;height:60px;object-fit:contain}
+.links{display:flex;align-items:center;gap:30px;font-weight:600}
+.links a{color:#E0E0E0;text-decoration:none}
+.links a.btn{color:#fff;padding:14px 22px}
+.hero{display:grid;grid-template-columns:7fr 5fr;gap:48px;align-items:end;padding:72px 0 88px}
+.hero h1{font-size:clamp(64px,10vw,150px);line-height:.9}
+.hero p{font-size:22px;color:var(--muted);max-width:600px;margin:28px 0}
+.ctas{display:flex;gap:16px;flex-wrap:wrap}
+.hero-photo{width:100%;height:560px;object-fit:cover;object-position:center 60%;border-radius:28px}
+.next{background:#fff;color:var(--bg);border-radius:22px;padding:26px 32px;display:flex;align-items:center;gap:32px}
+.next .tag{font-family:Anton,Impact,sans-serif;letter-spacing:1.5px;background:var(--bg);color:var(--sun);padding:10px 16px;border-radius:10px;white-space:nowrap}
+.next .info{flex:1}
+.next strong{display:block;font-size:24px;line-height:1.25}
+.next span{color:#4A4A4A}
+section{scroll-margin-top:20px}
+.ways{padding:100px 0 0}
+.ways h2,.section-head h2{font-size:clamp(48px,6vw,88px)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:40px}
+.way{border-radius:26px;padding:44px;display:flex;flex-direction:column;gap:18px}
+.way.public{background:var(--btn)}
+.way.private{background:var(--card);border:1px solid var(--line)}
+.way h3{font-size:clamp(34px,4vw,52px)}
+.way p{margin:0;font-size:18px}
+.way ol{margin:0;padding-left:22px;font-weight:700}
+.way .btn{align-self:flex-start}
+.pill{align-self:flex-start;font-size:13px;font-weight:800;letter-spacing:1.6px;padding:8px 14px;border-radius:999px}
+.public .pill{background:var(--bg);color:var(--sun)}
+.private .pill{border:1px solid #5A5A5A}
+.exp{padding:120px 0 100px}
+.section-head{display:flex;justify-content:space-between;align-items:flex-end;gap:32px}
+.section-head p{max-width:440px;color:var(--muted);margin:0}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:48px}
+.exp-card{background:var(--card);border:1px solid var(--line);border-radius:26px;overflow:hidden}
+.exp-card img{width:100%;height:320px;object-fit:cover}
+.exp-card div{padding:30px;display:flex;flex-direction:column;gap:12px}
+.exp-card h3{font-size:40px}
+.exp-card p{margin:0;color:var(--muted)}
+.exp-card a{font-weight:800;text-decoration:none}
+.cal{background:#fff;color:var(--bg);padding:110px 0}
+.cal .wrap{display:grid;grid-template-columns:4fr 7fr;gap:72px}
+.cal .eyebrow{color:var(--btn)}
+.cal h2{font-size:80px;margin:20px 0}
+.cal p{color:#4A4A4A;margin:0 0 28px}
+.rows{border-top:2px solid var(--bg)}
+.row{display:flex;align-items:center;gap:28px;padding:20px 0;border-bottom:1px solid #DDD}
+.date{width:72px;flex-shrink:0;text-align:center}
+.date small{display:block;font-weight:800;letter-spacing:1.5px;color:var(--btn);font-size:13px}
+.date b{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:44px;line-height:1}
+.row .what{flex:1}
+.row .what strong{display:block;font-size:21px;line-height:1.25}
+.row .what span{font-size:15px;color:#555}
+.row .btn{padding:13px 20px;font-size:15px;flex-shrink:0}
+.tours{padding:120px 0}
+.tours .section-head p{max-width:620px}
+.tour{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:28px;display:flex;flex-direction:column;gap:10px}
+.tour .cat{align-self:flex-start;font-size:12px;font-weight:800;letter-spacing:1.4px;color:var(--muted);border:1px solid #3A3A3A;padding:6px 11px;border-radius:999px}
+.tour h3{margin:4px 0 0;font-size:24px;line-height:1.2}
+.tour p{margin:0;color:var(--muted);flex:1}
+.tour .meta{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line);padding-top:14px;color:var(--muted)}
+.tour .meta b{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:26px;color:var(--sun)}
+.tour a{font-weight:800;text-decoration:none}
+.tour.big{background:var(--btn);border:0}
+.tour.big h3{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;font-size:38px;line-height:1}
+.tour.big p{color:#fff}
+.about{background:var(--card);padding:110px 0}
+.about .wrap{display:grid;grid-template-columns:5fr 6fr;gap:72px;align-items:center}
+.about img{width:100%;height:560px;object-fit:cover;border-radius:28px}
+.about h2{font-size:clamp(44px,5vw,76px);margin:20px 0}
+.about p{color:var(--muted)}
+.about blockquote{margin:24px 0 0;padding-top:24px;border-top:1px solid #3A3A3A;font-size:28px;font-weight:700;line-height:1.35}
+.members{padding:110px 0}
+.box{border-radius:26px;padding:44px;display:flex;flex-direction:column;gap:16px}
+.box.outline{border:1px solid var(--line)}
+.box.sun{background:var(--sun);color:var(--bg)}
+.box h3{font-size:52px}
+.box p{margin:0}
+.box.outline p{color:var(--muted)}
+.form{display:flex;gap:12px;align-items:flex-end;flex-wrap:wrap}
+.form label{flex:1;min-width:200px;display:flex;flex-direction:column;gap:8px;font-weight:800;font-size:14px}
+.form input{height:54px;border:1.5px solid var(--bg);border-radius:999px;padding:0 20px;font:inherit;background:#fff}
+.form button{height:54px;padding:0 26px;border:0;border-radius:999px;background:var(--bg);color:#fff;font:inherit;font-weight:800;cursor:pointer}
+footer{border-top:1px solid #262626;padding:64px 0 48px}
+.foot{display:grid;grid-template-columns:6fr 3fr 3fr;gap:24px}
+.foot .display{font-size:clamp(64px,8vw,120px);line-height:.9}
+.foot h4{margin:0 0 12px;font-size:13px;letter-spacing:1.6px;color:#9A9A9A}
+.foot a{display:block;color:#fff;text-decoration:none;margin-bottom:8px}
+.legal{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-top:48px;font-size:14px;color:#9A9A9A}
+.legal a{color:#9A9A9A;margin-left:24px}
+@media (max-width:1100px){
+  .links a:not(.btn){display:none}
+  .hero,.cal .wrap,.about .wrap{grid-template-columns:1fr}
+  .grid3{grid-template-columns:1fr 1fr}
+}
+@media (max-width:720px){
+  body{font-size:16px}
+  .wrap{padding:0 20px}
+  .util{font-size:13px}
+  .brand{font-size:20px}.brand img{width:44px;height:44px}
+  .links a.btn{padding:11px 16px;font-size:14px}
+  .hero{padding:36px 0 40px;gap:28px}
+  .hero p{font-size:17px;margin:20px 0}
+  .ctas .btn{width:100%}
+  .hero-photo{height:300px;border-radius:22px}
+  .next{flex-direction:column;align-items:stretch;gap:12px;padding:20px}
+  .next .tag{align-self:flex-start}
+  .ways{padding-top:56px}
+  .grid2,.grid3{grid-template-columns:1fr}
+  .way{padding:26px}
+  .way .btn{align-self:stretch}
+  .exp,.tours,.members{padding:64px 0}
+  .section-head{flex-direction:column;align-items:flex-start}
+  .exp-card img{height:240px}
+  .cal{padding:64px 0}
+  .cal h2{font-size:52px}
+  .row{flex-wrap:wrap;gap:14px 18px}
+  .row .btn{width:100%}
+  .about{padding:64px 0}
+  .about img{height:300px}
+  .box{padding:26px}.box h3{font-size:40px}
+  .foot{grid-template-columns:1fr 1fr}
+  .foot>div:first-child{grid-column:1/-1}
+  .legal a{margin:0 16px 0 0}
+}
+</style>
+</head>
+<body>
+
+<div class="util">New for 2026: sign your rider waiver online before you arrive. <a href="#waiver">Sign the waiver</a></div>
+
+<header><div class="wrap nav">
+  <a class="brand" href="#top"><img src="img/logo.png" alt="Let's Do This Houston logo">LET’S DO THIS <span style="color:var(--sun)">HOUSTON</span></a>
+  <nav class="links" aria-label="Main">
+    <a href="https://www.letsdothishouston.com/calendar">Public Rides</a>
+    <a href="#rides">Experiences</a>
+    <a href="https://www.letsdothishouston.com/bookprivateevents">Private Tours</a>
+    <a href="https://www.letsdothishouston.com/service-page/3rd-ward-historical-bike-tour">History Tours</a>
+    <a href="#about">About</a>
+    <a class="btn" href="https://www.letsdothishouston.com/calendar">Buy ride tickets</a>
+  </nav>
+</div></header>
+
+<main>
+<section id="top" class="wrap hero">
+  <div>
+    <div class="eyebrow">Riding from 3rd Ward since 2015</div>
+    <h1 class="display" style="margin-top:24px">See Houston<br><span class="red">on two</span><br>wheels.</h1>
+    <p>Guided bike tours for every level, with music, LED lights, and pit stops at Houston’s best local spots. Grab your friends. We’ll handle the route.</p>
+    <div class="ctas">
+      <a class="btn" href="#calendar">Buy tickets to a ride</a>
+      <a class="btn ghost" href="#private">Book a private tour</a>
+    </div>
+  </div>
+  <img class="hero-photo" src="img/hero-led-night.jpg" alt="Riders with glowing LED bike wheels overlooking the Houston skyline at night">
+</section>
+
+<div class="wrap">
+  <div class="next">
+    <div class="tag">NEXT RIDE</div>
+    <div class="info"><strong>Karaoke Night Light Bike Ride to Boozers</strong><span>Thursday, November 5 · 7:00 PM · 3rd Ward Tours</span></div>
+    <a class="btn" href="https://www.letsdothishouston.com/events/karaoke-night-light-bike-ride-to-boozers-2026-11-05-19-00">Buy tickets</a>
+  </div>
+</div>
+
+<section class="wrap ways" aria-label="Two ways to ride">
+  <h2 class="display">Two ways <span class="red">to ride.</span></h2>
+  <div class="grid2">
+    <article class="way public">
+      <span class="pill">PUBLIC RIDES</span>
+      <h3 class="display">Join a scheduled ride</h3>
+      <p>Riding solo or with a few friends? Pick a date, buy your ticket, and you are registered. Bike and LED lights included. No request, no waiting.</p>
+      <ol><li>Pick a ride on the calendar</li><li>Buy your ticket</li><li>Sign the waiver and pull up</li></ol>
+      <a class="btn dark" href="#calendar">See dates and buy tickets</a>
+    </article>
+    <article class="way private">
+      <span class="pill">PRIVATE TOURS</span>
+      <h3 class="display">Book a ride for your group</h3>
+      <p style="color:#E0E0E0">Birthdays, team outings, field trips and reunions. Choose a tour, pick the date that works for your crew, and the whole ride is yours.</p>
+      <ol><li>Choose a private tour</li><li>Pick your group’s date</li><li>Book it for your crew</li></ol>
+      <a class="btn outline" href="#private">Browse private tours</a>
+    </article>
+  </div>
+</section>
+
+<section id="rides" class="wrap exp">
+  <div class="section-head">
+    <h2 class="display">Pick your<br>experience.</h2>
+    <p>Two wheels, a party bus, or a full basketball court that rolls up to your event. However you want to link up, we’ve got you.</p>
+  </div>
+  <div class="grid3">
+    <article class="exp-card"><img src="img/bike-tours.jpg" alt="Riders gathering with their bikes at the 3rd Ward start point at night"><div><h3 class="display">Bike Tours</h3><p>Explore the city on two wheels, day or night. Beginner friendly routes with music and pit stops.</p><a href="https://www.letsdothishouston.com/bookprivateevents">Book a bike tour →</a></div></article>
+    <article class="exp-card"><img src="img/bus-tours.jpg" alt="The party bus parked outside a venue"><div><h3 class="display">Bus Tours</h3><p>A curated experience on a party bus, built for wine bar crawls, birthdays, and family outings.</p><a href="https://www.letsdothishouston.com/service-page/byob-private-bus-tour">Book a bus tour →</a></div></article>
+    <article class="exp-card"><img src="img/mobile-hoops.jpg" alt="The mobile hoops trailer loaded with basketballs at an outdoor event"><div><h3 class="display">Mobile Hoops</h3><p>Bring the court to you. The mobile hoops trailer turns any event into a shootout.</p><a href="https://www.letsdothishouston.com/service-page/lets-shoot-mobile-hoops-htx">Book the trailer →</a></div></article>
+  </div>
+</section>
+
+<section id="calendar" class="cal"><div class="wrap">
+  <div>
+    <div class="eyebrow">Public rides · Buy tickets</div>
+    <h2 class="display">Pull up.<br>Ride out.</h2>
+    <p>Themed rides every month, from karaoke nights to 90s R&amp;B and brunch at The Savoy. Bikes and LED lights are included. Pick a date, buy your ticket, and you are registered.</p>
+    <a class="btn dark" href="https://www.letsdothishouston.com/calendar">View full calendar</a>
+  </div>
+  <div class="rows">
+    <div class="row"><div class="date"><small>NOV</small><b>05</b></div><div class="what"><strong>Karaoke Night Light Bike Ride to Boozers</strong><span>Thursday · 7:00 PM · Multiple dates</span></div><a class="btn" href="https://www.letsdothishouston.com/events/karaoke-night-light-bike-ride-to-boozers-2026-11-05-19-00">Buy tickets</a></div>
+    <div class="row"><div class="date"><small>NOV</small><b>06</b></div><div class="what"><strong>I Cruised the City to Brent Faiyaz Night Light Bike Ride</strong><span>Friday · Themed ride</span></div><a class="btn" href="https://www.letsdothishouston.com/events/i-cruised-the-city-to-brent-faiyaz-night-light-bike-ride">Buy tickets</a></div>
+    <div class="row"><div class="date"><small>NOV</small><b>07</b></div><div class="what"><strong>2000s R&amp;B &amp; Hip Hop Night Light Bike Ride</strong><span>Saturday · 5:00 PM · Multiple dates</span></div><a class="btn" href="https://www.letsdothishouston.com/events/2000s-r-b-hip-hop-night-light-bike-ride-2026-11-07-17-00">Buy tickets</a></div>
+    <div class="row"><div class="date"><small>NOV</small><b>08</b></div><div class="what"><strong>Mornings Miles Bikeride</strong><span>Sunday · 3409 Emancipation Ave</span></div><a class="btn" href="https://www.letsdothishouston.com/events/mornings-miles-bikeride-2">Buy tickets</a></div>
+    <div class="row"><div class="date"><small>NOV</small><b>13</b></div><div class="what"><strong>90’s R&amp;B Night Light Bike Ride | Monthly Series</strong><span>Friday · 7:00 PM · Monthly series</span></div><a class="btn" href="https://www.letsdothishouston.com/events/90s-r-b-night-light-bike-ride-monthly-series-2026-11-13-19-00">Buy tickets</a></div>
+    <div class="row"><div class="date"><small>NOV</small><b>14</b></div><div class="what"><strong>Bike &amp; Brunch to The Savoy | Monthly</strong><span>Saturday · 11:00 AM · Monthly series</span></div><a class="btn" href="https://www.letsdothishouston.com/events/bike-brunch-to-the-savoy-monthly-2026-11-14-11-00">Buy tickets</a></div>
+    <div class="row"><div class="date"><small>NOV</small><b>14</b></div><div class="what"><strong>Megan Thee Stallion Night Light Bike Ride</strong><span>Saturday · Themed ride</span></div><a class="btn" href="https://www.letsdothishouston.com/events/megan-thee-stallion-night-light-bike-ride-5">Buy tickets</a></div>
+    <div class="row"><div class="date"><small>NOV</small><b>21</b></div><div class="what"><strong>Night Light Bike Ride To The Post HTX | Monthly</strong><span>Saturday · 5:00 PM · Monthly series</span></div><a class="btn" href="https://www.letsdothishouston.com/events/night-light-bike-ride-to-the-post-htx-monthly-2026-11-21-17-00">Buy tickets</a></div>
+  </div>
+</div></section>
+
+<section id="private" class="wrap tours">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">Private &amp; group tours · Your date</div>
+      <h2 class="display" style="margin:18px 0">Your crew.<br>Your route.</h2>
+      <p>These book the whole ride for your group on a date you choose. Just want to hop on a themed ride? <a href="#calendar" style="font-weight:800">Buy a ticket to a public ride</a>.</p>
+    </div>
+  </div>
+  <div class="grid3">
+    <article class="tour"><span class="cat">SOCIAL</span><h3>Private Night Light Ride: Eat, Drink, Vibe</h3><p>Explore Houston like never before on LED bikes.</p><div class="meta"><span>3 hours</span><b>$45</b></div><a href="https://www.letsdothishouston.com/booking-calendar/night-light-bike-ride-eat-drink-vibe">Pick your group’s date →</a></article>
+    <article class="tour"><span class="cat">SOCIAL</span><h3>Private Bike &amp; Brunch Tour</h3><p>Vibe to your favorite music and cruise the city with a brunch stop along the way.</p><div class="meta"><span>3 hours</span><b>$45</b></div><a href="https://www.letsdothishouston.com/booking-calendar/private-bike-brunch-tour">Pick your group’s date →</a></article>
+    <article class="tour"><span class="cat">SOCIAL</span><h3>BYOB Private Bus Tour</h3><p>Customize your own private bus tour with friends or family.</p><div class="meta"><span>3 hours</span><b>From $55</b></div><a href="https://www.letsdothishouston.com/booking-calendar/byob-private-bus-tour">Pick your group’s date →</a></article>
+    <article class="tour"><span class="cat">SOCIAL</span><h3>Private Hip Hop &amp; R&amp;B LED Ride</h3><p>Your favorite tracks, glowing bikes, and the Houston skyline.</p><div class="meta"><span>2.5 hours</span><b>$40</b></div><a href="https://www.letsdothishouston.com/booking-calendar/hip-hop-r-b-led-bike-ride-1">Pick your group’s date →</a></article>
+    <article class="tour"><span class="cat">SOCIAL</span><h3>E Bike Guided City Tour</h3><p>Cruise the city in style on brand new e bikes.</p><div class="meta"><span>2 hours</span><b>$55</b></div><a href="https://www.letsdothishouston.com/booking-calendar/e-bike-guided-city-tour">Pick your group’s date →</a></article>
+    <article class="tour"><span class="cat">SOCIAL</span><h3>The HTX Mural Bike Tour</h3><p>See some of Houston’s best street art from the saddle.</p><div class="meta"><span>2.5 hours</span><b>$40</b></div><a href="https://www.letsdothishouston.com/booking-calendar/the-htx-mural-bike-tour">Pick your group’s date →</a></article>
+    <article class="tour"><span class="cat">EDUCATION</span><h3>3rd Ward Historical Bike Tour</h3><p>Ride through the stories and landmarks that shaped 3rd Ward.</p><div class="meta"><span>2 hours</span><b>$40</b></div><a href="https://www.letsdothishouston.com/booking-calendar/3rd-ward-historical-bike-tour">Pick your group’s date →</a></article>
+    <article class="tour"><span class="cat">EDUCATION</span><h3>High School &amp; College Bike Tour</h3><p>The perfect field trip: active, local, and unforgettable.</p><div class="meta"><span>2 hours</span><b>$40</b></div><a href="https://www.letsdothishouston.com/booking-calendar/high-school-higher-education-bike-tour">Pick your group’s date →</a></article>
+    <article class="tour"><span class="cat">CORPORATE</span><h3>Corporate Team Building Bike Tour</h3><p>The perfect stress reliever. Get your team out of the office and on the road.</p><div class="meta"><span>3 hours</span><b>$50</b></div><a href="https://www.letsdothishouston.com/booking-calendar/corporate-teambuilding-bike-tour-1">Pick your group’s date →</a></article>
+    <article class="tour"><span class="cat">EVENTS</span><h3>Let’s Shoot Mobile Hoops HTX</h3><p>Bring the court to you: shoot, score, and play.</p><div class="meta"><span>3 hours</span><b>Call us</b></div><a href="https://www.letsdothishouston.com/booking-calendar/lets-shoot-mobile-hoops-htx">Pick your group’s date →</a></article>
+    <article class="tour"><span class="cat">SOLO</span><h3>Self Guided Bike Tour</h3><p>Grab a bike and cruise the city at your own pace.</p><div class="meta"><span>By the hour</span><b>$20/hr</b></div><a href="https://www.letsdothishouston.com/booking-calendar/self-guided-bike-tour">Pick your date →</a></article>
+    <article class="tour big"><h3>Planning something bigger?</h3><p>Birthdays, reunions, conferences, and campus events. Tell us the vibe and we’ll build the ride.</p><a class="btn dark" style="align-self:flex-start;color:#fff" href="https://www.letsdothishouston.com/bookprivateevents">Request a quote</a></article>
+  </div>
+</section>
+
+<section id="about" class="about"><div class="wrap">
+  <img src="img/third-ward-bikes.jpg" alt="Rows of orange bikes lined up at the 3rd Ward bike stand">
+  <div>
+    <div class="eyebrow">Meet the founder</div>
+    <h2 class="display">One ride in 2015 started it all.</h2>
+    <p>Alan Moore was born in Chicago, raised in Memphis, and graduated from Prairie View A&amp;M with a degree in Social Work. He spent years teaching life skills to at risk youth before a single bike ride through Houston changed his direction.</p>
+    <p>Today Let’s Do This Houston connects riders with music, local businesses, and the history of 3rd Ward, one route at a time.</p>
+    <blockquote>“Don’t wait for the perfect time, you will wait forever.”</blockquote>
+  </div>
+</div></section>
+
+<section class="wrap members">
+  <div class="grid2" style="margin-top:0">
+    <div class="box outline">
+      <h3 class="display">Ride more.<br>Pay less.</h3>
+      <p>Memberships and the Let’s Do This Loyalty Program reward the regulars who ride with us every month.</p>
+      <div class="ctas"><a class="btn" href="https://www.letsdothishouston.com/">See memberships</a></div>
+    </div>
+    <form class="box sun" onsubmit="return false">
+      <h3 class="display">Never miss<br>a ride.</h3>
+      <p>New rides, themes, and first dibs on tickets, straight to your inbox.</p>
+      <div class="form"><label>Email address<input type="email" autocomplete="email"></label><button type="submit">Subscribe</button></div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap">
+  <div class="foot">
+    <div class="display">Let’s do<br><span class="red">this.</span></div>
+    <div><h4>VISIT</h4><a href="https://maps.google.com/?q=3409+Emancipation+Ave+Houston+TX+77004">3409 Emancipation Ave<br>Houston, TX 77004</a></div>
+    <div><h4>FOLLOW</h4><a href="https://www.instagram.com/letsdothishouston/">Instagram</a><a href="https://www.facebook.com/letsdothishouston">Facebook</a><a href="https://twitter.com/letsdothishou">X / Twitter</a></div>
+  </div>
+  <div class="legal"><span>© 2026 Let’s Do This Houston</span><span><a id="waiver" href="#waiver">Rider waiver</a><a href="https://tallorderworks.com">Site by Tall Order Works</a></span></div>
+</div></footer>
+</body>
+</html>
