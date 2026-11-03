@@ -1,30 +1,10 @@
 {
   "slug": "sign-systems",
   "type": "mockup",
-  "rendered_at": "2026-11-03T01:34:33Z",
-  "source_commit": "0ba8f39feb9b97f8e6779ba74f51648b9511dd54",
-  "image_errors": [
-    {
-      "name": "logo.gif",
-      "url": "http://www.signsystemsonline.com/images/logo.gif",
-      "error": "HTTP 403"
-    },
-    {
-      "name": "signs.gif",
-      "url": "http://www.signsystemsonline.com/images/signs_examples.gif",
-      "error": "HTTP 403"
-    },
-    {
-      "name": "awnings.gif",
-      "url": "http://www.signsystemsonline.com/images/awning_examples.gif",
-      "error": "HTTP 403"
-    }
-  ],
-  "broken_images_in_mockup": [
-    "img/logo.gif",
-    "img/signs.gif",
-    "img/awnings.gif"
-  ],
+  "rendered_at": "2026-11-03T01:39:28Z",
+  "source_commit": "ac4c305c00a81423665a752ac2fdd1a98d3cd930",
+  "image_errors": [],
+  "broken_images_in_mockup": [],
   "phone_horizontal_scroll": false,
   "copy_warnings": [],
   "errors": [],
