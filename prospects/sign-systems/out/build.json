@@ -1,11 +1,32 @@
 {
   "slug": "sign-systems",
-  "type": "audit",
-  "rendered_at": "2026-10-27T21:56:58Z",
-  "source_commit": "6a99ce90e0a4ba3a197370fdd235d76b1ce63299",
-  "image_errors": [],
-  "broken_images_in_mockup": [],
+  "type": "mockup",
+  "rendered_at": "2026-11-03T01:34:33Z",
+  "source_commit": "0ba8f39feb9b97f8e6779ba74f51648b9511dd54",
+  "image_errors": [
+    {
+      "name": "logo.gif",
+      "url": "http://www.signsystemsonline.com/images/logo.gif",
+      "error": "HTTP 403"
+    },
+    {
+      "name": "signs.gif",
+      "url": "http://www.signsystemsonline.com/images/signs_examples.gif",
+      "error": "HTTP 403"
+    },
+    {
+      "name": "awnings.gif",
+      "url": "http://www.signsystemsonline.com/images/awning_examples.gif",
+      "error": "HTTP 403"
+    }
+  ],
+  "broken_images_in_mockup": [
+    "img/logo.gif",
+    "img/signs.gif",
+    "img/awnings.gif"
+  ],
   "phone_horizontal_scroll": false,
   "copy_warnings": [],
-  "errors": []
+  "errors": [],
+  "preview_url": "https://preview.tallorderworks.com/sign-systems/"
 }
