@@ -1,10 +1,18 @@
 {
   "business": "Sign Systems",
-  "type": "audit",
+  "type": "mockup",
   "published": false,
   "site_url": "http://www.signsystemsonline.com",
   "domain": "signsystemsonline.com",
   "sources_phrase": "signsystemsonline.com",
-  "images": {},
-  "changes": []
+  "images": {
+    "logo.gif": "http://www.signsystemsonline.com/images/logo.gif",
+    "signs.gif": "http://www.signsystemsonline.com/images/signs_examples.gif",
+    "awnings.gif": "http://www.signsystemsonline.com/images/awning_examples.gif"
+  },
+  "changes": [
+    { "title": "Request a bid from a phone.", "text": "The current Signs and Awnings pages ask people to call. The sketch puts a Request a bid button right under the headline." },
+    { "title": "See your sign before it is built.", "text": "Your free rendition from a photo of the storefront gets its own spot at the top instead of a line deep in the Signs page." },
+    { "title": "Signs and awnings side by side.", "text": "Custom signage and Coverall Awning of Texas each get a card with your own work photos." }
+  ]
 }
