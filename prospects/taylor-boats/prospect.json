@@ -1,0 +1,18 @@
+{
+  "business": "Taylor Boats",
+  "type": "mockup",
+  "published": true,
+  "site_url": "http://taylorboats.com",
+  "domain": "taylorboats.com",
+  "sources_phrase": "taylorboats.com and their Google listing",
+  "images": {
+    "finished.jpg": "http://taylorboats.com/images/cp3.jpg",
+    "dash-before.jpg": "http://taylorboats.com/images/cp1.jpg",
+    "dash-after.jpg": "http://taylorboats.com/images/cp2.jpg"
+  },
+  "changes": [
+    { "title": "Call or ask for a quote from the dock.", "text": "The current homepage shrinks to a tiny desktop page on a phone, the number can't be tapped, and there is no way to ask for a quote. The concept puts tap to call and a quote request with photo upload at the top." },
+    { "title": "Your work, big and up front.", "text": "Your refinishing before and after photos sit on an inner page today. The concept leads with them so a boat owner sees the quality first." },
+    { "title": "Free pickup and both locations in plain sight.", "text": "Free delivery and pickup, Dickinson and Seabrook, and insurance claim work are all on the homepage, on a secure site browsers don't flag as Not Secure." }
+  ]
+}

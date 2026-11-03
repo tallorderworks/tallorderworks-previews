@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Taylor Boats | Custom Fiberglass Repair in Dickinson and Seabrook</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing:border-box; }
+  html, body { margin:0; overflow-x:hidden; }
+  body { font:16px/1.6 Inter, system-ui, sans-serif; color:#13202c; background:#f5f7f9; }
+  a { color:inherit; text-decoration:none; }
+  img { max-width:100%; display:block; }
+  .wrap { max-width:1180px; margin:0 auto; padding:0 20px; }
+  h1, h2, h3 { font-family:"Barlow Condensed", Inter, sans-serif; margin:0; line-height:1.05; letter-spacing:.3px; }
+  .top { background:#0b2236; color:#fff; }
+  .top .wrap { display:flex; align-items:center; justify-content:space-between; gap:14px; padding-top:14px; padding-bottom:14px; }
+  .brand { font-family:"Barlow Condensed", Inter, sans-serif; font-size:28px; font-weight:700; }
+  .brand span { color:#f2b632; }
+  .nav { display:flex; gap:22px; font-size:15px; color:#c9d6e2; }
+  .call-sm { background:#f2b632; color:#0b2236; font-weight:700; font-size:15px; padding:10px 16px; border-radius:999px; white-space:nowrap; }
+  .hero { position:relative; color:#fff; background:#0b2236; }
+  .hero .grid { display:grid; grid-template-columns:1.05fr 1fr; gap:40px; align-items:center; padding-top:56px; padding-bottom:64px; }
+  .eyebrow { display:inline-block; color:#f2b632; font-weight:700; font-size:13px; letter-spacing:2px; text-transform:uppercase; margin-bottom:14px; }
+  .hero h1 { font-size:clamp(40px,6vw,72px); margin-bottom:16px; }
+  .hero p { font-size:18px; color:#c9d6e2; margin:0 0 26px; max-width:540px; }
+  .btns { display:flex; gap:12px; flex-wrap:wrap; }
+  .btn { display:inline-block; text-align:center; font-weight:700; padding:15px 22px; border-radius:10px; font-size:17px; }
+  .btn-gold { background:#f2b632; color:#0b2236; }
+  .btn-line { border:2px solid rgba(255,255,255,.7); color:#fff; }
+  .hero-img { border-radius:16px; overflow:hidden; box-shadow:0 20px 50px rgba(0,0,0,.35); }
+  .hero-img img { width:100%; height:auto; }
+  .facts { display:flex; flex-wrap:wrap; gap:10px 22px; margin-top:26px; font-size:15px; color:#e4ecf3; }
+  .facts b { color:#f2b632; }
+  section { padding:64px 0; }
+  .sec-head { max-width:640px; margin-bottom:30px; }
+  .sec-head small { display:block; color:#b07d0e; font-weight:700; letter-spacing:2px; text-transform:uppercase; font-size:13px; margin-bottom:8px; }
+  .sec-head h2 { font-size:clamp(32px,4vw,46px); margin-bottom:10px; }
+  .sec-head p { margin:0; color:#4b5a68; }
+  .services { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+  .svc { background:#fff; border:1px solid #dfe5ea; border-radius:14px; padding:22px; }
+  .svc h3 { font-size:26px; margin-bottom:8px; }
+  .svc p { margin:0; color:#4b5a68; font-size:15px; }
+  .ba { background:#fff; }
+  .ba .pair { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+  .ba figure { margin:0; border-radius:14px; overflow:hidden; background:#0b2236; }
+  .ba figcaption { color:#fff; font-weight:700; padding:10px 16px; font-size:14px; letter-spacing:1.5px; text-transform:uppercase; }
+  .ba img { width:100%; height:320px; object-fit:cover; }
+  .reviews { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+  .rev { background:#fff; border-radius:14px; padding:22px; border-left:5px solid #f2b632; box-shadow:0 8px 24px rgba(11,34,54,.07); }
+  .rev p { margin:0 0 12px; font-size:17px; }
+  .rev span { font-size:14px; color:#6a7886; font-weight:500; }
+  .quote { background:#0b2236; color:#fff; }
+  .quote .grid { display:grid; grid-template-columns:1fr 1fr; gap:40px; }
+  .quote .sec-head small { color:#f2b632; }
+  .quote .sec-head p { color:#c9d6e2; }
+  form { background:#fff; color:#13202c; border-radius:16px; padding:24px; display:grid; gap:12px; }
+  label { font-size:14px; font-weight:700; }
+  input, textarea, select { width:100%; font:inherit; padding:12px; border:1px solid #cdd6de; border-radius:8px; margin-top:4px; }
+  textarea { min-height:90px; }
+  .locs { display:grid; gap:14px; margin-top:22px; }
+  .loc { background:rgba(255,255,255,.07); border-radius:12px; padding:16px 18px; }
+  .loc b { display:block; color:#f2b632; font-size:14px; letter-spacing:1.5px; text-transform:uppercase; }
+  footer { background:#071827; color:#9fb1c2; font-size:14px; padding:26px 0; }
+  footer .wrap { display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; }
+  @media (max-width:860px) {
+    .nav { display:none; }
+    .hero .grid, .quote .grid { grid-template-columns:1fr; gap:28px; padding-top:34px; padding-bottom:40px; }
+    .services, .reviews { grid-template-columns:1fr; }
+    .ba .pair { grid-template-columns:1fr; }
+    .ba img { height:240px; }
+    section { padding:44px 0; }
+    .btn { width:100%; }
+  }
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="brand">Taylor <span>Boats</span></div>
+  <nav class="nav"><a href="#services">Repairs</a><a href="#work">Before and after</a><a href="#quote">Free quote</a><a href="#quote">Locations</a></nav>
+  <a class="call-sm" href="tel:2814742926">281-474-2926</a>
+</div></header>
+
+<section class="hero" style="padding:0"><div class="wrap grid">
+  <div>
+    <span class="eyebrow">Custom fiberglass repairs and molds</span>
+    <h1>Fiberglass repair that makes the damage disappear.</h1>
+    <p>Gel coat matching, transoms, floors, stringers and custom refinishing for boats and jet skis, with free pickup and delivery from Dickinson and Seabrook.</p>
+    <div class="btns">
+      <a class="btn btn-gold" href="tel:2814742926">Tap to call 281-474-2926</a>
+      <a class="btn btn-line" href="#quote">Request a free quote</a>
+    </div>
+    <div class="facts"><span><b>Free</b> pickup and delivery</span><span><b>Insurance</b> claims handled</span><span><b>2</b> locations</span></div>
+  </div>
+  <div class="hero-img"><img src="img/finished.jpg" alt="A boat refinished by Taylor Boats with custom polyurethane graphics"></div>
+</div></section>
+
+<section id="services"><div class="wrap">
+  <div class="sec-head"><small>What we fix</small><h2>Every kind of fiberglass work, under one roof.</h2><p>Owner Louis Grantges and the Taylor Boats crew handle the repair, the color match and the finish.</p></div>
+  <div class="services">
+    <div class="svc"><h3>Fiberglass repair</h3><p>Floors, transoms, stringers and floatation, plus high performance laminate repairs.</p></div>
+    <div class="svc"><h3>Gel coat matching</h3><p>Gashes and dings repaired and matched so the hull looks like it was never damaged.</p></div>
+    <div class="svc"><h3>Custom refinishing</h3><p>Polyurethane paint and graphics designed to your preference.</p></div>
+    <div class="svc"><h3>Custom fabrication</h3><p>Live wells, storage compartments, auxiliary tanks, radio boxes, bathrooms and toilets.</p></div>
+    <div class="svc"><h3>Insurance claims</h3><p>We work your repair through the claim so you can get back on the water.</p></div>
+    <div class="svc"><h3>Consignment</h3><p>Selling a boat? Ask about listing it with us.</p></div>
+  </div>
+</div></section>
+
+<section class="ba" id="work"><div class="wrap">
+  <div class="sec-head"><small>Before and after</small><h2>Same boat. New dash.</h2><p>A custom polyurethane refinish from our shop.</p></div>
+  <div class="pair">
+    <figure><figcaption>Before</figcaption><img src="img/dash-before.jpg" alt="Boat dash before refinishing"></figure>
+    <figure><figcaption>After</figcaption><img src="img/dash-after.jpg" alt="Boat dash after custom refinishing"></figure>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="sec-head"><small>From our customers</small><h2>What boat owners say.</h2></div>
+  <div class="reviews">
+    <div class="rev"><p>"They fixed it, matched the color, and made it look like it had never been damaged."</p><span>Rudy A., on a gash in his jet ski</span></div>
+    <div class="rev"><p>"Good work, reasonable price done in a timely manner."</p><span>Mark K., fiberglass work on two boats</span></div>
+    <div class="rev"><p>"You do great work and you have got a new customer."</p><span>Lawrence B., jet ski repair</span></div>
+  </div>
+</div></section>
+
+<section class="quote" id="quote"><div class="wrap grid">
+  <div>
+    <div class="sec-head"><small>Free quote</small><h2>Send a photo, get a quote.</h2><p>Tell us what happened and snap a picture of the damage. We will call you back with a price and a pickup time.</p></div>
+    <div class="locs">
+      <div class="loc"><b>Dickinson</b>3308 Hughes Ln, Dickinson, TX 77539</div>
+      <div class="loc"><b>Seabrook</b>1809 Bayport Blvd, Seabrook, TX 77586</div>
+      <div class="loc"><b>Call</b><a href="tel:2814742926">281-474-2926</a></div>
+    </div>
+  </div>
+  <form onsubmit="return false">
+    <label>Your name<input type="text" name="name"></label>
+    <label>Phone<input type="tel" name="phone"></label>
+    <label>Boat or jet ski<input type="text" name="boat" placeholder="Make, model and length"></label>
+    <label>What needs fixing?<textarea name="details"></textarea></label>
+    <label>Photos of the damage<input type="file" name="photos" multiple></label>
+    <a class="btn btn-gold" href="#quote">Send my quote request</a>
+  </form>
+</div></section>
+
+<footer><div class="wrap"><span>Taylor Boats · Custom Fiberglass Repairs and Molds</span><span>Dickinson and Seabrook, Texas · 281-474-2926</span></div></footer>
+</body>
+</html>
