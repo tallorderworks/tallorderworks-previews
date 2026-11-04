@@ -1,11 +1,12 @@
 {
   "slug": "traditions-window-decor",
-  "type": "audit",
-  "rendered_at": "2026-10-28T21:59:59Z",
-  "source_commit": "0ae1bd1cc78a90855ca0d483587fc6a8a22aafd0",
+  "type": "mockup",
+  "rendered_at": "2026-11-04T13:14:17Z",
+  "source_commit": "097c2bd8dd9b9d74c9c32ca0085b091bef7ef0c4",
   "image_errors": [],
   "broken_images_in_mockup": [],
   "phone_horizontal_scroll": false,
   "copy_warnings": [],
-  "errors": []
+  "errors": [],
+  "preview_url": "https://preview.tallorderworks.com/traditions-window-decor/"
 }
