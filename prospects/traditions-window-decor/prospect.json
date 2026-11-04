@@ -1,10 +1,17 @@
 {
   "business": "Traditions Window Decor",
-  "type": "audit",
+  "type": "mockup",
   "published": false,
   "site_url": "https://www.traditionswindowdecor.com",
   "domain": "traditionswindowdecor.com",
   "sources_phrase": "traditionswindowdecor.com",
-  "images": {},
-  "changes": []
+  "images": {
+    "logo.png": "https://www.traditionswindowdecor.com/uploads/1/3/3/3/13332071/1413836896.png",
+    "shutters.jpg": "https://www.traditionswindowdecor.com/uploads/1/3/3/3/13332071/published/clarke-master-bath.jpg"
+  },
+  "changes": [
+    {"title": "Book a free consultation from a phone.", "text": "The consultation form sits on a separate Contact page today. The sketch puts a Book a free consultation button right under the headline."},
+    {"title": "Tap to call for Houston and DFW.", "text": "Both office lines become buttons, so a homeowner in either metro reaches the right person in one tap."},
+    {"title": "Your products up front.", "text": "Plantation shutters, blinds and shades, and draperies each get a card instead of long paragraphs."}
+  ]
 }
