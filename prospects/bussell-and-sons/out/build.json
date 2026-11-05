@@ -1,11 +1,12 @@
 {
   "slug": "bussell-and-sons",
-  "type": "audit",
-  "rendered_at": "2026-10-29T23:56:19Z",
-  "source_commit": "776503e919fe27ab86d1ba78e98f122854c09852",
+  "type": "mockup",
+  "rendered_at": "2026-11-05T22:51:26Z",
+  "source_commit": "b0ea1a2565f18e9bb386197829cfb802e1aaa1d0",
   "image_errors": [],
   "broken_images_in_mockup": [],
   "phone_horizontal_scroll": false,
   "copy_warnings": [],
-  "errors": []
+  "errors": [],
+  "preview_url": "https://preview.tallorderworks.com/bussell-and-sons/"
 }
