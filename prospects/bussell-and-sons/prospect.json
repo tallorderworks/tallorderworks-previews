@@ -1,10 +1,17 @@
 {
   "business": "Bussell & Sons, LLC",
-  "type": "audit",
+  "type": "mockup",
   "published": false,
   "site_url": "https://www.bussellandsons.com",
   "domain": "bussellandsons.com",
   "sources_phrase": "bussellandsons.com",
-  "images": {},
-  "changes": []
+  "images": {
+    "rig.jpg": "https://www.bussellandsons.com/images/irig1.jpg",
+    "service-rig.jpg": "https://www.bussellandsons.com/images/irig2.jpg"
+  },
+  "changes": [
+    { "title": "Call from any phone.", "text": "Your office line becomes a tap to call button at the top of the page." },
+    { "title": "Well service up front.", "text": "Homeowners see your service department and a Request service button right under the headline." },
+    { "title": "Your history, front and center.", "text": "Since 1952 in Tomball is the first thing people read, not a 2011 footer." }
+  ]
 }
