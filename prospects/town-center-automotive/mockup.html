@@ -44,7 +44,7 @@ nav a:hover{color:var(--red)}
 .trust div{display:flex;gap:12px;align-items:flex-start}
 .trust b{display:block;font-size:17px}
 .trust span{font-size:15px;color:var(--muted)}
-.ic{flex:0 0 40px;height:40px;border-radius:50%;background:var(--red);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800}
+.ic{flex:0 0 40px;height:40px;border-radius:50%;background:var(--red);position:relative}.ic::after{content:"";position:absolute;left:15px;top:10px;width:9px;height:16px;border:solid #fff;border-width:0 3px 3px 0;transform:rotate(45deg)}
 section{padding:72px 0}
 .sec-head{max-width:640px;margin-bottom:36px}
 .sec-head .kicker{color:var(--red);font-weight:800;text-transform:uppercase;letter-spacing:.08em;font-size:14px}
@@ -135,10 +135,10 @@ footer li{list-style:none;margin-bottom:6px}
 </div></section>
 
 <div class="trust"><div class="wrap">
- <div><span class="ic">&#10003;</span><p><b>ASE certified</b><span>Major and minor repairs</span></p></div>
- <div><span class="ic">&#9733;</span><p><b>4.7 Google rating</b><span>88 customer reviews</span></p></div>
- <div><span class="ic">&#9873;</span><p><b>Free brake inspections</b><span>Recommended once a year</span></p></div>
- <div><span class="ic">&#9881;</span><p><b>Fleet accounts</b><span>Weekly or monthly invoicing</span></p></div>
+ <div><span class="ic"></span><p><b>ASE certified</b><span>Major and minor repairs</span></p></div>
+ <div><span class="ic"></span><p><b>4.7 Google rating</b><span>88 customer reviews</span></p></div>
+ <div><span class="ic"></span><p><b>Free brake inspections</b><span>Recommended once a year</span></p></div>
+ <div><span class="ic"></span><p><b>Fleet accounts</b><span>Weekly or monthly invoicing</span></p></div>
 </div></div>
 
 <section id="services"><div class="wrap">
