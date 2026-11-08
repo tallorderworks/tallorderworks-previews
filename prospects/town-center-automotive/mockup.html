@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Town Center Automotive | Auto Repair in The Woodlands and Spring</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--red:#d7262e;--blue:#1d3f94;--navy:#12285e;--yellow:#ffd21f;--ink:#1b1f2a;--muted:#5b6272;--bg:#f5f6f9;--white:#fff}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{overflow-x:hidden}
+body{font-family:'Barlow',Arial,sans-serif;color:var(--ink);background:var(--white);line-height:1.5}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+.topbar{background:var(--navy);color:#dfe6f7;font-size:14px}
+.topbar .wrap{display:flex;justify-content:space-between;gap:12px;padding-top:8px;padding-bottom:8px;flex-wrap:wrap}
+header{background:var(--white);border-bottom:4px solid var(--yellow);position:sticky;top:0;z-index:5}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:10px;padding-bottom:10px}
+.logo img{height:64px;width:auto}
+nav{display:flex;gap:26px;font-weight:600;font-size:16px}
+nav a:hover{color:var(--red)}
+.hdr-cta{display:flex;gap:10px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:700;font-size:17px;padding:14px 22px;border-radius:8px;border:2px solid transparent;cursor:pointer;white-space:nowrap}
+.btn-red{background:var(--red);color:#fff}
+.btn-red:hover{background:#b81e25}
+.btn-blue{background:var(--blue);color:#fff}
+.btn-ghost{border-color:#fff;color:#fff}
+.btn-outline{border-color:var(--blue);color:var(--blue);background:#fff}
+.hero{background:linear-gradient(120deg,var(--navy) 0%,var(--blue) 60%,#2b56bd 100%);color:#fff;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center;padding-top:64px;padding-bottom:72px}
+.eyebrow{display:inline-block;background:var(--yellow);color:var(--navy);font-weight:800;font-size:14px;letter-spacing:.06em;text-transform:uppercase;padding:6px 12px;border-radius:4px;margin-bottom:18px}
+.hero h1{font-size:54px;line-height:1.05;font-weight:800;margin-bottom:18px}
+.hero p.lead{font-size:20px;color:#dbe3f7;max-width:560px;margin-bottom:28px}
+.hero .ctas{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:28px}
+.rating{display:flex;align-items:center;gap:12px;font-size:16px;color:#dbe3f7}
+.stars{color:var(--yellow);font-size:20px;letter-spacing:2px}
+.hero-photo{position:relative}
+.hero-photo img{border-radius:14px;box-shadow:0 20px 50px rgba(0,0,0,.35);width:100%;height:auto}
+.badge{position:absolute;left:-18px;bottom:-18px;background:var(--yellow);color:var(--navy);border-radius:12px;padding:14px 18px;font-weight:800;box-shadow:0 10px 24px rgba(0,0,0,.25);line-height:1.2}
+.badge small{display:block;font-weight:600;font-size:13px}
+.trust{background:var(--bg);border-bottom:1px solid #e3e6ee}
+.trust .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;padding-top:26px;padding-bottom:26px}
+.trust div{display:flex;gap:12px;align-items:flex-start}
+.trust b{display:block;font-size:17px}
+.trust span{font-size:15px;color:var(--muted)}
+.ic{flex:0 0 40px;height:40px;border-radius:50%;background:var(--red);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800}
+section{padding:72px 0}
+.sec-head{max-width:640px;margin-bottom:36px}
+.sec-head .kicker{color:var(--red);font-weight:800;text-transform:uppercase;letter-spacing:.08em;font-size:14px}
+.sec-head h2{font-size:38px;line-height:1.15;margin:6px 0 10px}
+.sec-head p{color:var(--muted);font-size:18px}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.svc{border:1px solid #e3e6ee;border-radius:12px;padding:24px;background:#fff;border-top:5px solid var(--blue)}
+.svc h3{font-size:21px;margin-bottom:6px}
+.svc p{color:var(--muted);font-size:16px}
+.svc.hl{border-top-color:var(--red)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.split img{border-radius:14px;width:100%;height:auto}
+.perks{display:grid;gap:16px;margin-top:22px}
+.perk{background:var(--bg);border-left:5px solid var(--yellow);padding:16px 18px;border-radius:8px}
+.perk b{display:block;font-size:18px}
+.perk span{color:var(--muted)}
+.reviews{background:var(--navy);color:#fff}
+.reviews .sec-head p{color:#c7d1ea}
+.reviews .sec-head .kicker{color:var(--yellow)}
+.quotes{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.quote{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);border-radius:12px;padding:26px}
+.quote p{font-size:20px;margin:8px 0 14px}
+.quote cite{font-style:normal;color:#c7d1ea;font-size:15px}
+.request{background:var(--bg)}
+.req-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:40px;align-items:start}
+.info-card{background:#fff;border-radius:12px;padding:26px;border:1px solid #e3e6ee}
+.info-card h3{font-size:22px;margin-bottom:12px}
+.info-card p{margin-bottom:12px;color:var(--muted)}
+.info-card .big{font-size:26px;font-weight:800;color:var(--blue)}
+form{background:#fff;border-radius:12px;padding:28px;border:1px solid #e3e6ee;display:grid;grid-template-columns:1fr 1fr;gap:16px}
+label{font-weight:600;font-size:15px;display:flex;flex-direction:column;gap:6px}
+input,select,textarea{font:inherit;font-size:16px;padding:12px;border:1px solid #cdd2dd;border-radius:8px;width:100%}
+.full{grid-column:1/-1}
+footer{background:#0c1b41;color:#b9c3dc;font-size:15px}
+footer .wrap{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:32px;padding-top:48px;padding-bottom:40px}
+footer h4{color:#fff;font-size:17px;margin-bottom:10px}
+footer li{list-style:none;margin-bottom:6px}
+.copy{border-top:1px solid rgba(255,255,255,.1);text-align:center;padding:16px;font-size:14px}
+.mobile-bar{display:none}
+@media (max-width:980px){
+ nav{display:none}
+ .hero .wrap,.split,.req-grid{grid-template-columns:1fr}
+ .hero h1{font-size:40px}
+ .trust .wrap{grid-template-columns:1fr 1fr}
+ .services{grid-template-columns:1fr 1fr}
+ footer .wrap{grid-template-columns:1fr}
+}
+@media (max-width:640px){
+ .wrap{padding:0 18px}
+ .topbar{display:none}
+ .logo img{height:48px}
+ .hdr-cta .btn-blue{display:none}
+ .hdr-cta .btn{padding:10px 14px;font-size:15px}
+ .hero .wrap{padding-top:36px;padding-bottom:56px;gap:36px}
+ .hero h1{font-size:34px}
+ .hero p.lead{font-size:18px}
+ .hero .ctas .btn{width:100%}
+ .badge{left:12px;bottom:-16px}
+ .trust .wrap,.services,.quotes{grid-template-columns:1fr}
+ section{padding:52px 0}
+ .sec-head h2{font-size:30px}
+ form{grid-template-columns:1fr;padding:20px}
+ body{padding-bottom:68px}
+ .mobile-bar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:9;box-shadow:0 -4px 14px rgba(0,0,0,.15)}
+ .mobile-bar a{padding:16px;text-align:center;font-weight:700;color:#fff}
+ .mobile-bar a:first-child{background:var(--red)}
+ .mobile-bar a:last-child{background:var(--blue)}
+}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="wrap"><span>26607 Interstate 45 southbound feeder, between Woodlands Parkway and Oak Ridge Drive</span><span>Open Monday to Friday, 8 AM to 6 PM</span></div></div>
+<header><div class="wrap">
+ <a class="logo" href="#"><img src="img/logo.png" alt="Town Center Automotive"></a>
+ <nav><a href="#services">Services</a><a href="#shuttle">Shuttle</a><a href="#reviews">Reviews</a><a href="#request">Visit us</a></nav>
+ <div class="hdr-cta"><a class="btn btn-blue" href="#request">Request an appointment</a><a class="btn btn-red" href="tel:+12813675959">Call 281.367.5959</a></div>
+</div></header>
+
+<section class="hero" style="padding:0"><div class="wrap">
+ <div>
+  <span class="eyebrow">Family owned in The Woodlands</span>
+  <h1>Quality auto repair, done fast and at a fair price.</h1>
+  <p class="lead">ASE certified technicians for foreign and domestic vehicles, from state inspections and brakes to A/C and alignments. Drop your car off and we will shuttle you to work.</p>
+  <div class="ctas"><a class="btn btn-red" href="tel:+12813675959">Call 281.367.5959</a><a class="btn btn-ghost" href="#request">Request an appointment</a></div>
+  <div class="rating"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><span><b style="color:#fff">4.7 on Google</b> from 88 reviews</span></div>
+ </div>
+ <div class="hero-photo"><img src="img/shuttle.jpg" alt="Town Center Automotive customer courtesy shuttle"><div class="badge">Free customer shuttle<small>Within 10 miles of the shop</small></div></div>
+</div></section>
+
+<div class="trust"><div class="wrap">
+ <div><span class="ic">&#10003;</span><p><b>ASE certified</b><span>Major and minor repairs</span></p></div>
+ <div><span class="ic">&#9733;</span><p><b>4.7 Google rating</b><span>88 customer reviews</span></p></div>
+ <div><span class="ic">&#9873;</span><p><b>Free brake inspections</b><span>Recommended once a year</span></p></div>
+ <div><span class="ic">&#9881;</span><p><b>Fleet accounts</b><span>Weekly or monthly invoicing</span></p></div>
+</div></div>
+
+<section id="services"><div class="wrap">
+ <div class="sec-head"><span class="kicker">What we fix</span><h2>Everything your car needs, in one clean shop</h2><p>Foreign and domestic vehicles, custom trucks and cars included.</p></div>
+ <div class="services">
+  <div class="svc hl"><h3>State inspections</h3><p>Yearly Texas inspections for vehicles 1996 and newer, plus safety only inspections for RVs, motorcycles and diesels.</p></div>
+  <div class="svc"><h3>Brakes</h3><p>Free brake inspections. Spongy pedal, warning light or grinding? Bring it in before it gets worse.</p></div>
+  <div class="svc"><h3>Alignments</h3><p>Adjusted to manufacturer spec, with your before and after readings printed for you.</p></div>
+  <div class="svc"><h3>A/C repair</h3><p>Living in Texas, cold air matters year round. We find the leak and get it blowing cold again.</p></div>
+  <div class="svc"><h3>Tune ups</h3><p>Plugs, filters and fuel injector cleaning for better mileage and a smoother start.</p></div>
+  <div class="svc"><h3>Fleet maintenance</h3><p>Competitive fleet pricing, detailed records for every vehicle and one convenient location.</p></div>
+ </div>
+</div></section>
+
+<section id="shuttle" style="padding-top:0"><div class="wrap split">
+ <img src="img/shop.jpg" alt="Cars on lifts inside the Town Center Automotive shop">
+ <div>
+  <div class="sec-head" style="margin-bottom:0"><span class="kicker">Why drivers choose us</span><h2>Drop it off and get on with your day</h2><p>A clean, modern facility with a comfortable waiting room, or a ride to wherever you need to be.</p></div>
+  <div class="perks">
+   <div class="perk"><b>Customer service shuttle</b><span>We take you to your destination within a 10 mile radius. Call ahead to schedule your drop off.</span></div>
+   <div class="perk"><b>Family owned and managed</b><span>The customer comes first, and you talk to the people doing the work.</span></div>
+   <div class="perk"><b>Wait in comfort</b><span>Magazines and television in our waiting room while we work.</span></div>
+  </div>
+ </div>
+</div></section>
+
+<section class="reviews" id="reviews"><div class="wrap">
+ <div class="sec-head"><span class="kicker">4.7 stars on Google</span><h2>What our customers say</h2><p>From 88 reviews on our Google listing.</p></div>
+ <div class="quotes">
+  <div class="quote"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><p>&ldquo;I had a flat tire today and Alden went above and beyond to help me.&rdquo;</p><cite>Deshegma O., Google review</cite></div>
+  <div class="quote"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><p>&ldquo;His auto shop is the best at what they do and highly recommend their services.&rdquo;</p><cite>Google review</cite></div>
+ </div>
+</div></section>
+
+<section class="request" id="request"><div class="wrap req-grid">
+ <div class="info-card">
+  <h3>Visit or call the shop</h3>
+  <p class="big"><a href="tel:+12813675959">281.367.5959</a></p>
+  <p><b style="color:var(--ink)">26607 Interstate 45, Spring, TX 77380</b><br>On the southbound Interstate 45 feeder in The Woodlands, between Woodlands Parkway and Oak Ridge Drive.</p>
+  <p><b style="color:var(--ink)">Hours</b><br>Monday to Friday, 8 AM to 6 PM<br>Closed Saturday and Sunday</p>
+  <p><a class="btn btn-outline" href="mailto:customerservice@tcautomotive.net">Email the shop</a></p>
+ </div>
+ <form onsubmit="return false">
+  <div class="full"><h3 style="font-size:24px">Request an appointment</h3><p style="color:var(--muted)">Tell us about your car and we will call you back to confirm a time.</p></div>
+  <label>Name<input type="text" placeholder="Your name"></label>
+  <label>Phone<input type="tel" placeholder="Best number to reach you"></label>
+  <label>Vehicle<input type="text" placeholder="Year, make and model"></label>
+  <label>Service<select><option>State inspection</option><option>Brakes</option><option>Alignment</option><option>A/C repair</option><option>Tune up</option><option>Something else</option></select></label>
+  <label class="full">What is going on?<textarea rows="3" placeholder="Noises, warning lights, anything we should know"></textarea></label>
+  <label class="full" style="flex-direction:row;align-items:center;gap:10px;font-weight:500"><input type="checkbox" style="width:auto"> I would like a ride on the customer shuttle</label>
+  <button class="btn btn-red full" type="submit">Send request</button>
+ </form>
+</div></section>
+
+<footer>
+ <div class="wrap">
+  <div><img src="img/logo.png" alt="Town Center Automotive" style="height:56px;width:auto;margin-bottom:12px"><p>Family owned auto repair for foreign and domestic vehicles in The Woodlands and Spring.</p></div>
+  <div><h4>Services</h4><ul><li>State inspections</li><li>Brakes and alignments</li><li>A/C repair and tune ups</li><li>Fleet maintenance</li></ul></div>
+  <div><h4>Contact</h4><ul><li><a href="tel:+12813675959">281.367.5959</a></li><li>customerservice@tcautomotive.net</li><li>26607 Interstate 45, Spring, TX 77380</li><li>Mon to Fri, 8 AM to 6 PM</li></ul></div>
+ </div>
+ <div class="copy">&copy; 2026 Town Center Automotive</div>
+</footer>
+<div class="mobile-bar"><a href="tel:+12813675959">Call now</a><a href="#request">Book a visit</a></div>
+</body>
+</html>

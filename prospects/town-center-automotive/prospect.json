@@ -1,0 +1,18 @@
+{
+  "business": "Town Center Automotive",
+  "type": "mockup",
+  "published": true,
+  "site_url": "http://www.tcautomotive.net",
+  "domain": "tcautomotive.net",
+  "sources_phrase": "tcautomotive.net and your Google listing",
+  "images": {
+    "logo.png": "http://www.tcautomotive.net/images/tca_01.png",
+    "shuttle.jpg": "http://www.tcautomotive.net/20130426_105911.jpg",
+    "shop.jpg": "http://www.tcautomotive.net/images/cars-in-bays.jpg"
+  },
+  "changes": [
+    { "title": "Call or book from any phone.", "text": "The current homepage is a 2009 layout that shrinks on a phone, and 281.367.5959 can't be tapped. The concept puts a tap to call button and an appointment request at the top of every screen." },
+    { "title": "Your 4.7 Google rating up front.", "text": "You have 88 Google reviews, but the site shows none of them. The concept brings your rating and real customer quotes onto the homepage." },
+    { "title": "The shuttle and free brake checks, where people look.", "text": "Your customer shuttle and free brake inspections sit on separate inner pages today. The concept leads with them, next to every service you offer." }
+  ]
+}
