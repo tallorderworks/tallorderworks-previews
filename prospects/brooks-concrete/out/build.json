@@ -1,0 +1,11 @@
+{
+  "slug": "brooks-concrete",
+  "type": "audit",
+  "rendered_at": "2026-11-10T22:57:55Z",
+  "source_commit": "625166df2e2397d9fbdd4c55f1847881521606d4",
+  "image_errors": [],
+  "broken_images_in_mockup": [],
+  "phone_horizontal_scroll": false,
+  "copy_warnings": [],
+  "errors": []
+}
