@@ -1,0 +1,11 @@
+{
+  "slug": "dow-fence",
+  "type": "audit",
+  "rendered_at": "2026-11-11T23:00:57Z",
+  "source_commit": "0da73f875db0830ffab5ad2cdcdcbe4e35cf0f66",
+  "image_errors": [],
+  "broken_images_in_mockup": [],
+  "phone_horizontal_scroll": false,
+  "copy_warnings": [],
+  "errors": []
+}
