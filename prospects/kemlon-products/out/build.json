@@ -1,11 +1,12 @@
 {
   "slug": "kemlon-products",
-  "type": "audit",
-  "rendered_at": "2026-11-05T22:54:34Z",
-  "source_commit": "faff633cbcca005d2dbaa5e0f6eeef5f002160d2",
+  "type": "mockup",
+  "rendered_at": "2026-11-11T22:54:11Z",
+  "source_commit": "68459a79b7772f73ffd2d7f82ec6a4ef2c3dd606",
   "image_errors": [],
   "broken_images_in_mockup": [],
   "phone_horizontal_scroll": false,
   "copy_warnings": [],
-  "errors": []
+  "errors": [],
+  "preview_url": "https://preview.tallorderworks.com/kemlon-products/"
 }
