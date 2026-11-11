@@ -1,10 +1,17 @@
 {
   "business": "Kemlon Products and Development",
-  "type": "audit",
+  "type": "mockup",
   "published": false,
   "site_url": "https://kemlon.com",
   "domain": "kemlon.com",
   "sources_phrase": "kemlon.com",
-  "images": {},
-  "changes": []
+  "images": {
+    "logo.jpg": "https://kemlon.com/logo.jpg",
+    "building.gif": "https://kemlon.com/Kemlon.gif"
+  },
+  "changes": [
+    { "title": "Readable on any phone.", "text": "The current homepage opens as a shrunken desktop page. The sketch is built for the screen it is read on." },
+    { "title": "Tap to call and request a quote.", "text": "Your number is plain text today and there is no quote request. Both sit at the top of the sketch." },
+    { "title": "Product lines up front.", "text": "Connectors, OEM sensors and process equipment are each one tap away from the homepage." }
+  ]
 }
