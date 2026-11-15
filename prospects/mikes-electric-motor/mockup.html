@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mike's Electric Motor Repair | Motor Repair and Rewinding in Houston</title>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1c1d21;--steel:#2b2f36;--orange:#f26a1b;--orange-d:#d45610;--muted:#5d6370;--bg:#f4f3f0;--line:#e2e0db;--white:#fff}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{overflow-x:hidden}
+body{font-family:'Archivo',Arial,sans-serif;color:var(--ink);background:var(--white);line-height:1.55}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+.topbar{background:var(--ink);color:#c9ccd2;font-size:14px}
+.topbar .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-top:8px;padding-bottom:8px}
+header{background:var(--white);border-bottom:4px solid var(--orange);position:sticky;top:0;z-index:5}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:12px;padding-bottom:12px}
+.brand{font-weight:800;font-size:22px;line-height:1.1}
+.brand small{display:block;font-weight:600;font-size:13px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+nav{display:flex;gap:26px;font-weight:600}
+nav a:hover{color:var(--orange)}
+.btn{display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:17px;padding:14px 22px;border-radius:8px;border:2px solid transparent;white-space:nowrap}
+.btn-o{background:var(--orange);color:#fff}.btn-o:hover{background:var(--orange-d)}
+.btn-w{border-color:#fff;color:#fff}
+.btn-d{background:var(--ink);color:#fff}
+.hero{background:linear-gradient(115deg,#16171a 0%,#2b2f36 70%,#3a3f48 100%);color:#fff}
+.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center;padding-top:64px;padding-bottom:76px}
+.eyebrow{display:inline-block;background:var(--orange);color:#fff;font-weight:800;font-size:13px;letter-spacing:.08em;text-transform:uppercase;padding:6px 12px;border-radius:4px;margin-bottom:18px}
+.hero h1{font-size:56px;line-height:1.04;font-weight:800;margin-bottom:18px}
+.hero p.lead{font-size:20px;color:#d5d8de;max-width:560px;margin-bottom:28px}
+.ctas{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:26px}
+.rating{display:flex;align-items:center;gap:12px;color:#d5d8de}
+.stars{color:#ffb547;font-size:20px;letter-spacing:2px}
+.hero-photo{position:relative}
+.hero-photo img{border-radius:14px;box-shadow:0 20px 50px rgba(0,0,0,.45);width:100%}
+.badge{position:absolute;left:-18px;bottom:-18px;background:var(--orange);color:#fff;border-radius:12px;padding:14px 18px;font-weight:800;line-height:1.2;box-shadow:0 10px 24px rgba(0,0,0,.3)}
+.badge small{display:block;font-weight:600;font-size:13px}
+.trust{background:var(--bg);border-bottom:1px solid var(--line)}
+.trust .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;padding-top:26px;padding-bottom:26px}
+.trust b{display:block;font-size:18px}
+.trust span{color:var(--muted);font-size:15px}
+section{padding:72px 0}
+.head{max-width:660px;margin-bottom:36px}
+.kicker{color:var(--orange);font-weight:800;text-transform:uppercase;letter-spacing:.08em;font-size:14px}
+.head h2{font-size:38px;line-height:1.15;margin:6px 0 10px}
+.head p{color:var(--muted);font-size:18px}
+.svc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.svc{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff}
+.svc img{width:100%;height:170px;object-fit:cover}
+.svc div{padding:20px}
+.svc h3{font-size:20px;margin-bottom:6px}
+.svc p{color:var(--muted);font-size:16px}
+.shop{background:var(--bg)}
+.gallery{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:220px 220px;gap:14px}
+.gallery img{width:100%;height:100%;object-fit:cover;border-radius:10px}
+.gallery .big{grid-row:span 2}
+.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.rev{border:1px solid var(--line);border-left:5px solid var(--orange);border-radius:10px;padding:24px;background:#fff}
+.rev p{font-size:17px;margin:8px 0 14px}
+.rev b{font-size:15px}
+.rev span{color:var(--muted);font-size:14px;display:block}
+.quote{background:var(--ink);color:#fff}
+.quote .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:start}
+.quote .head p{color:#c9ccd2}
+form{background:#fff;color:var(--ink);border-radius:14px;padding:28px;display:grid;grid-template-columns:1fr 1fr;gap:14px}
+form label{font-weight:600;font-size:14px;display:block;margin-bottom:4px}
+form input,form select,form textarea{width:100%;font:inherit;font-size:16px;padding:12px;border:1px solid #cfd2d8;border-radius:8px}
+form .full{grid-column:1/-1}
+form textarea{min-height:100px}
+.visit{background:#25272c;border-radius:14px;padding:28px}
+.visit h3{font-size:22px;margin-bottom:12px}
+.visit p{color:#d5d8de;margin-bottom:12px}
+.visit a.line{display:block;font-weight:700;font-size:20px;color:#fff;margin-bottom:6px}
+footer{background:#111214;color:#9a9ea7;font-size:14px;padding:28px 0}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+@media (max-width:980px){
+ nav{display:none}
+ .hero .wrap,.quote .wrap{grid-template-columns:1fr}
+ .hero h1{font-size:40px}
+ .trust .wrap{grid-template-columns:1fr 1fr}
+ .svc-grid{grid-template-columns:1fr 1fr}
+ .reviews{grid-template-columns:1fr}
+}
+@media (max-width:600px){
+ .wrap{padding:0 16px}
+ .topbar .wrap{justify-content:center;text-align:center}
+ .brand{font-size:18px}
+ header .btn{padding:10px 14px;font-size:15px}
+ .hero .wrap{padding-top:40px;padding-bottom:56px}
+ .hero h1{font-size:34px}
+ .hero p.lead{font-size:18px}
+ .ctas .btn{width:100%}
+ .badge{left:10px;bottom:-14px}
+ .svc-grid{grid-template-columns:1fr}
+ .gallery{grid-template-columns:1fr 1fr;grid-template-rows:160px 160px 160px}
+ .gallery .big{grid-column:1/-1;grid-row:auto}
+ section{padding:52px 0}
+ .head h2{font-size:30px}
+ form{grid-template-columns:1fr;padding:20px}
+}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="wrap"><span>430 E Helms Rd, Suite C4, Houston, TX 77037</span><span>Family owned and operated since 1986</span></div></div>
+<header><div class="wrap">
+ <a class="brand" href="#">Mike's Electric Motor Repair<small>Repair and rewinding</small></a>
+ <nav><a href="#services">Services</a><a href="#shop">Our shop</a><a href="#reviews">Reviews</a><a href="#request">Contact</a></nav>
+ <a class="btn btn-o" href="tel:+12819315656">Call 281&#8209;931&#8209;5656</a>
+</div></header>
+
+<section class="hero" style="padding:0"><div class="wrap">
+ <div>
+  <span class="eyebrow">Family owned since 1986</span>
+  <h1>Motor down? We repair it, rewind it and get it running again.</h1>
+  <p class="lead">AC and DC motors from fractional horsepower up to 500 HP, pool pump motors included. Bring it to our North Houston shop and talk to the people who do the work.</p>
+  <div class="ctas"><a class="btn btn-o" href="tel:+12819315656">Call 281&#8209;931&#8209;5656</a><a class="btn btn-w" href="#request">Request a repair quote</a></div>
+  <div class="rating"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span><span><b style="color:#fff">4.2</b> from 26 Google reviews</span></div>
+ </div>
+ <div class="hero-photo"><img src="img/dc-motor.jpg" alt="A large DC motor on a pallet at Mike's shop"><div class="badge">Up to 500 HP<small>AC and DC motors</small></div></div>
+</div></section>
+
+<div class="trust"><div class="wrap">
+ <div><b>Since 1986</b><span>Family owned and operated</span></div>
+ <div><b>Fractional to 500 HP</b><span>Small pumps to plant motors</span></div>
+ <div><b>Rewinding in house</b><span>Armatures, field coils, stators</span></div>
+ <div><b>Full service shop</b><span>Tested on the bench before pickup</span></div>
+</div></div>
+
+<section id="services"><div class="wrap">
+ <div class="head"><span class="kicker">What we fix</span><h2>If it needs winding, we can repair it.</h2><p>We repair and rebuild what other shops can't, won't, or don't have time to do.</p></div>
+ <div class="svc-grid">
+  <div class="svc"><img src="img/big-motor.jpg" alt="Industrial motor being repaired"><div><h3>Motor repair</h3><p>AC and DC motors from fractional horsepower up to 500 HP.</p></div></div>
+  <div class="svc"><img src="img/rewind.jpg" alt="Stator being rewound"><div><h3>Rewinding</h3><p>Armatures, field coils, stators and anything else that requires winding.</p></div></div>
+  <div class="svc"><img src="img/armature.jpg" alt="Armature on the workbench"><div><h3>Rebuilds</h3><p>Bearings, shafts and windings rebuilt so the motor runs like it should.</p></div></div>
+  <div class="svc"><img src="img/pool-pump.jpg" alt="Pool pump"><div><h3>Pool pump motors</h3><p>Bring in the motor from your pool pump and we will get it running again.</p></div></div>
+ </div>
+</div></section>
+
+<section class="shop" id="shop"><div class="wrap">
+ <div class="head"><span class="kicker">Our shop</span><h2>Real motors, on our floor.</h2><p>Every photo here is work in our Helms Road shop.</p></div>
+ <div class="gallery">
+  <img class="big" src="img/dc-motor.jpg" alt="DC motor ready for repair">
+  <img src="img/stator.jpg" alt="Stator housing on the bench">
+  <img src="img/blue-motor.jpg" alt="Repaired blue motor">
+  <img src="img/armature.jpg" alt="Armature on the bench">
+  <img src="img/rewind.jpg" alt="Motors waiting for rewinding">
+ </div>
+</div></section>
+
+<section id="reviews"><div class="wrap">
+ <div class="head"><span class="kicker">Reviews</span><h2>What customers say.</h2></div>
+ <div class="reviews">
+  <div class="rev"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><p>"Mike was very informative and was able to quickly get back with me on the status of my motor repair. Highly recommend."</p><b>Riley B.</b><span>Google review</span></div>
+  <div class="rev"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><p>"Mike and his staff are respectful, friendly, honest and courteous."</p><b>Google reviewer</b><span>Google review</span></div>
+  <div class="rev"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><p>"Mike also cleaned up the chlorine addled outside, ran a test on a bench before I paid and left me with the good feeling you get when you get something done right first time."</p><b>Jeremy G., Houston</b><span>Pool pump motor customer</span></div>
+ </div>
+</div></section>
+
+<section class="quote" id="request"><div class="wrap">
+ <div>
+  <div class="head"><span class="kicker">Request a repair</span><h2>Tell us about the motor.</h2><p>Send the details and we will call you back. Or just bring it in.</p></div>
+  <form onsubmit="return false">
+   <div><label>Your name</label><input type="text"></div>
+   <div><label>Phone</label><input type="tel"></div>
+   <div><label>Motor type</label><select><option>AC motor</option><option>DC motor</option><option>Pool pump motor</option><option>Not sure</option></select></div>
+   <div><label>Horsepower (if known)</label><input type="text"></div>
+   <div class="full"><label>What is it doing?</label><textarea></textarea></div>
+   <div class="full"><button class="btn btn-o" style="width:100%">Send my request</button></div>
+  </form>
+ </div>
+ <div class="visit">
+  <h3>Visit the shop</h3>
+  <p>430 E Helms Rd, Suite C4<br>Houston, TX 77037</p>
+  <a class="line" href="tel:+12819315656">281&#8209;931&#8209;5656</a>
+  <a class="line" style="font-size:17px" href="mailto:mike@mikeselectricmotors.com">mike@mikeselectricmotors.com</a>
+  <p style="margin-top:14px">Family owned and operated since 1986.</p>
+  <a class="btn btn-o" href="https://maps.google.com/?q=430+E+Helms+Rd+Ste+C4+Houston+TX+77037">Get directions</a>
+ </div>
+</div></section>
+
+<footer><div class="wrap"><span>Mike's Electric Motor Repair, 430 E Helms Rd, Suite C4, Houston, TX 77037</span><span>281&#8209;931&#8209;5656</span></div></footer>
+</body>
+</html>

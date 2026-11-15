@@ -1,0 +1,22 @@
+{
+  "business": "Mike's Electric Motor Repair",
+  "type": "mockup",
+  "published": true,
+  "site_url": "http://mikeselectricmotors.com",
+  "domain": "mikeselectricmotors.com",
+  "sources_phrase": "mikeselectricmotors.com and your Google listing",
+  "images": {
+    "dc-motor.jpg": "http://mikeselectricmotors.com/images/IMG_5731.JPG",
+    "armature.jpg": "http://mikeselectricmotors.com/images/IMG_5735.JPG",
+    "rewind.jpg": "http://mikeselectricmotors.com/images/IMG_5737.JPG",
+    "blue-motor.jpg": "http://mikeselectricmotors.com/images/IMG_5736%20(2).JPG",
+    "big-motor.jpg": "http://mikeselectricmotors.com/images/IMG_5734%20(2).JPG",
+    "stator.jpg": "http://mikeselectricmotors.com/images/IMG_5739.JPG",
+    "pool-pump.jpg": "http://mikeselectricmotors.com/images/whisperflo.jpg"
+  },
+  "changes": [
+    { "title": "Call from any phone.", "text": "The current homepage is a 2013 layout that shrinks on a phone, and 281-931-5656 can't be tapped. The concept puts a tap to call button at the top of every screen." },
+    { "title": "A repair request, not just a phone number.", "text": "Today the only way to reach you is to call or copy your email address from the Contact page. The concept adds a short request where a customer describes the motor and the problem." },
+    { "title": "Your rating and your shop up front.", "text": "You have 26 Google reviews and a gallery of real repairs, but the homepage shows neither. The concept leads with your 4.2 rating and photos of motors on your floor." }
+  ]
+}
