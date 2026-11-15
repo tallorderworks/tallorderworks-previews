@@ -1,11 +1,12 @@
 {
   "slug": "trigon-products",
-  "type": "audit",
-  "rendered_at": "2026-11-08T22:56:18Z",
-  "source_commit": "9b28be070fb73c7dc00f037dc9e657cbd230be4f",
+  "type": "mockup",
+  "rendered_at": "2026-11-15T22:54:26Z",
+  "source_commit": "1f1c882ff4d13666bdd4438772085f8a502bbf72",
   "image_errors": [],
   "broken_images_in_mockup": [],
   "phone_horizontal_scroll": false,
   "copy_warnings": [],
-  "errors": []
+  "errors": [],
+  "preview_url": "https://preview.tallorderworks.com/trigon-products/"
 }
