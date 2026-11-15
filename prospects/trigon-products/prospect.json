@@ -1,9 +1,16 @@
 {
   "business": "Trigon Products, Inc.",
-  "type": "audit",
+  "type": "mockup",
   "published": false,
   "site_url": "http://trigonproducts.com",
   "domain": "trigonproducts.com",
   "sources_phrase": "trigonproducts.com",
-  "images": {}
+  "images": {
+    "packing.jpg": "http://trigonproducts.com/images/708_packing4.jpg"
+  },
+  "changes": [
+    { "title": "Tap to call.", "text": "The 800 number becomes a button at the top of the screen." },
+    { "title": "Request a quote.", "text": "A short parts quote request replaces the text only Get a quote line." },
+    { "title": "Shipping up front.", "text": "Rod packing in stock and rings shipped within 24 hours lead the page." }
+  ]
 }
