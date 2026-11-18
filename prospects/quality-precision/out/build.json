@@ -1,0 +1,11 @@
+{
+  "slug": "quality-precision",
+  "type": "audit",
+  "rendered_at": "2026-11-18T01:15:48Z",
+  "source_commit": "0d61c95426381ecf091cf7fbf73f43b31cf642a8",
+  "image_errors": [],
+  "broken_images_in_mockup": [],
+  "phone_horizontal_scroll": false,
+  "copy_warnings": [],
+  "errors": []
+}
