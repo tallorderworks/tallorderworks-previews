@@ -1,0 +1,18 @@
+{
+  "business": "J.A. Controls, Inc.",
+  "type": "mockup",
+  "published": true,
+  "site_url": "https://jacontrolsinc.com",
+  "domain": "jacontrolsinc.com",
+  "sources_phrase": "jacontrolsinc.com",
+  "images": {
+    "logo.jpg": "https://jacontrolsinc.com/photo_gallery/Images/JAControls%20logo%2012.jpg",
+    "panel.gif": "https://jacontrolsinc.com/photo_gallery/Images/12999A.gif",
+    "skid.gif": "https://jacontrolsinc.com/photo_gallery/Images/P51Y.gif"
+  },
+  "changes": [
+    { "title": "Readable on any phone, with tap to call.", "text": "Today the site opens as a shrunken desktop page and the office, cell and shop numbers are plain text. The concept puts a call button at the top of every screen." },
+    { "title": "A panel quote request.", "text": "There is no form on the current site, only email links. The concept adds a short request for panel type, application and due date." },
+    { "title": "Emergency service up front.", "text": "Your weekend emergency service and UL 508A and 698A listings sit on inner pages today. The concept leads with them." }
+  ]
+}
