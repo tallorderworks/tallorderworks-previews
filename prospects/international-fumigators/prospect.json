@@ -1,0 +1,16 @@
+{
+  "business": "International Fumigators, Inc.",
+  "type": "mockup",
+  "published": false,
+  "site_url": "http://internationalfumigators.com",
+  "domain": "internationalfumigators.com",
+  "sources_phrase": "internationalfumigators.com",
+  "images": {
+    "warehouse.jpg": "http://internationalfumigators.com/index_files/image2911.jpg"
+  },
+  "changes": [
+    { "title": "Tap to call.", "text": "Your office number becomes a button at the top of the screen." },
+    { "title": "Request a fumigation quote.", "text": "A short request by cargo type and port replaces the list of email addresses." },
+    { "title": "Both ports up front.", "text": "Port of Houston and Port of Lake Charles lead the page." }
+  ]
+}

@@ -1,10 +1,17 @@
 {
   "business": "Dow Pipe & Fence Supply Co.",
-  "type": "audit",
+  "type": "mockup",
   "published": false,
   "site_url": "http://www.dowfence.com",
   "domain": "dowfence.com",
   "sources_phrase": "dowfence.com",
-  "images": {},
-  "changes": []
+  "images": {
+    "chainlink.gif": "http://www.dowfence.com/images/chainlinkfence.gif",
+    "ornamental.gif": "http://www.dowfence.com/images/ornamentalfence.gif"
+  },
+  "changes": [
+    { "title": "Tap to call.", "text": "Your office line becomes a button at the top of the screen." },
+    { "title": "A short fence quote request.", "text": "A few quick questions replace the long contact form with fax and mail stop." },
+    { "title": "Install or material, one tap each.", "text": "Fence installation and fence material for contractors each get their own card." }
+  ]
 }
