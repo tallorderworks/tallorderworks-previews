@@ -1,0 +1,24 @@
+{
+  "business": "R & I Machine Works",
+  "type": "mockup",
+  "published": true,
+  "site_url": "http://www.rimachine.com",
+  "domain": "rimachine.com",
+  "sources_phrase": "rimachine.com",
+  "images": {
+    "logo.png": "http://www.rimachine.com/images/logo.png",
+    "block.jpg": "http://www.rimachine.com/gallery/img10.jpg",
+    "parts.jpg": "http://www.rimachine.com/gallery/img5.jpg",
+    "housing.jpg": "http://www.rimachine.com/gallery/img11.jpg",
+    "flange.jpg": "http://www.rimachine.com/gallery/img1.jpg",
+    "rails.jpg": "http://www.rimachine.com/gallery/img7.jpg",
+    "mix.jpg": "http://www.rimachine.com/gallery/img13.jpg",
+    "plate.jpg": "http://www.rimachine.com/gallery/img16.jpg",
+    "cup.jpg": "http://www.rimachine.com/gallery/img3.jpg"
+  },
+  "changes": [
+    { "title": "Readable on any phone, with tap to call.", "text": "Today every page opens as a shrunken desktop page and 713-462-3616 is plain text. The concept puts a call button at the top of every screen." },
+    { "title": "A real quote request.", "text": "Right now a quote is one choice in a dropdown on the Contact page. The concept leads with a short request for material, quantity and due date, with room to attach a drawing." },
+    { "title": "Your work and equipment up front.", "text": "Your parts gallery, EDM capability and Mori Seiki, Mitsubishi and Brother machines sit on inner pages today. The concept shows them on the homepage." }
+  ]
+}

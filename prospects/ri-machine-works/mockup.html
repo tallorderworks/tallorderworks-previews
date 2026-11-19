@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>R &amp; I Machine Works | CNC, Conventional and EDM Machining, Houston</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing:border-box; }
+  html, body { margin:0; overflow-x:hidden; }
+  body { font:17px/1.6 Barlow, system-ui, sans-serif; color:#16202e; background:#fff; }
+  img { max-width:100%; display:block; }
+  a { color:inherit; text-decoration:none; }
+  .wrap { max-width:1160px; margin:0 auto; padding:0 20px; }
+  h1, h2, h3 { margin:0; line-height:1.1; }
+  .topbar { background:#0a1420; color:#9fb3c8; font-size:14px; }
+  .topbar .wrap { display:flex; justify-content:space-between; gap:12px; padding-top:7px; padding-bottom:7px; flex-wrap:wrap; }
+  header { background:#fff; border-bottom:1px solid #e2e8ef; position:sticky; top:0; z-index:5; }
+  header .wrap { display:flex; align-items:center; justify-content:space-between; gap:14px; padding-top:10px; padding-bottom:10px; }
+  header img { height:52px; width:auto; }
+  nav { display:flex; gap:26px; font-weight:600; font-size:16px; color:#2b3a4e; }
+  .call-sm { background:#e3a72f; color:#0a1420; font-weight:800; font-size:15px; padding:10px 18px; border-radius:6px; white-space:nowrap; }
+  .hero { background:linear-gradient(150deg,#13304a,#0a1420 72%); color:#fff; }
+  .hero .wrap { display:grid; grid-template-columns:1.05fr 1fr; gap:44px; align-items:center; padding-top:60px; padding-bottom:60px; }
+  .eyebrow { display:inline-block; border-left:4px solid #e3a72f; color:#f3c869; font-weight:700; font-size:14px; letter-spacing:1.6px; text-transform:uppercase; padding:2px 0 2px 12px; margin-bottom:18px; }
+  .hero h1 { font-size:clamp(34px,5.2vw,58px); font-weight:800; margin-bottom:18px; }
+  .hero p { color:#c7d4e2; font-size:19px; margin:0 0 28px; max-width:540px; }
+  .ctas { display:flex; gap:12px; flex-wrap:wrap; }
+  .btn { display:inline-block; text-align:center; font-weight:700; padding:15px 24px; border-radius:6px; font-size:18px; }
+  .btn-main { background:#e3a72f; color:#0a1420; }
+  .btn-line { border:2px solid #fff; color:#fff; }
+  .hero-img img { border-radius:10px; width:100%; aspect-ratio:4/3; object-fit:cover; box-shadow:0 22px 50px rgba(0,0,0,.4); }
+  .trust { background:#f2f5f8; border-bottom:1px solid #e2e8ef; }
+  .trust .wrap { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; padding-top:22px; padding-bottom:22px; }
+  .trust div { font-size:15px; color:#4a5a6e; }
+  .trust b { display:block; font-size:20px; color:#0a1420; }
+  section.block { padding:66px 0; }
+  .label { color:#b07d12; font-weight:700; font-size:14px; letter-spacing:1.6px; text-transform:uppercase; margin-bottom:10px; }
+  h2 { font-size:clamp(28px,3.8vw,40px); font-weight:800; color:#0a1420; margin-bottom:14px; }
+  .lead { color:#4a5a6e; font-size:18px; max-width:700px; margin:0 0 30px; }
+  .caps { display:grid; grid-template-columns:repeat(5,1fr); gap:14px; }
+  .cap { border:1px solid #e2e8ef; border-top:4px solid #e3a72f; border-radius:8px; padding:18px 16px; background:#fff; }
+  .cap b { display:block; font-size:18px; color:#0a1420; margin-bottom:4px; }
+  .cap span { color:#4a5a6e; font-size:15px; }
+  .split { display:grid; grid-template-columns:1fr 1fr; gap:44px; align-items:center; }
+  .split img { border-radius:10px; width:100%; aspect-ratio:4/3; object-fit:cover; }
+  .split p { color:#3b4a5d; margin:0 0 16px; }
+  .dark { background:#0a1420; color:#d5dfea; }
+  .dark h2 { color:#fff; }
+  .dark .lead { color:#a9bacb; }
+  .equip { display:grid; grid-template-columns:repeat(4,1fr); gap:18px; }
+  .equip div { background:#13253a; border-radius:8px; padding:18px; }
+  .equip b { display:block; color:#f3c869; font-size:15px; letter-spacing:1px; text-transform:uppercase; margin-bottom:8px; }
+  .equip ul { margin:0; padding:0; list-style:none; font-size:16px; line-height:1.7; }
+  .mats { display:flex; flex-wrap:wrap; gap:8px; margin-top:26px; }
+  .mats span { border:1px solid #2c4560; border-radius:999px; padding:6px 14px; font-size:15px; color:#d5dfea; }
+  .gallery { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
+  .gallery img { width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:8px; }
+  .note { background:#f2f5f8; }
+  .note blockquote { margin:0; font-size:22px; line-height:1.5; max-width:860px; color:#16202e; border-left:4px solid #e3a72f; padding-left:22px; }
+  .note cite { display:block; margin-top:14px; color:#b07d12; font-style:normal; font-weight:700; }
+  .quote .split { align-items:start; }
+  form { background:#fff; border:1px solid #e2e8ef; border-radius:10px; padding:24px; display:grid; grid-template-columns:1fr 1fr; gap:14px; box-shadow:0 10px 30px rgba(10,20,32,.08); }
+  label { font-size:15px; font-weight:600; color:#2b3a4e; display:grid; gap:6px; }
+  input, select, textarea { font:inherit; font-size:16px; padding:11px; border:1px solid #c6d0dc; border-radius:6px; width:100%; background:#fff; }
+  .full { grid-column:1 / -1; }
+  form button { grid-column:1 / -1; background:#e3a72f; color:#0a1420; font:inherit; font-weight:800; font-size:18px; border:0; border-radius:6px; padding:15px; cursor:pointer; }
+  .contact-list { list-style:none; padding:0; margin:22px 0 0; display:grid; gap:12px; }
+  .contact-list li { color:#3b4a5d; }
+  .contact-list b { color:#0a1420; display:block; }
+  footer { background:#0a1420; color:#9fb3c8; font-size:15px; }
+  footer .wrap { display:grid; grid-template-columns:2fr 1fr 1fr; gap:24px; padding-top:40px; padding-bottom:40px; }
+  footer b { color:#fff; display:block; margin-bottom:6px; }
+  @media (max-width:980px) {
+    nav { display:none; }
+    .hero .wrap, .split { grid-template-columns:1fr; gap:28px; }
+    .trust .wrap, .equip { grid-template-columns:1fr 1fr; }
+    .caps { grid-template-columns:1fr 1fr; }
+    .gallery { grid-template-columns:1fr 1fr; }
+    footer .wrap { grid-template-columns:1fr; }
+  }
+  @media (max-width:560px) {
+    header img { height:40px; }
+    .topbar .hide { display:none; }
+    .btn { display:block; width:100%; }
+    .equip, .caps { grid-template-columns:1fr; }
+    form { grid-template-columns:1fr; padding:18px; }
+    section.block { padding:46px 0; }
+    .hero .wrap { padding-top:38px; padding-bottom:40px; }
+  }
+</style>
+</head>
+<body>
+<div class="topbar"><div class="wrap"><span>10137 Chickasaw Lane, Houston, TX 77041</span><span class="hide">CNC, conventional and EDM machining since 1993</span></div></div>
+<header><div class="wrap">
+  <img src="img/logo.png" alt="R &amp; I Machine Works">
+  <nav><a href="#capabilities">Capabilities</a><a href="#equipment">Equipment</a><a href="#work">Our Work</a><a href="#quote">Request a Quote</a></nav>
+  <a class="call-sm" href="tel:+17134623616">Call 713-462-3616</a>
+</div></header>
+
+<section class="hero"><div class="wrap">
+  <div>
+    <span class="eyebrow">Houston machine shop since 1993</span>
+    <h1>Precision parts, from prototype to production run.</h1>
+    <p>CNC turning and milling, wire and sinker EDM, and conventional machining in our 7,200 square foot, climate controlled shop. Send us your drawing and we will quote it.</p>
+    <div class="ctas">
+      <a class="btn btn-main" href="#quote">Request a quote</a>
+      <a class="btn btn-line" href="tel:+17134623616">Call 713-462-3616</a>
+    </div>
+  </div>
+  <div class="hero-img"><img src="img/block.jpg" alt="A machined housing made by R &amp; I Machine Works"></div>
+</div></section>
+
+<div class="trust"><div class="wrap">
+  <div><b>Since 1993</b>Father and son founded</div>
+  <div><b>40+ years</b>Combined machining experience</div>
+  <div><b>7,200 sq ft</b>Climate controlled facility</div>
+  <div><b>Prototype to production</b>Short and long runs</div>
+</div></div>
+
+<section class="block" id="capabilities"><div class="wrap">
+  <div class="label">Capabilities</div>
+  <h2>The machining your parts call for, under one roof.</h2>
+  <p class="lead">From one off prototypes to short and long production runs, built to your drawings and specifications.</p>
+  <div class="caps">
+    <div class="cap"><b>CNC Turning</b><span>Lathe work from prototype to production</span></div>
+    <div class="cap"><b>CNC Milling</b><span>Vertical machining centers</span></div>
+    <div class="cap"><b>Wire EDM</b><span>Fine, accurate profiles</span></div>
+    <div class="cap"><b>Sinker EDM</b><span>Cavities and complex shapes</span></div>
+    <div class="cap"><b>Conventional</b><span>Manual turning and milling</span></div>
+  </div>
+</div></section>
+
+<section class="block" style="padding-top:0"><div class="wrap split">
+  <img src="img/parts.jpg" alt="A range of machined parts">
+  <div>
+    <div class="label">About us</div>
+    <h2>Tradition and technology, since 1993.</h2>
+    <p>R &amp; I Machine Works was founded in 1993 by Raul and Israel Amaro. The father and son team merged the traditional ways of machining with the newest CNC equipment.</p>
+    <p>That mix keeps our established clients coming back and draws in new ones who need a trustworthy, efficient shop, often on tight schedules. We have the know how and the equipment to machine parts other shops would turn away.</p>
+    <a class="btn btn-main" href="#quote">Send us a drawing</a>
+  </div>
+</div></section>
+
+<section class="block dark" id="equipment"><div class="wrap">
+  <div class="label" style="color:#f3c869">Equipment</div>
+  <h2>The machines behind your parts.</h2>
+  <p class="lead">A well equipped shop and carefully trained people, so tight schedules are met.</p>
+  <div class="equip">
+    <div><b>Machining centers</b><ul><li>Mori Seiki MV40</li><li>Mori Seiki SV500</li></ul></div>
+    <div><b>CNC lathes</b><ul><li>Mori Seiki SL 15</li><li>Daewoo Puma H10C</li><li>Nakamura Tome Slant Jr.</li></ul></div>
+    <div><b>EDM</b><ul><li>Mitsubishi SX10 wire</li><li>Brother HS 50A wire</li><li>Hansvedt Leadman sinker</li><li>Eltee Pulsitron TRM 21 sinker</li></ul></div>
+    <div><b>Conventional</b><ul><li>Bridgeport type mill</li><li>Victor S2060B lathe</li><li>Hardinge HLV super precision lathe</li><li>Two surface grinders</li></ul></div>
+  </div>
+  <div class="mats">
+    <span>Aluminum</span><span>Aluminum Bronze</span><span>Beryllium Copper</span><span>Brass</span><span>Copper</span><span>Kovar</span><span>Delrin</span><span>Inconel</span><span>Hastelloy</span><span>Nitronic</span><span>Nylon</span><span>PVC</span><span>Stainless Steel</span><span>Teflon</span><span>Titanium</span><span>Tool Steel</span>
+  </div>
+</div></section>
+
+<section class="block" id="work"><div class="wrap">
+  <div class="label">Our work</div>
+  <h2>Parts we have made.</h2>
+  <p class="lead">A few recent examples from our shop floor.</p>
+  <div class="gallery">
+    <img src="img/housing.jpg" alt="Machined housing">
+    <img src="img/flange.jpg" alt="Threaded flange">
+    <img src="img/rails.jpg" alt="Machined rails">
+    <img src="img/cup.jpg" alt="Turned part">
+    <img src="img/mix.jpg" alt="Assorted machined parts">
+    <img src="img/plate.jpg" alt="Machined plate">
+    <img src="img/block.jpg" alt="Machined block">
+    <img src="img/parts.jpg" alt="Prototype parts">
+  </div>
+</div></section>
+
+<section class="block note"><div class="wrap">
+  <blockquote>Our philosophy is to develop and maintain long term business relationships by providing high quality parts that continually meet or exceed our customers' specifications.<cite>R &amp; I Machine Works</cite></blockquote>
+</div></section>
+
+<section class="block quote" id="quote"><div class="wrap split">
+  <div>
+    <div class="label">Request a quote</div>
+    <h2>Tell us what you need.</h2>
+    <p class="lead">Share the part, the material, the quantity and your due date. Attach a drawing if you have one, and we will get back to you.</p>
+    <ul class="contact-list">
+      <li><b>Call</b><a href="tel:+17134623616">713-462-3616</a></li>
+      <li><b>Email</b><a href="mailto:info@rimachine.com">info@rimachine.com</a></li>
+      <li><b>Visit</b>10137 Chickasaw Lane, Houston, TX 77041</li>
+    </ul>
+  </div>
+  <form onsubmit="return false">
+    <label>Name<input type="text"></label>
+    <label>Company<input type="text"></label>
+    <label>Email<input type="email"></label>
+    <label>Phone<input type="tel"></label>
+    <label>Material<input type="text" placeholder="Stainless, Inconel, aluminum"></label>
+    <label>Quantity<input type="text"></label>
+    <label>Due date<input type="text"></label>
+    <label>Drawing<input type="file"></label>
+    <label class="full">Details<textarea rows="4"></textarea></label>
+    <button type="submit">Send quote request</button>
+  </form>
+</div></section>
+
+<footer><div class="wrap">
+  <div><b>R &amp; I Machine Works LLC</b>CNC, conventional and EDM machining in Houston since 1993.</div>
+  <div><b>Visit</b>10137 Chickasaw Lane<br>Houston, TX 77041</div>
+  <div><b>Contact</b><a href="tel:+17134623616">Tel 713-462-3616</a><br>Fax 713-939-8190<br><a href="mailto:info@rimachine.com">info@rimachine.com</a></div>
+</div></footer>
+</body>
+</html>
