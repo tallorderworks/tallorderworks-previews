@@ -1,0 +1,14 @@
+{
+  "business": "Kahanek Printing, Inc.",
+  "type": "audit",
+  "published": false,
+  "site_url": "https://www.kahanekprinting.com",
+  "domain": "kahanekprinting.com",
+  "sources_phrase": "kahanekprinting.com",
+  "images": {},
+  "changes": [
+    { "title": "Readable on any phone.", "text": "The homepage opens as a shrunken desktop page on phones." },
+    { "title": "Tap to call.", "text": "The office numbers are plain text and can't be tapped." },
+    { "title": "A quick quote request.", "text": "The only way to ask for a quote online is an email link." }
+  ]
+}
