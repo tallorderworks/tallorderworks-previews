@@ -1,0 +1,36 @@
+{
+  "business": "LuxCo Print Studio",
+  "type": "mockup",
+  "published": true,
+  "site_url": "https://www.luxcoprintstudio.com/rosehillchristianschool",
+  "domain": "luxcoprintstudio.com",
+  "intro": "Every school you serve can have a store like this. Here is a reusable school store template for {{BUSINESS}}, shown with the Rosehill Christian Eagles collection and your real product mockups. Scroll to see the full page.",
+  "sources_phrase": "luxcoprintstudio.com",
+  "images": {
+    "joggers-r.png": "https://images.squarespace-cdn.com/content/v1/6387e65348b8bd5e054fa300/83164b88-004d-44b6-bed2-bf2da741d85b/Rosehill+Black+Fleece+Joggers+.png",
+    "joggers-texas.png": "https://images.squarespace-cdn.com/content/v1/6387e65348b8bd5e054fa300/733296f6-71b4-4971-bc7b-5bf5f229ea1a/Rosehill+Black+Joggers+Mockup.png",
+    "spirit-shirt.png": "https://images.squarespace-cdn.com/content/v1/6387e65348b8bd5e054fa300/ab98c15e-e25d-424f-b65d-3d1e65f0e48d/11.png",
+    "fullness-of-joy.png": "https://images.squarespace-cdn.com/content/v1/6387e65348b8bd5e054fa300/24584e14-cad6-46b0-8679-7359abe2a1d1/Fullness+Of+Joy+T-Shirt+Mockup+Front.png",
+    "rcs-eagles.png": "https://images.squarespace-cdn.com/content/v1/6387e65348b8bd5e054fa300/b43c6845-a3d0-4975-a520-5b83f87de252/Updated+Universal+Shirt+Mockup+Back.png",
+    "camo-dri-fit.png": "https://images.squarespace-cdn.com/content/v1/6387e65348b8bd5e054fa300/8f4d49c8-262f-4b1a-a58c-0f69c6972e35/2+Updated+Boys+Dri+Fit+Camo+T-Shirt+Mockup.png",
+    "school-polo.png": "https://images.squarespace-cdn.com/content/v1/6387e65348b8bd5e054fa300/28198229-4a46-4782-9fdf-b7ecf0fb3a99/16.png",
+    "texas-polo.png": "https://images.squarespace-cdn.com/content/v1/6387e65348b8bd5e054fa300/4552be9e-a0f3-44db-8bab-4cd41cd9eff8/17.png",
+    "fishing-shirt.png": "https://images.squarespace-cdn.com/content/v1/6387e65348b8bd5e054fa300/ed80ac66-f814-4f39-beea-4416b6352c6f/26.png",
+    "hoodie.png": "https://images.squarespace-cdn.com/content/v1/6387e65348b8bd5e054fa300/c13ab217-cc93-4ae4-9bd3-9186858e1837/19.png",
+    "texas-hoodie.png": "https://images.squarespace-cdn.com/content/v1/6387e65348b8bd5e054fa300/d8502c94-bbfc-42e8-9be0-aabaf0369dca/20.png"
+  },
+  "changes": [
+    {
+      "title": "One template, every school.",
+      "text": "Swap in a school's name, colors and products, and a new spirit store is ready to open without a rebuild."
+    },
+    {
+      "title": "Parents get answers.",
+      "text": "Working filters, an order window, a size guide and a FAQ replace the broken filter panel and empty Have Questions section."
+    },
+    {
+      "title": "Built to sell from a phone.",
+      "text": "Big product photos, two across on a phone, with sizes for the whole family in one cart."
+    }
+  ]
+}

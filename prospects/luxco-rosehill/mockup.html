@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rosehill Christian Eagles Spirit Store | LuxCo Print Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--red:#C8102E;--red2:#a50d26;--pop:#FF4D63;--ink:#111;--cream:#F6F4F1;--line:#E6E3DF;--mute:#4A4641}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,system-ui,sans-serif;color:var(--ink);background:#fff;line-height:1.55}
+a{color:inherit;text-decoration:none}
+.w{max-width:1200px;margin:0 auto;padding:0 24px}
+h1,h2,.bc{font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;line-height:.95}
+h2{font-size:clamp(38px,5vw,52px)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:13px 26px;border-radius:999px;font-weight:700;font-size:16px}
+.bar{background:var(--red);color:#fff;text-align:center;font-weight:600;font-size:15px;padding:12px 24px}
+header{border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:20}
+header .w{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-top:14px;padding-bottom:14px}
+.logo{display:flex;flex-direction:column}.logo b{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:26px;letter-spacing:.04em;text-transform:uppercase;line-height:1}.logo small{font-size:12px;color:#5C5853;font-weight:500;letter-spacing:.08em;text-transform:uppercase}
+nav{display:flex;gap:24px;align-items:center;font-weight:600;font-size:15px}
+.cart{background:var(--ink);color:#fff;padding:11px 18px;border-radius:999px;display:inline-flex;gap:8px;align-items:center;min-height:44px}
+.hero{background:var(--ink);color:#fff}
+.hero .w{display:grid;grid-template-columns:1.25fr 1fr;gap:48px;align-items:center;padding-top:64px;padding-bottom:64px}
+.tagp{display:inline-block;border:1px solid #fff;border-radius:999px;padding:6px 14px;font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;margin-bottom:22px}
+.hero h1{font-size:clamp(60px,9vw,118px)}
+.hero h1 span{color:var(--pop)}
+.hero p{color:#D9D6D2;font-size:19px;max-width:540px;margin:22px 0 28px}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.b-red{background:var(--red);color:#fff}.b-red:hover{background:var(--red2)}
+.b-out{border:2px solid #fff;color:#fff}
+.b-white{background:#fff;color:var(--ink)}
+.stack{position:relative;height:420px}
+.stack .t{position:absolute;background:#fff;border-radius:22px;box-shadow:0 30px 60px #0007;overflow:hidden}
+.stack .t img{width:100%;height:100%;object-fit:contain;background:#F6F4F1}
+.t1{width:62%;height:78%;left:0;top:6%;transform:rotate(-4deg)}
+.t2{width:58%;height:74%;right:0;top:0;transform:rotate(5deg)}
+.window{position:absolute;left:12%;right:12%;bottom:-10px;background:#1E1E1E;border:1px solid #333;border-radius:18px;padding:14px 18px;display:flex;justify-content:space-between;align-items:center;gap:12px;box-shadow:0 20px 40px #0008}
+.window small{color:#BDB8B2;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+.window b{font-family:'Barlow Condensed',sans-serif;font-size:26px;font-weight:800;text-transform:uppercase;color:#fff}
+.how{background:var(--cream)}
+.how .w{padding-top:56px;padding-bottom:56px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:26px}
+.step{background:#fff;border-radius:16px;padding:24px}
+.step .n{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:44px;line-height:1;color:var(--red)}
+.step h3{font-size:19px;margin:8px 0 6px}.step p{color:var(--mute);font-size:15px}
+.shop .w{padding-top:64px;padding-bottom:64px}
+.shophead{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:28px}
+.count{color:#5C5853;font-size:15px;margin-top:6px}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+.pill{font:inherit;font-weight:600;font-size:15px;padding:10px 18px;min-height:44px;border-radius:999px;border:2px solid var(--ink);background:#fff;color:var(--ink);cursor:pointer}
+.pill span{opacity:.6;font-weight:500}.pill.on{background:var(--ink);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:24px}
+.card{display:flex;flex-direction:column;gap:12px}
+.card[hidden]{display:none}
+.pic{position:relative;background:var(--cream);border-radius:16px;aspect-ratio:1/1;overflow:hidden}
+.pic img{width:100%;height:100%;object-fit:contain;padding:8%}
+.cat{position:absolute;top:12px;left:12px;background:#fff;border-radius:999px;padding:4px 10px;font-size:12px;font-weight:600;color:var(--mute);z-index:2}
+.pre{position:absolute;top:12px;right:12px;background:var(--red);color:#fff;border-radius:999px;padding:4px 10px;font-size:12px;font-weight:700;z-index:2}
+.card h3{font-size:17px;line-height:1.3}.card p{color:var(--mute);font-size:15px}
+.card button{font:inherit;font-weight:700;font-size:15px;min-height:44px;border-radius:999px;border:2px solid var(--ink);background:#fff;cursor:pointer;margin-top:auto}
+.card button:hover{background:var(--ink);color:#fff}
+.sizes{background:var(--ink);color:#fff}
+.sizes .w{padding-top:64px;padding-bottom:64px;display:grid;grid-template-columns:1fr 1.4fr;gap:40px;align-items:center}
+.sizes p{color:#D9D6D2;margin-top:12px}
+.sz{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.sz div{background:#1E1E1E;border:1px solid #333;border-radius:16px;padding:22px}
+.sz b{display:block;font-family:'Barlow Condensed',sans-serif;font-size:30px;text-transform:uppercase}
+.sz span{color:#BDB8B2;font-size:14px}
+.faq .w{padding-top:64px;padding-bottom:64px}
+.qs{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:24px}
+.q{border:1px solid var(--line);border-radius:16px;padding:22px}
+.q h3{font-size:17px;margin-bottom:6px}.q p{color:var(--mute);font-size:15px}
+.lead{background:var(--red);color:#fff}
+.lead .w{padding-top:56px;padding-bottom:56px;display:flex;flex-wrap:wrap;gap:24px;justify-content:space-between;align-items:center}
+.lead h2{font-size:clamp(34px,4vw,44px)}
+.lead p{margin-top:8px;font-size:17px}
+footer{background:var(--ink);color:#D9D6D2;font-size:14px}
+footer .w{padding-top:36px;padding-bottom:36px;display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between}
+footer b{font-family:'Barlow Condensed',sans-serif;font-size:22px;text-transform:uppercase;color:#fff;letter-spacing:.04em}
+@media(max-width:860px){
+ nav a:not(.cart){display:none}
+ .hero .w,.sizes .w{grid-template-columns:1fr}
+ .stack{height:330px}
+ .steps,.qs,.sz{grid-template-columns:1fr}
+ .grid{grid-template-columns:1fr 1fr;gap:16px}
+ .card h3{font-size:15px}
+ .pills{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px}
+ .pill{flex:none}
+}
+</style>
+</head>
+<body>
+<div class="bar">Spring order window is open · All orders print together for campus pickup</div>
+<header><div class="w">
+  <a href="#" class="logo"><b>LuxCo Print Studio</b><small>School Stores</small></a>
+  <nav><a href="#shop">Shop</a><a href="#how">How it works</a><a href="#sizes">Sizing</a><a href="#faq">FAQ</a><a href="#shop" class="cart">Cart (0)</a></nav>
+</div></header>
+
+<section class="hero"><div class="w">
+  <div>
+    <span class="tagp">Rosehill Christian School · Tomball, TX</span>
+    <h1>Rep the <span>Eagles.</span></h1>
+    <p>Spirit shirts, polos, hoodies and game day gear for students, families and staff. Adult sizes S to 4XL, youth sizes YS to YXL.</p>
+    <div class="cta"><a href="#shop" class="btn b-red">Shop the collection</a><a href="#sizes" class="btn b-out">Find your size</a></div>
+  </div>
+  <div class="stack">
+    <div class="t t1"><img src="img/hoodie.png" alt="Rosehill Christian Hoodie"></div>
+    <div class="t t2"><img src="img/spirit-shirt.png" alt="Eagles Spirit Shirt"></div>
+    <div class="window"><div><small>Order window</small><br><b>Open now</b></div><a href="#shop" class="btn b-red" style="min-height:42px;padding:10px 18px;font-size:14px">Order now</a></div>
+  </div>
+</div></section>
+
+<section class="how" id="how"><div class="w">
+  <h2>How it works</h2>
+  <div class="steps">
+    <div class="step"><div class="n">01</div><h3>Pick your gear</h3><p>Filter by tees, polos, hoodies or joggers and choose sizes for the whole family in one cart.</p></div>
+    <div class="step"><div class="n">02</div><h3>Check out by the deadline</h3><p>Secure checkout. You get an email receipt with your order and pickup details.</p></div>
+    <div class="step"><div class="n">03</div><h3>Pick up on campus</h3><p>Every order prints together after the window closes and comes bagged by name.</p></div>
+  </div>
+</div></section>
+
+<section class="shop" id="shop"><div class="w">
+  <div class="shophead">
+    <div><h2>Shop the collection</h2><p class="count" id="count">11 items</p></div>
+    <div class="pills" role="group" aria-label="Filter by category"><button type="button" class="pill on" data-f="all">All <span>11</span></button><button type="button" class="pill" data-f="tees">Tees <span>4</span></button><button type="button" class="pill" data-f="polos">Polos and button ups <span>3</span></button><button type="button" class="pill" data-f="hoodies">Hoodies <span>2</span></button><button type="button" class="pill" data-f="bottoms">Joggers <span>2</span></button></div>
+  </div>
+  <div class="grid"><article class="card" data-cat="bottoms"><div class="pic"><span class="cat">Joggers</span><span class="pre">Pre order</span><img src="img/joggers-r.png" alt="Rosehill R Fleece Joggers" loading="lazy"></div><h3>Rosehill R Fleece Joggers</h3><p>$59.99</p><button type="button">Choose size</button></article><article class="card" data-cat="bottoms"><div class="pic"><span class="cat">Joggers</span><span class="pre">Pre order</span><img src="img/joggers-texas.png" alt="Texas Rosehill Fleece Joggers" loading="lazy"></div><h3>Texas Rosehill Fleece Joggers</h3><p>$59.99</p><button type="button">Choose size</button></article><article class="card" data-cat="tees"><div class="pic"><span class="cat">Tees</span><img src="img/spirit-shirt.png" alt="Eagles Spirit Shirt" loading="lazy"></div><h3>Eagles Spirit Shirt</h3><p>From $24.99</p><button type="button">Choose size</button></article><article class="card" data-cat="tees"><div class="pic"><span class="cat">Tees</span><img src="img/fullness-of-joy.png" alt="Fullness of Joy Tee" loading="lazy"></div><h3>Fullness of Joy Tee</h3><p>From $24.99</p><button type="button">Choose size</button></article><article class="card" data-cat="tees"><div class="pic"><span class="cat">Tees</span><img src="img/rcs-eagles.png" alt="RCS Eagles Tee" loading="lazy"></div><h3>RCS Eagles Tee</h3><p>From $27.99</p><button type="button">Choose size</button></article><article class="card" data-cat="tees"><div class="pic"><span class="cat">Tees</span><img src="img/camo-dri-fit.png" alt="Rosehill Eagles Camo Dri Fit Shirt" loading="lazy"></div><h3>Rosehill Eagles Camo Dri Fit Shirt</h3><p>From $24.99</p><button type="button">Choose size</button></article><article class="card" data-cat="polos"><div class="pic"><span class="cat">Polos and button ups</span><img src="img/school-polo.png" alt="Rosehill Christian School Polo" loading="lazy"></div><h3>Rosehill Christian School Polo</h3><p>From $32.99</p><button type="button">Choose size</button></article><article class="card" data-cat="polos"><div class="pic"><span class="cat">Polos and button ups</span><img src="img/texas-polo.png" alt="Rosehill Christian Texas Polo" loading="lazy"></div><h3>Rosehill Christian Texas Polo</h3><p>From $32.99</p><button type="button">Choose size</button></article><article class="card" data-cat="polos"><div class="pic"><span class="cat">Polos and button ups</span><img src="img/fishing-shirt.png" alt="Rosehill Texas Fishing Shirt" loading="lazy"></div><h3>Rosehill Texas Fishing Shirt</h3><p>From $49.99</p><button type="button">Choose size</button></article><article class="card" data-cat="hoodies"><div class="pic"><span class="cat">Hoodies</span><img src="img/hoodie.png" alt="Rosehill Christian Hoodie" loading="lazy"></div><h3>Rosehill Christian Hoodie</h3><p>From $49.99</p><button type="button">Choose size</button></article><article class="card" data-cat="hoodies"><div class="pic"><span class="cat">Hoodies</span><img src="img/texas-hoodie.png" alt="Rosehill Christian Texas Hoodie" loading="lazy"></div><h3>Rosehill Christian Texas Hoodie</h3><p>From $49.99</p><button type="button">Choose size</button></article></div>
+</div></section>
+
+<section class="sizes" id="sizes"><div class="w">
+  <div><h2>Find your size</h2><p>Between sizes? Size up for hoodies and layering. Every product lists fabric, fit and full measurements.</p></div>
+  <div class="sz"><div><b>Youth</b><span>YS to YXL</span></div><div><b>Adult</b><span>S to XL</span></div><div><b>Adult plus</b><span>2XL to 4XL</span></div></div>
+</div></section>
+
+<section class="faq" id="faq"><div class="w">
+  <h2>Questions</h2>
+  <div class="qs">
+    <div class="q"><h3>When will my order be ready?</h3><p>Orders print together once the window closes, and you get an email when they're ready.</p></div>
+    <div class="q"><h3>Where do I pick it up?</h3><p>On campus, bagged by name. Pickup details are in your receipt.</p></div>
+    <div class="q"><h3>What if the size is wrong?</h3><p>Check the size guide before ordering. Our exchange policy is listed on every product.</p></div>
+    <div class="q"><h3>Who do I contact about my order?</h3><p>Reach LuxCo Print Studio through the contact page, and we'll take care of it.</p></div>
+  </div>
+</div></section>
+
+<section class="lead"><div class="w">
+  <div><h2>Want a store like this for your school or team?</h2><p>We design the gear, build the store and handle printing. Booster clubs, teams, churches and schools welcome.</p></div>
+  <a href="#" class="btn b-white">Start a school store</a>
+</div></section>
+
+<footer><div class="w">
+  <div><b>LuxCo Print Studio</b><br>© 2026 LuxCo Print Studio, LLC</div>
+  <div>Get a quote · Contact · Returns · Shipping</div>
+</div></footer>
+
+<script>
+var pills=document.querySelectorAll('.pill'),cards=document.querySelectorAll('.card'),count=document.getElementById('count');
+pills.forEach(function(p){p.addEventListener('click',function(){var f=p.dataset.f,n=0;pills.forEach(function(x){x.classList.toggle('on',x===p)});cards.forEach(function(c){var show=f==='all'||c.dataset.cat===f;c.hidden=!show;if(show)n++;});count.textContent=n+(n===1?' item':' items');});});
+</script>
+</body>
+</html>

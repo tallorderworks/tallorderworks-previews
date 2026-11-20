@@ -1,0 +1,39 @@
+{
+  "business": "LuxCo Print Studio",
+  "type": "mockup",
+  "published": true,
+  "site_url": "https://www.luxcoprintstudio.com",
+  "domain": "luxcoprintstudio.com",
+  "intro": "Here is a homepage concept for {{BUSINESS}} on Shopify, built around the three kinds of customers you serve and the school store model you are growing. Scroll to see the full page.",
+  "sources_phrase": "luxcoprintstudio.com",
+  "images": {
+    "hero.jpg": "https://images.squarespace-cdn.com/content/v1/6387e65348b8bd5e054fa300/1680281239363-P52MQBKMAS9LAHSFKTFL/unsplash-image-nABKsD3k4FE.jpg",
+    "stack.jpg": "https://images.squarespace-cdn.com/content/v1/6387e65348b8bd5e054fa300/1680281119420-HHJNBC9SUNX5FXV4DVIP/stackoftshirts.jpg",
+    "merch.jpg": "https://images.squarespace-cdn.com/content/v1/6387e65348b8bd5e054fa300/65e63bd6-2832-4037-9286-d8af87e15d97/pv+merch.jpg",
+    "tees.jpg": "https://images.squarespace-cdn.com/content/v1/6387e65348b8bd5e054fa300/1680282505627-UVVM20HXRLH01TJ9GPL0/unsplash-image-WWesmHEgXDs.jpg",
+    "hats.jpg": "https://images.squarespace-cdn.com/content/v1/6387e65348b8bd5e054fa300/1680282808347-7MUV5EMU4MV75XC9PPJ1/unsplash-image-FwVnAY_xMaY.jpg",
+    "bags.jpg": "https://images.squarespace-cdn.com/content/v1/6387e65348b8bd5e054fa300/1680283060806-ASYFW55L9RZTMK08UAIG/unsplash-image-PENodSVsL1s.jpg",
+    "hoodies.jpg": "https://images.squarespace-cdn.com/content/v1/6387e65348b8bd5e054fa300/908e668c-df20-49ae-acc9-b4d67e92c51f/unsplash-image-qApWjd0g1gw.jpg",
+    "polos.jpg": "https://images.squarespace-cdn.com/content/v1/6387e65348b8bd5e054fa300/03dd9776-e3d3-4956-9ef1-271288ec25db/unsplash-image-rpiH-Z9ohmk.jpg",
+    "school.jpg": "https://images.squarespace-cdn.com/content/v1/6387e65348b8bd5e054fa300/9082c3a6-24b2-49f5-9d37-e2b69882e63c/back-to-school-themed-mockup-featuring-a-sublimated-backpack-m28729-r-el2.jpg",
+    "design.jpg": "https://images.squarespace-cdn.com/content/v1/6387e65348b8bd5e054fa300/01cbb244-24f4-4062-b8fe-72f66e390117/unsplash-image-zBTssriiFm0.jpg",
+    "rh-shirt.png": "https://images.squarespace-cdn.com/content/v1/6387e65348b8bd5e054fa300/ab98c15e-e25d-424f-b65d-3d1e65f0e48d/11.png",
+    "rh-polo.png": "https://images.squarespace-cdn.com/content/v1/6387e65348b8bd5e054fa300/28198229-4a46-4782-9fdf-b7ecf0fb3a99/16.png",
+    "rh-hoodie.png": "https://images.squarespace-cdn.com/content/v1/6387e65348b8bd5e054fa300/c13ab217-cc93-4ae4-9bd3-9186858e1837/19.png",
+    "logo.png": "https://images.squarespace-cdn.com/content/v1/6387e65348b8bd5e054fa300/7844d7e3-179c-4b52-b51c-7874e80f6718/lux+co+print+logo+cropped.png"
+  },
+  "changes": [
+    {
+      "title": "Three clear doors in.",
+      "text": "Schools, teams and companies each get their own path, so every visitor knows where to start."
+    },
+    {
+      "title": "School stores up front.",
+      "text": "A spotlight on the spirit store model, with a live look at the Rosehill store and a Start a school store button."
+    },
+    {
+      "title": "One quote form that sorts leads.",
+      "text": "Name, organization, what they need, how many pieces and the date, so every request arrives ready to price."
+    }
+  ]
+}
