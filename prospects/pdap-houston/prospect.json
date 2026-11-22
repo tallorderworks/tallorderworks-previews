@@ -1,0 +1,14 @@
+{
+  "business": "Palmer Drug Abuse Program Houston",
+  "type": "audit",
+  "published": false,
+  "site_url": "https://pdaphouston.org/",
+  "domain": "pdaphouston.org",
+  "sources_phrase": "pdaphouston.org",
+  "images": {},
+  "changes": [
+    { "title": "Tap to call.", "text": "Call Us Today! 281.589.4833 can't be tapped on a phone." },
+    { "title": "Show what's coming up.", "text": "The homepage events section reads There are no upcoming events." },
+    { "title": "A current footer.", "text": "The footer still reads Copyright 2020." }
+  ]
+}
