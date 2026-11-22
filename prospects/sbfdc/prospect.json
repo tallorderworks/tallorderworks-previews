@@ -1,0 +1,21 @@
+{
+  "business": "Spring Branch Family Development Center",
+  "type": "mockup",
+  "published": true,
+  "site_url": "https://sbfdc.org/",
+  "domain": "sbfdc.org",
+  "sources_phrase": "sbfdc.org",
+  "images": {
+    "logo.png": "https://sbfdc.org/wp-content/uploads/2018/06/WP-Logo-tranparent-background-glow.png",
+    "volunteers-group.jpg": "https://sbfdc.org/wp-content/uploads/2023/05/PXL_20221215_143423958.MP_-1200x900.jpg",
+    "food-pantry.jpg": "https://sbfdc.org/wp-content/uploads/2023/05/PXL_20230316_135024561-1200x900.jpg",
+    "boys-girls-club.jpg": "https://sbfdc.org/wp-content/uploads/2023/05/IMG_20180619_090116617_HDR-1200x900.jpg",
+    "pantry-team.jpg": "https://sbfdc.org/wp-content/uploads/2023/05/PXL_20221020_135348660.MP_-1200x900.jpg",
+    "pantry-volunteers.jpg": "https://sbfdc.org/wp-content/uploads/2023/05/PXL_20230216_144507333-1200x900.jpg"
+  },
+  "changes": [
+    { "title": "A clear first step for families.", "text": "On a phone, the current homepage opens with words over a busy photo and a Go to menu. The concept starts with Find help for my family and sorts your partners by need: food, health, learning and play." },
+    { "title": "Tap to call, hours and address up front.", "text": "Today 713.996.8781 can't be tapped on a phone. The concept puts a call button, your Monday to Friday hours and 8575 Pitner Road where families see them first." },
+    { "title": "Your volunteers front and center.", "text": "Your best photos, the Mobile Food Pantry teams, sit on the volunteer page. The concept brings them to the homepage next to clear Volunteer and Give buttons." }
+  ]
+}

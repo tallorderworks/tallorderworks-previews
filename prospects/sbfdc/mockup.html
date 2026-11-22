@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spring Branch Family Development Center</title>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--blue:#036cba;--navy:#0b3a63;--sun:#f6b819;--sky:#eaf4fc;--ink:#1d2733;--muted:#566474;--line:#d8e3ee}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{overflow-x:hidden}
+body{font-family:Figtree,system-ui,sans-serif;color:var(--ink);background:#fff;line-height:1.55}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+.topbar{background:var(--navy);color:#fff;font-size:14px}
+.topbar .wrap{display:flex;gap:18px;justify-content:space-between;align-items:center;padding-top:8px;padding-bottom:8px;flex-wrap:wrap}
+.topbar span{opacity:.9}
+header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:12px;padding-bottom:12px}
+.logo{display:flex;align-items:center;gap:12px}
+.logo img{height:54px;width:auto}
+.logo b{font-size:17px;line-height:1.2;color:var(--navy);max-width:220px}
+nav{display:flex;gap:26px;font-weight:600;font-size:15px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 22px;border-radius:999px;font-weight:700;font-size:16px;border:2px solid transparent}
+.btn-sun{background:var(--sun);color:var(--navy)}
+.btn-blue{background:var(--blue);color:#fff}
+.btn-line{border-color:#fff;color:#fff}
+.btn-out{border-color:var(--blue);color:var(--blue)}
+.hdr-actions{display:flex;gap:10px}
+.hero{position:relative;color:#fff;background:var(--navy)}
+.hero .bg{position:absolute;inset:0;background:url(img/volunteers-group.jpg) center 40%/cover}
+.hero .bg:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,36,64,.92) 0%,rgba(7,36,64,.78) 45%,rgba(7,36,64,.25) 100%)}
+.hero .wrap{position:relative;padding-top:96px;padding-bottom:96px}
+.eyebrow{display:inline-block;background:rgba(246,184,25,.18);color:var(--sun);font-weight:700;font-size:14px;letter-spacing:.06em;text-transform:uppercase;padding:6px 12px;border-radius:999px}
+.hero h1{font-size:54px;line-height:1.08;margin:18px 0 18px;max-width:640px;font-weight:800}
+.hero p{font-size:19px;max-width:560px;opacity:.95}
+.hero .ctas{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap}
+.lang{margin-top:18px;font-size:15px;opacity:.85}
+.need{background:var(--sky);padding:64px 0}
+h2{font-size:36px;line-height:1.15;color:var(--navy);font-weight:800}
+.sub{color:var(--muted);font-size:18px;margin-top:10px;max-width:640px}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:32px}
+.card{background:#fff;border-radius:18px;padding:24px;border:1px solid var(--line);display:flex;flex-direction:column}
+.card .ic{width:46px;height:46px;border-radius:12px;background:var(--blue);color:#fff;display:grid;place-items:center;font-weight:800;font-size:20px;margin-bottom:14px}
+.card h3{font-size:20px;color:var(--navy);margin-bottom:8px}
+.card ul{list-style:none;color:var(--muted);font-size:15px}
+.card li{padding:6px 0;border-top:1px solid var(--line)}
+.card li:first-child{border-top:0}
+.stats{padding:64px 0}
+.stats .wrap{display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:center}
+.stats img{border-radius:20px;aspect-ratio:4/3;object-fit:cover;width:100%}
+.nums{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:26px 0}
+.num{background:var(--sky);border-radius:16px;padding:18px}
+.num b{display:block;font-size:30px;color:var(--blue);font-weight:800;line-height:1.1}
+.num span{font-size:14px;color:var(--muted)}
+.help{background:var(--navy);color:#fff;padding:72px 0}
+.help h2{color:#fff}
+.help .sub{color:#cfe0ef}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:32px}
+.panel{background:#fff;color:var(--ink);border-radius:20px;overflow:hidden;display:flex;flex-direction:column}
+.panel img{aspect-ratio:16/9;object-fit:cover;width:100%}
+.panel .in{padding:26px;display:flex;flex-direction:column;gap:12px;flex:1}
+.panel h3{font-size:24px;color:var(--navy)}
+.panel p{color:var(--muted)}
+.panel .btn{align-self:flex-start;margin-top:auto}
+.story{padding:64px 0}
+.story .wrap{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.story img{border-radius:20px;aspect-ratio:4/3;object-fit:cover;width:100%}
+.story p{color:var(--muted);margin-top:14px;font-size:17px}
+.partners{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.partners span{background:var(--sky);color:var(--navy);font-weight:600;font-size:14px;padding:8px 14px;border-radius:999px}
+.visit{background:var(--sky);padding:64px 0}
+.visit .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}
+.visit .box{background:#fff;border-radius:18px;padding:24px;border:1px solid var(--line)}
+.visit .box h3{font-size:18px;color:var(--navy);margin-bottom:6px}
+.visit .box p{color:var(--muted)}
+.visit .box a.big{display:block;font-size:24px;font-weight:800;color:var(--blue);margin-top:4px}
+footer{background:#08253f;color:#c4d4e3;padding:40px 0;font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
+footer b{color:#fff}
+@media (max-width:980px){
+ nav{display:none}
+ .cards{grid-template-columns:1fr 1fr}
+ .stats .wrap,.story .wrap{grid-template-columns:1fr}
+}
+@media (max-width:640px){
+ .wrap{padding:0 16px}
+ .topbar .wrap{justify-content:center;text-align:center}
+ .topbar .hide-s{display:none}
+ .logo img{height:42px}
+ .logo b{font-size:14px;max-width:150px}
+ .hdr-actions .btn-out{display:none}
+ .hdr-actions .btn{padding:10px 16px;font-size:15px}
+ .hero .wrap{padding-top:56px;padding-bottom:56px}
+ .hero .bg:after{background:linear-gradient(180deg,rgba(7,36,64,.88),rgba(7,36,64,.8))}
+ .hero h1{font-size:36px}
+ .hero p{font-size:17px}
+ .hero .ctas .btn{width:100%}
+ h2{font-size:28px}
+ .cards,.two,.visit .grid{grid-template-columns:1fr}
+ .nums{grid-template-columns:1fr 1fr 1fr;gap:8px}
+ .num{padding:12px}
+ .num b{font-size:22px}
+ .num span{font-size:12px}
+ .need,.stats,.help,.story,.visit{padding:48px 0}
+}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="wrap"><span>Open Monday to Friday, 8 AM to 5 PM</span><span class="hide-s">8575 Pitner Road, Houston, TX 77080</span><a href="tel:7139968781"><b>713.996.8781</b></a></div></div>
+<header><div class="wrap">
+ <a class="logo" href="#"><img src="img/logo.png" alt="Spring Branch Family Development Center logo"><b>Spring Branch Family Development Center</b></a>
+ <nav><a href="#help">Find help</a><a href="#about">About us</a><a href="#give">Volunteer</a><a href="#visit">Visit</a></nav>
+ <div class="hdr-actions"><a class="btn btn-out" href="tel:7139968781">Call us</a><a class="btn btn-sun" href="#give">Give</a></div>
+</div></header>
+
+<section class="hero">
+ <div class="bg"></div>
+ <div class="wrap">
+  <span class="eyebrow">Spring Branch, Houston</span>
+  <h1>Food, health, learning and support for families, all under one roof.</h1>
+  <p>Over 16,000 Houstonians a year find help at our center, from early childhood classes and a health clinic to a mobile food pantry and help applying for benefits.</p>
+  <div class="ctas"><a class="btn btn-sun" href="#help">Find help for my family</a><a class="btn btn-line" href="#give">Volunteer or give</a></div>
+  <p class="lang">All services offered in English and Spanish. Todos los servicios en inglés y español.</p>
+ </div>
+</section>
+
+<section class="need" id="help"><div class="wrap">
+ <h2>What do you need today?</h2>
+ <p class="sub">Our partners work side by side at 8575 Pitner Road, so one visit can connect your family to several kinds of help.</p>
+ <div class="cards">
+  <div class="card"><div class="ic">F</div><h3>Food and benefits</h3><ul><li>Mobile Food Pantry with Houston Food Bank, twice a month</li><li>Help applying for SNAP, Children's Medicaid and CHIP</li><li>Family Houston case management</li></ul></div>
+  <div class="card"><div class="ic">H</div><h3>Health</h3><ul><li>Spring Branch Community Health Center</li><li>UTHealth WIC nutrition program</li><li>Gold Card application help</li></ul></div>
+  <div class="card"><div class="ic">L</div><h3>Learning</h3><ul><li>BakerRipley Head Start for ages 3 and 4</li><li>Family U for parents and children 0 to 3</li><li>Adult ESL classes with Harris County Department of Education</li></ul></div>
+  <div class="card"><div class="ic">P</div><h3>Play</h3><ul><li>Boys and Girls Club after school and summer programs, ages 6 to 17</li><li>Curiosity Cruiser library visits and story time</li><li>FitHouston walking group</li></ul></div>
+ </div>
+</div></section>
+
+<section class="stats" id="about"><div class="wrap">
+ <div>
+  <h2>Many partners. One front door.</h2>
+  <p class="sub">Families from more than 55 zip codes across Greater Houston come to one place for education, recreation, health and social services.</p>
+  <div class="nums"><div class="num"><b>16,000+</b><span>people served each year</span></div><div class="num"><b>11+</b><span>programs on site</span></div><div class="num"><b>55+</b><span>zip codes served</span></div></div>
+  <a class="btn btn-blue" href="#help">See all programs</a>
+ </div>
+ <img src="img/boys-girls-club.jpg" alt="Volunteers gathered outside the Boys and Girls Club at the center">
+</div></section>
+
+<section class="help" id="give"><div class="wrap">
+ <h2>Help a neighbor this season</h2>
+ <p class="sub">Every gift and every volunteer shift keeps food on tables and doors open for Spring Branch families.</p>
+ <div class="two">
+  <div class="panel"><img src="img/food-pantry.jpg" alt="Volunteers at the mobile food pantry"><div class="in"><h3>Volunteer at the food pantry</h3><p>Sort and hand out groceries at our Mobile Food Pantry with Houston Food Bank. Pick a date that works for you and sign up in a minute.</p><a class="btn btn-blue" href="#give">See volunteer dates</a></div></div>
+  <div class="panel"><img src="img/pantry-team.jpg" alt="A volunteer team ready to serve families"><div class="in"><h3>Give to families in Spring Branch</h3><p>We are a 501(c)(3) nonprofit, and every gift is tax deductible. Join our 100 at $100 team or give any amount.</p><a class="btn btn-sun" href="#give">Give now</a></div></div>
+ </div>
+</div></section>
+
+<section class="story"><div class="wrap">
+ <img src="img/pantry-volunteers.jpg" alt="Volunteers and staff at a food distribution day">
+ <div>
+  <h2>Built by a community that saw a need</h2>
+  <p>In 1995, members of Chapelwood United Methodist Church and local service providers came together to study what Spring Branch families needed most. Their answer was health care, recreation, social services and education, all under one roof. Today that vision is the Spring Branch Family Development Center.</p>
+  <div class="partners"><span>BakerRipley</span><span>Boys and Girls Clubs</span><span>Houston Food Bank</span><span>UTHealth WIC</span><span>Family Houston</span><span>Harris County Dept. of Education</span><span>Spring Branch Community Health Center</span></div>
+ </div>
+</div></section>
+
+<section class="visit" id="visit"><div class="wrap">
+ <h2>Visit or call us</h2>
+ <div class="grid">
+  <div class="box"><h3>Call</h3><p>Questions about any program</p><a class="big" href="tel:7139968781">713.996.8781</a></div>
+  <div class="box"><h3>Visit</h3><p>8575 Pitner Road<br>Houston, Texas 77080</p><p style="margin-top:8px"><b>Monday to Friday, 8 AM to 5 PM</b></p></div>
+  <div class="box"><h3>Email</h3><p>We are happy to answer any questions.</p><a class="big" style="font-size:19px" href="mailto:outreach@sbfdc.org">outreach@sbfdc.org</a></div>
+ </div>
+</div></section>
+
+<footer><div class="wrap">
+ <div><b>Spring Branch Family Development Center</b><br>Legal name: Spring Branch Human Resources Partnership Inc.</div>
+ <div>8575 Pitner Road, Houston, TX 77080 · 713.996.8781</div>
+</div></footer>
+</body>
+</html>
