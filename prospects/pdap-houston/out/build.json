@@ -1,0 +1,11 @@
+{
+  "slug": "pdap-houston",
+  "type": "audit",
+  "rendered_at": "2026-11-22T23:02:23Z",
+  "source_commit": "0e8464397e9ec1b5f0b5cab3dae09e679ef0ac2e",
+  "image_errors": [],
+  "broken_images_in_mockup": [],
+  "phone_horizontal_scroll": false,
+  "copy_warnings": [],
+  "errors": []
+}
