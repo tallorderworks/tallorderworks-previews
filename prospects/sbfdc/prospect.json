@@ -5,6 +5,7 @@
   "site_url": "https://sbfdc.org/",
   "domain": "sbfdc.org",
   "sources_phrase": "sbfdc.org",
+  "intro": "Most families and volunteers find a nonprofit on their phone before they ever call. Tall Order Works builds the website and the systems behind it that turn those visits into donations, volunteers and program sign ups, then keeps everything running so you never have to think about it again. We put this homepage concept together for {{BUSINESS}} using details and photos from your current site. Scroll to see the full page.",
   "images": {
     "logo.png": "https://sbfdc.org/wp-content/uploads/2018/06/WP-Logo-tranparent-background-glow.png",
     "volunteers-group.jpg": "https://sbfdc.org/wp-content/uploads/2023/05/PXL_20221215_143423958.MP_-1200x900.jpg",
@@ -14,8 +15,14 @@
     "pantry-volunteers.jpg": "https://sbfdc.org/wp-content/uploads/2023/05/PXL_20230216_144507333-1200x900.jpg"
   },
   "changes": [
-    { "title": "A clear first step for families.", "text": "On a phone, the current homepage opens with words over a busy photo and a Go to menu. The concept starts with Find help for my family and sorts your partners by need: food, health, learning and play." },
-    { "title": "Tap to call, hours and address up front.", "text": "Today 713.996.8781 can't be tapped on a phone. The concept puts a call button, your Monday to Friday hours and 8575 Pitner Road where families see them first." },
-    { "title": "Your volunteers front and center.", "text": "Your best photos, the Mobile Food Pantry teams, sit on the volunteer page. The concept brings them to the homepage next to clear Volunteer and Give buttons." }
+    { "title": "A clear first step for families.",
+      "text": "On a phone, the current homepage opens with words over a busy photo and a Go to menu. The concept starts with Find help for my family and sorts your partners by need: food, health, learning and play."
+    },
+    { "title": "Tap to call, hours and address up front.",
+      "text": "Today 713.996.8781 can't be tapped on a phone. The concept puts a call button, your Monday to Friday hours and 8575 Pitner Road where families see them first."
+    },
+    { "title": "Your volunteers front and center.",
+      "text": "Your best photos, the Mobile Food Pantry teams, sit on the volunteer page. The concept brings them to the homepage next to clear Volunteer and Give buttons."
+    }
   ]
 }
