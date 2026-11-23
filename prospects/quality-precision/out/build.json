@@ -1,11 +1,12 @@
 {
   "slug": "quality-precision",
-  "type": "audit",
-  "rendered_at": "2026-11-18T01:15:48Z",
-  "source_commit": "0d61c95426381ecf091cf7fbf73f43b31cf642a8",
+  "type": "mockup",
+  "rendered_at": "2026-11-23T22:53:51Z",
+  "source_commit": "42946923ffa930489d880bf4012691ebcb4a8652",
   "image_errors": [],
   "broken_images_in_mockup": [],
   "phone_horizontal_scroll": false,
   "copy_warnings": [],
-  "errors": []
+  "errors": [],
+  "preview_url": "https://preview.tallorderworks.com/quality-precision/"
 }
