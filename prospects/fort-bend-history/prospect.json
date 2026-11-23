@@ -1,0 +1,23 @@
+{
+  "business": "Fort Bend History Association",
+  "type": "mockup",
+  "published": true,
+  "site_url": "https://www.fbhistory.org/",
+  "domain": "fbhistory.org",
+  "sources_phrase": "fbhistory.org",
+  "intro": "Most visitors, teachers and donors find a museum on their phone before they ever call. Tall Order Works builds the website and the systems behind it that turn those visits into donations, members and venue bookings, then keeps everything running so you never have to think about it again. We put this homepage concept together for {{BUSINESS}} using details and photos from your current site. Scroll to see the full page.",
+  "images": {
+    "logo.png": "https://www.fbhistory.org/uploads/5/4/5/1/54516791/editor/060717-fbha-logo-color-centered-withtagline.png",
+    "museum.jpg": "https://www.fbhistory.org/uploads/5/4/5/1/54516791/published/entities-square5.jpg",
+    "dewalt.jpg": "https://www.fbhistory.org/uploads/5/4/5/1/54516791/entities-square_orig.jpg",
+    "decker.jpg": "https://www.fbhistory.org/uploads/5/4/5/1/54516791/editor/entities-square6.jpg",
+    "archeology.jpg": "https://www.fbhistory.org/uploads/5/4/5/1/54516791/entities-square3_orig.jpg",
+    "collections.png": "https://www.fbhistory.org/uploads/5/4/5/1/54516791/published/online-collections.png",
+    "aam.jpg": "https://www.fbhistory.org/uploads/5/4/5/1/54516791/published/aam_1.jpg"
+  },
+  "changes": [
+    { "title": "Give and Join actually work.", "text": "Today DONATE, BECOME A MEMBER and the Give and Membership links all loop back to the homepage. The concept gives each one its own clear path." },
+    { "title": "No more dead ends.", "text": "Contact Us, Visit Events Page and the membership Learn More button currently open a Page Not Found. The concept keeps visit, events, field trips and contact on working pages." },
+    { "title": "Plan a visit from a phone.", "text": "Your four sites, field trips and the event venue lead the page, with a tap to call button for (281) 342-1256 and directions to 410 Jackson Street." }
+  ]
+}
