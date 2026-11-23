@@ -1,10 +1,17 @@
 {
   "business": "Quality Precision Machine Works, Inc.",
-  "type": "audit",
+  "type": "mockup",
   "published": false,
   "site_url": "https://www.qualityprecision.com/",
   "domain": "qualityprecision.com",
   "sources_phrase": "qualityprecision.com",
-  "images": {},
-  "changes": []
+  "images": {
+    "turning.png": "https://www.qualityprecision.com/images/home1.png",
+    "milling.png": "https://www.qualityprecision.com/images/home3.png"
+  },
+  "changes": [
+    { "title": "Tap to call.", "text": "Your free estimate line becomes a button at the top of the screen." },
+    { "title": "A quote request that sends.", "text": "A short request form replaces the mailto form on the Contact page." },
+    { "title": "Capabilities up front.", "text": "Lathe and mill sizes from your Capabilities page sit on the homepage." }
+  ]
 }

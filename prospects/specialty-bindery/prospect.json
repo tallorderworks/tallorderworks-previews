@@ -1,9 +1,16 @@
 {
   "business": "Specialty Bindery & Printing",
-  "type": "audit",
+  "type": "mockup",
   "published": false,
   "site_url": "http://www.sbpmail.com",
   "domain": "sbpmail.com",
   "sources_phrase": "sbpmail.com",
-  "images": {}
+  "images": {
+    "logo.jpg": "http://www.sbpmail.com/images/header.jpg"
+  },
+  "changes": [
+    { "title": "Tap to call.", "text": "Your office line becomes a button at the top of the screen." },
+    { "title": "A short print quote request.", "text": "A few quick questions replace the long quote form." },
+    { "title": "Since 1979, up front.", "text": "The homepage leads with how long you have been printing." }
+  ]
 }

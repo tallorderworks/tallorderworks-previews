@@ -1,9 +1,18 @@
 {
   "business": "Electric Motor Specialists",
-  "type": "audit",
+  "type": "mockup",
   "published": false,
   "site_url": "http://www.electricmotorspecialists.com",
   "domain": "electricmotorspecialists.com",
   "sources_phrase": "electricmotorspecialists.com",
-  "images": {}
+  "images": {
+    "logo.jpg": "https://nebula.wsimg.com/9d2217e940c5a524fca4badf7248795f?AccessKeyId=1FB0E972F7A8A3650796&disposition=0&alloworigin=1",
+    "pump.jpg": "https://nebula.wsimg.com/a4047dcbd847c37985d3a1ad07cfd575?AccessKeyId=1FB0E972F7A8A3650796&disposition=0&alloworigin=1",
+    "stator.jpg": "https://nebula.wsimg.com/dcab31b216a62a398e5c3513af5b7257?AccessKeyId=1FB0E972F7A8A3650796&disposition=0&alloworigin=1"
+  },
+  "changes": [
+    { "title": "Tap to call.", "text": "Your shop line becomes a button at the top of the screen." },
+    { "title": "A repair quote request.", "text": "A short request replaces the trip to the Contact page." },
+    { "title": "Pumps and motors, one card each.", "text": "The equipment you work on is grouped so a buyer finds it fast." }
+  ]
 }
