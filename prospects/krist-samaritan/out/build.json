@@ -1,0 +1,20 @@
+{
+  "slug": "krist-samaritan",
+  "type": "mockup",
+  "rendered_at": "2026-11-25T16:35:50Z",
+  "source_commit": "2bdb57be6c07534d1a1c8ef1d8a723aea5d3c12f",
+  "image_errors": [
+    {
+      "name": "logo.png",
+      "url": "https://samaritanhouston.org/wp-content/uploads/2019/10/KSC-Web-logo-1000-475.png",
+      "error": "HTTP 404"
+    }
+  ],
+  "broken_images_in_mockup": [
+    "img/logo.png"
+  ],
+  "phone_horizontal_scroll": false,
+  "copy_warnings": [],
+  "errors": [],
+  "preview_url": "https://preview.tallorderworks.com/krist-samaritan/"
+}
