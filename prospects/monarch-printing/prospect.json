@@ -1,10 +1,25 @@
 {
   "business": "Monarch Printing Company",
-  "type": "audit",
+  "type": "mockup",
   "published": false,
   "site_url": "http://www.monarchprintingcompany.com",
   "domain": "monarchprintingcompany.com",
   "sources_phrase": "monarchprintingcompany.com",
-  "images": {},
-  "changes": []
+  "images": {
+    "press.jpg": "http://www.monarchprintingcompany.com/images/indexpic.jpg"
+  },
+  "changes": [
+    {
+      "title": "Readable on any phone.",
+      "text": "The homepage opens as a shrunken desktop page on phones today."
+    },
+    {
+      "title": "Tap to call.",
+      "text": "713.645.2845 becomes a button at the top of the screen."
+    },
+    {
+      "title": "A quick estimate.",
+      "text": "A short request sits next to the full Request Estimate form."
+    }
+  ]
 }
