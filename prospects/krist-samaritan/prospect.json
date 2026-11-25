@@ -1,0 +1,28 @@
+{
+  "business": "Krist Samaritan Counseling Center",
+  "type": "mockup",
+  "published": true,
+  "site_url": "https://samaritanhouston.org/",
+  "domain": "samaritanhouston.org",
+  "intro": "Most people looking for a counselor find one on their phone before they ever call. Tall Order Works builds the website and the systems behind it that turn those visits into donations, volunteers and program sign ups, then keeps everything running so you never have to think about it again. We put this homepage concept together for {{BUSINESS}} using details and photos from your current site. Scroll to see the full page.",
+  "sources_phrase": "samaritanhouston.org",
+  "images": {
+    "logo.png": "https://samaritanhouston.org/wp-content/uploads/2019/10/KSC-Web-logo-1000-475.png",
+    "hero.jpg": "https://samaritanhouston.org/wp-content/uploads/2015/07/Unknown-1.jpeg",
+    "together.jpg": "https://samaritanhouston.org/wp-content/uploads/2019/05/couple-hold-hands-family-psychology-support-YDX95HK.jpg"
+  },
+  "changes": [
+    {
+      "title": "One tap to schedule.",
+      "text": "Your homepage says to call to schedule an appointment, but 281-480-7554 can't be tapped on a phone today. In the concept it is the first button."
+    },
+    {
+      "title": "A gentle first step.",
+      "text": "A short request asks only for a name, a phone number and a good time to call, so no one has to download PDF forms or share anything personal online to get started."
+    },
+    {
+      "title": "Giving that keeps care open to all.",
+      "text": "Your promise to serve everyone regardless of ability to pay sits next to the Sustaining Partner monthly gift, so donors see exactly what their support does."
+    }
+  ]
+}
