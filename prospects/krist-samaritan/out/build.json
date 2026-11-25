@@ -1,18 +1,10 @@
 {
   "slug": "krist-samaritan",
   "type": "mockup",
-  "rendered_at": "2026-11-25T16:35:50Z",
-  "source_commit": "2bdb57be6c07534d1a1c8ef1d8a723aea5d3c12f",
-  "image_errors": [
-    {
-      "name": "logo.png",
-      "url": "https://samaritanhouston.org/wp-content/uploads/2019/10/KSC-Web-logo-1000-475.png",
-      "error": "HTTP 404"
-    }
-  ],
-  "broken_images_in_mockup": [
-    "img/logo.png"
-  ],
+  "rendered_at": "2026-11-25T16:37:44Z",
+  "source_commit": "4a56e8b1676460baa2e5543c03a271e0cb4f3b34",
+  "image_errors": [],
+  "broken_images_in_mockup": [],
   "phone_horizontal_scroll": false,
   "copy_warnings": [],
   "errors": [],
