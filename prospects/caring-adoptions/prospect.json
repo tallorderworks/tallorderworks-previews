@@ -10,11 +10,21 @@
     "team.jpg": "https://img1.wsimg.com/isteam/ip/9ab26bf4-4b87-4810-82de-b1565ce021b8/IMG_2135.JPG/:/rs=w:1400",
     "family.jpg": "https://img1.wsimg.com/isteam/ip/9ab26bf4-4b87-4810-82de-b1565ce021b8/6F1AED96-E2A9-4F15-9D3D-54A9D08D0430remote56d.JPEG/:/rs=w:1400",
     "adoption-day.jpg": "https://img1.wsimg.com/isteam/ip/9ab26bf4-4b87-4810-82de-b1565ce021b8/8F48CCA0-E76B-4EFD-979D-F22658C15749remote56d.JPEG/:/rs=w:1400",
-    "mother.jpg": "https://img1.wsimg.com/isteam/ip/9ab26bf4-4b87-4810-82de-b1565ce021b8/58157A05-88DD-4667-9A16-F5998B672D1Cremote26e.jpeg/:/rs=w:1400"
+    "mother.jpg": "https://img1.wsimg.com/isteam/ip/9ab26bf4-4b87-4810-82de-b1565ce021b8/58157A05-88DD-4667-9A16-F5998B672D1Cremote26e.jpeg/:/rs=w:1400",
+    "child.jpg": "https://img1.wsimg.com/isteam/ip/9ab26bf4-4b87-4810-82de-b1565ce021b8/FC3FC872-A3D6-4083-B68A-AAAAA0C60F6Cremote56d.JPEG/:/rs=w:1400"
   },
   "changes": [
-    { "title": "A Call Now button that really calls.", "text": "The big Call Now button on your current homepage dials a number with the area code typed twice, so a mother or family who taps it on a phone never reaches you. The concept keeps your 24/7 line and your office one tap away on every screen." },
-    { "title": "Two clear doors.", "text": "An expectant mother and a hopeful family need very different first steps. The concept gives each one its own path: private help and what is covered for mothers, and orientation, steps and costs for families." },
-    { "title": "Plain, warm words.", "text": "The current homepage repeats search phrases like \"cheap adoption agencies\" and the Events page still lists an April orientation. The concept speaks plainly, shows your story since 1991 and your team, and keeps the holiday drive up front." }
+    {
+      "title": "A Call Now button that really calls.",
+      "text": "The big Call Now button on your current homepage dials a number with the area code typed twice, so a mother or family who taps it on a phone never reaches you. The concept keeps your 24/7 line and your office one tap away on every screen."
+    },
+    {
+      "title": "Two clear doors.",
+      "text": "An expectant mother and a hopeful family need very different first steps. The concept gives each one its own path: private help and what is covered for mothers, and orientation, steps and costs for families."
+    },
+    {
+      "title": "Plain, warm words.",
+      "text": "The current homepage repeats search phrases like \"cheap adoption agencies\" and the Events page still lists an April orientation. The concept speaks plainly, shows your story since 1991 and your team, and keeps the holiday drive up front."
+    }
   ]
 }
