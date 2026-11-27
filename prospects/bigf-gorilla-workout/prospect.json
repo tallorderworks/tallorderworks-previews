@@ -1,0 +1,17 @@
+{
+  "business": "BIGF Gorilla Workout",
+  "type": "mockup",
+  "published": true,
+  "site_url": "https://www.facebook.com/motties",
+  "domain": "bigfgorillaworkout.com",
+  "sources_phrase": "the BIGF Gorilla Workout Facebook page",
+  "images": {
+    "motties-gym.jpg": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/118502335_3212244768830749_4888460352166878657_n.jpg?stp=dst-jpg_tt6&cstp=mx1152x2048&ctp=s1152x2048&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_ohc=NNG716ke9o0Q7kNvwGQID4m&_nc_oc=AdogwiFFdz8VLIGrW0e99Sr_zQdUbd82a5QGjLluFg5W76EY3PJxIxPo8jc9fAMPZRstgcqUMmUgXN2OOaEUmDQw&_nc_zt=23&_nc_ht=scontent-atl3-2.xx&_nc_gid=oOB3pUmXBnynUK4HcSygOA&_nc_ss=793a8&oh=00_AQXHjaEyv7wYhy4JS7woENeFYaULR80DQsh_wcWkn477qg&oe=6B3061F2",
+    "motties-mirror.jpg": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/790493729_1662768042519133_3154307150112874006_n.jpg?stp=dst-jpg_tt6&cstp=mx960x1707&ctp=s960x1707&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_ohc=qqMbYGf7GI0Q7kNvwH-Dz1E&_nc_oc=Adqn5mrxCXTmnlwxurRkxe_Kjv0Lyo-DppRTzWnNbC_cGejVpCoEUItBYNL5SR50lVu7DcWVeljQBGbfAxFf1MMG&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=YX38LIZ6ZyjRYhZcXYAA_g&_nc_ss=793a8&oh=00_AQUiIUyBHAOGtgygPGNU5KNG7xNvR3WnsYopomyEW1qN7Q&oe=6B0EAC53"
+  },
+  "changes": [
+    { "title": "A real home for bigfgorillaworkout.com.", "text": "The web address printed on your shirts does not load today. The concept gives it a homepage, so people who see your merch can actually find you." },
+    { "title": "Built around live coaching.", "text": "Right now clients find you through Facebook posts. The concept leads with your FaceTime coaching, workout plans and nutrition guidance, with one clear way to book a free consult." },
+    { "title": "Your book and videos, front and center.", "text": "You have written a book and filmed a library of workouts. The concept gives both their own section, plus a refreshed version of your gorilla logo." }
+  ]
+}
